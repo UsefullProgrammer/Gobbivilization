@@ -50,7 +50,7 @@ if not exist "%BACKUP%" (
     :: Esegui backup solo dei file che esistono già nella destinazione
     if not exist "%BACKUP%" (
     mkdir "%BACKUP%"
-    robocopy "%DEST%" "%BACKUP%" /E /XC /XD UPDATE backup /XN /XO /NFL /NDL /NJH /NJS /NP CivilizationV.exe *.xml *.lua *.Civ5Pkg
+    robocopy "%DEST%" "%BACKUP%" CivilizationV.exe *.xml *.lua *.Civ5Pkg /E /XC /XD UPDATE backup /XN /XO /NFL /NDL /NJH /NJS /NP
     echo Backup salvato in %BACKUP%
     echo.
 
