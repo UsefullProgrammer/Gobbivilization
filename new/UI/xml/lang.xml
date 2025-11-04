@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/12/2013 3:09:24 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_ESCORT_TITLE">
+			<Text>Escort</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESCORT_TIP">
+			<Text>Escort nearby {1_UnitName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CANCEL_ESCORT_TITLE">
+			<Text>Cancel Escort</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CANCEL_ESCORT_TIP">
+			<Text>Stop escorting civilian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CANCEL_ESCORT_TIP_NOTFOUND">
+			<Text>No civilians nearby to escort</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORKER_DIED">
+			<Text>Civilian being escorted has died</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORKER_ABANDONED">
+			<Text>Civilian being escorted has been abandon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESCORT_DIED">
+			<Text>Ecort has died</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESCORT_ABANDONED">
+			<Text>Escort has abandon civilian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESCORT_NOLONGER_VALID">
+			<Text>Escort forced to abandon civilian</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

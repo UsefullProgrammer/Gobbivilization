@@ -1,0 +1,3 @@
+Assets\DLC\Gameplay\XML\GlobalDefines.xml
+Assets\DLC\Gameplay\XML\Buildings\CIV5Buildings.xml
+Assets\DLC\Shared\Gameplay\XML\Units\CIV5Units.xml

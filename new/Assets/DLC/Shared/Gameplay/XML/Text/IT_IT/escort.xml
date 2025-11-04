@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Gobbi on 04/11/2025 00:00:24 PM -->
+<GameData>
+  <Language_IT_IT>
+    <Row Tag="TXT_KEY_ESCORT_TITLE">
+		<Text>Scorta</Text>
+	</Row>
+	<Row Tag="TXT_KEY_ESCORT_TIP">
+		<Text>Scorta {1_UnitName} nelle vicinanze</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CANCEL_ESCORT_TITLE">
+		<Text>Annulla Scorta</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CANCEL_ESCORT_TIP">
+		<Text>Smetti di scortare il civile</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CANCEL_ESCORT_TIP_NOTFOUND">
+		<Text>Nessun civile nelle vicinanze da scortare</Text>
+	</Row>
+	<Row Tag="TXT_KEY_WORKER_DIED">
+		<Text>Il civile scortato è morto</Text>
+	</Row>
+	<Row Tag="TXT_KEY_WORKER_ABANDONED">
+		<Text>Il civile scortato è stato abbandonato</Text>
+	</Row>
+	<Row Tag="TXT_KEY_ESCORT_DIED">
+		<Text>La scorta è morta</Text>
+	</Row>
+	<Row Tag="TXT_KEY_ESCORT_ABANDONED">
+		<Text>La scorta ha abbandonato il civile</Text>
+	</Row>
+	<Row Tag="TXT_KEY_ESCORT_NOLONGER_VALID">
+		<Text>La scorta è stata costretta ad abbandonare il civile</Text>
+	</Row>
+  </Language_IT_IT>
+</GameData>

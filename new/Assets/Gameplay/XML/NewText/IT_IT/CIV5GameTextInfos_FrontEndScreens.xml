@@ -1,0 +1,1835 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_IT_IT>
+    <Row Tag="TXT_KEY_ACTIVE_MODS">
+      <Text>Mod attivi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_CHOOSE_SPEED">
+      <Text>Seleziona velocità di gioco</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_GAME_SPEED_SETTING">
+      <Text>Velocità di gioco: {1_gamePace}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_HANDICAP_SETTING">
+      <Text>Livello di difficoltà: {1_handicap}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_MAP_DESC_FORMAT">
+      <Text>{1_description} [NEWLINE]Numero di civ: {2_civs}  Turni max: {3_num}  Era: {4_era}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_MAP_SIZE_SETTING">
+      <Text>Dimensioni della mappa: {1_mapSize}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_MAP_TYPE_SETTING">
+      <Text>Tipo di mappa: {1_mapType}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SELECT_DIFFICULTY">
+      <Text>Seleziona il livello di difficoltà</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SELECT_MAP_SIZE">
+      <Text>Seleziona le dimensioni della mappa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_ADD_AI_PLAYER">
+      <Text>Aggiungi giocat. IA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_ADD_AI_PLAYER_TT">
+      <Text>Aggiungi un giocatore comandato dall'IA.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_ADD_DEFAULT_TT">
+      <Text>Imposta le opzioni ai valori predefiniti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_ADVANCED_OPTIONS">
+      <Text>CONFIGURAZIONE AVANZATA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_CITY_STATES">
+      <Text>Città-stato: {1_number}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_CIVILIZATION">
+      <Text>Civiltà: {1_count}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_DEFAULT">
+      <Text>Valori predefiniti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_GAME_ERA">
+      <Text>Epoca di gioco</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_GAME_OPTIONS">
+      <Text>Opzioni di gioco</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_GAME_SPEED">
+      <Text>Ritmo della partita</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_GAME_TURN_MODE">
+      <Text>Modalità turni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_HANDICAP">
+      <Text>Livello di difficoltà</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_MAP">
+      <Text>Mappa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_MAP_SIZE">
+      <Text>Dimensioni mappa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_MAP_TYPE">
+      <Text>Tipo mappa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_MAX_TURNS">
+      <Text>Limite turni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_MAX_TURNS_1">
+      <Text>Numero massimo turni: {1_NumTurns}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_MAX_TURNS_TT">
+      <Text>Il gioco terminerà al raggiungimento del numero massimo di turni.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_NO_BARBARIANS">
+      <Text>No barbari</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_NO_BARBARIANS_TT">
+      <Text>Rimuove tutti i barbari dalla mappa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_NUCLEAR_FIRST_STRIKE">
+      <Text>Primo attacco nucleare dell'IA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_NUCLEAR_FIRST_STRIKE_TT">
+      <Text>Permette ai giocatori controllati dall'IA di usare armi nucleari anche prima che l'abbia fatto il giocatore umano.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_PLAYER_COUNT">
+      <Text>Giocatori: {1_PlayerCount}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_RAGING_BARBARIANS">
+      <Text>Barbari furiosi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_RAGING_BARBARIANS_TT">
+      <Text>Attiva/Disattiva la presenza di Barbari furiosi sulla mappa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_REMOVE_AI_PLAYER">
+      <Text>Elimina IA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_REMOVE_AI_PLAYER_TT">
+      <Text>Elimina questo giocatore comandato dall'IA.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_START_ERA">
+      <Text>Epoca iniziale: {@1_Era}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_UNKNOWN_PLAYERS">
+      <Text>Numero di giocatori sconosciuto [NEWLINE][NEWLINE](Seleziona Dimensioni della mappa per modificare il numero di giocatori)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVANCED_OPTIONS">
+      <Text>Opzioni di gioco avanzate: </Text>
+    </Row>
+    <Row Tag="TXT_KEY_AI_NICKNAME">
+      <Text>IA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANY_MAP_SCRIPT">
+      <Text>Qualsiasi tipo di mappa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANY_MAP_SCRIPT_HELP">
+      <Text>Il sistema ti assegnerà a una partita con un tipo di mappa qualsiasi (non Terra).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANY_MAP_SIZE">
+      <Text>Qualsiasi dimensione di mappa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANY_MAP_SIZE_HELP">
+      <Text>Il sistema ti assegnerà a una partita con una dimensione qualsiasi della mappa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AUTOSAVES">
+      <Text>Autosalvataggi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BAD_TEAMS">
+      <Text>Devono esserci almeno 2 squadre.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_MAP_SIZE">
+      <Text>Scegli le dimensioni della mappa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATES_FORMAT">
+      <Text>Città-stato: {1_number}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVS_FORMAT">
+      <Text>Civiltà: {1_number}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CLOSE">
+      <Text>Chiudi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CLOSE_HELP">
+      <Text>Chiudi questo gruppo di opzioni.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONNECTED">
+      <Text>Connesso</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS">
+      <Text>RICONOSCIMENTI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_TT">
+      <Text>Creato "civilmente" per voi da...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEFAULT_GAME_CONFIGURATION_NAME">
+      <Text>Configurazione della partita</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DISCONNECTED">
+      <Text>Disconnesso</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DLC_ALLOWED">
+      <Text>DLC consentite:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ESC_TO_EXIT">
+      <Text>ESC per uscire</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXIT_BUTTON">
+      <Text>ESCI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXIT_TT">
+      <Text>Torna a Windows</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FILE_INFO_NOT_FOUND">
+      <Text>Informazioni sulla mappa non disponibili</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FIND_GAME">
+      <Text>Trova partita</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FIND_SCENARIO">
+      <Text>Trova scenario</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_ADVANCED_SETUP">
+      <Text>Avanzate</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_IN_PROGRESS">
+      <Text>Partita in corso</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_LOADING">
+      <Text>Caricamento...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_DYNAMIC_TURNS">
+      <Text>Ibridi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_DYNAMIC_TURNS_HELP">
+      <Text>I giocatori eseguono i turni in base alla loro condizione di guerra o pace.[NEWLINE]I giocatori umani in guerra eseguono i turni in sequenza.[NEWLINE]I giocatori che non sono in guerra eseguono i turni simultaneamente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_END_TURN_TIMER_ENABLED">
+      <Text>Attiva timer turni </Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_END_TURN_TIMER_ENABLED_HELP">
+      <Text>I turni finiranno automaticamente allo scadere del tempo.[NEWLINE]0 = Il gioco scala dinamicamente la durata dei turni.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_PITBOSS">
+      <Text>Pitboss</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_PITBOSS_HELP">
+      <Text>Tutti i giocatori (a parte l'host) possono entrare e uscire dal gioco quando vogliono. I giocatori ricevono una notifica quando tocca a loro.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_QUICK_COMBAT">
+      <Text>Combattimento rapido</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_QUICK_COMBAT_HELP">
+      <Text>Quando un'unità attacca non viene eseguita alcuna animazione.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_QUICK_MOVEMENT">
+      <Text>Movimento rapido</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_QUICK_MOVEMENT_HELP">
+      <Text>Quando un'unità si muove non viene eseguita alcuna animazione.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_SEQUENTIAL_TURNS">
+      <Text>Sequenziali</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_SEQUENTIAL_TURNS_HELP">
+      <Text>I giocatori eseguono il loro turno uno dopo l'altro.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_SIMULTANEOUS_TURNS">
+      <Text>Simultanei</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_SIMULTANEOUS_TURNS_HELP">
+      <Text>I giocatori eseguono il loro turno tutti insieme.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_SELECTION_SCREEN">
+      <Text>CONFIGURA LA PARTITA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_SETUP_RANDOMIZE">
+      <Text>Randomizza</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_SPEED">
+      <Text>Ritmo della partita</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAMESTART_COUNTDOWN_FORMAT">
+      <Text>La partita inizia fra: {1_number}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HALL_OF_FAME">
+      <Text>HALL OF FAME</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HALL_OF_FAME_TT">
+      <Text>Punteggi più alti.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP">
+      <Text>Difficoltà</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOST">
+      <Text>Host</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOST_GAME">
+      <Text>Ospita una partita</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOST_MIGRATION">
+      <Text>è ora l'host</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOST_SCENARIO">
+      <Text>Ospita uno scenario</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOURS">
+      <Text>Ore</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INVALID_SAVE_GAME">
+      <Text>Non posso caricare il salvataggio.[NEWLINE][NEWLINE]Il file potrebbe essere danneggiato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_JOINING_GAME_IN_PROGRESS">
+      <Text>Ti stai unendo alla partita in corso</Text>
+    </Row>
+    <Row Tag="TXT_KEY_KICKED">
+      <Text>È stato cacciato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LATEST_NEWS">
+      <Text>ULTIME NOTIZIE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LATEST_NEWS_TT">
+      <Text>Leggi le ultime notizie (richiede un collegamento a Internet attivo)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LAUNCH_GAME_BLOCKED_PLAYER_JOINING">
+      <Text>Un giocatore si sta unendo alla partita. Attendere...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LB_NOLEADERBOARD">
+      <Text>Questa classifica non contiene alcun punteggio.[NEWLINE]Sii il primo giocatore a inserire un punteggio, completando una partita a giocatore singolo!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LB_NOSCORES_FRIENDS">
+      <Text>Tu e i tuoi amici non avete ancora inserito alcun punteggio in questa classifica.[NEWLINE]Sfida i tuoi amici completando una partita a giocatore singolo!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LB_NOSCORES_PERSONAL">
+      <Text>Non hai ancora inserito alcun punteggio in questa classifica.[NEWLINE]Sfida il mondo completando una partita a giocatore singolo!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LB_NOTSUPPORTEDBYMOD">
+      <Text>La tua attuale configurazione dei mod non supporta le classifiche.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LB_REQUESTINGSCORES">
+      <Text>Recupero punteggi dalle classifiche...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD">
+      <Text>CLASSIFICHE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_CIV5BASE_NAME">
+      <Text>Civilization 5</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_CIV5EXP1_NAME">
+      <Text>Gods &amp; Kings</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_CIV5EXP2_NAME">
+      <Text>Brave New World</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_FRIENDS">
+      <Text>AMICI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_FRIENDS_TT">
+      <Text>Visualizza la tua classifica e quella dei tuoi amici.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_GLOBAL">
+      <Text>GLOBALE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_GLOBAL_TT">
+      <Text>Visualizza la classifica dei migliori giocatori del mondo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_PERSONAL">
+      <Text>PERSONALE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_PERSONAL_TT">
+      <Text>Visualizza la tua posizione nella classifica globale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_PULLDOWN">
+      <Text>Classifiche</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_PULLDOWN_TT">
+      <Text>Classifiche per tutti i contenuti di gioco attualmente installati, DLC e mod.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_RANKING">
+      <Text>Classifica</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_REFRESH_TT">
+      <Text>Scarica i punteggi più aggiornati dalle classifiche.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_TT">
+      <Text>Confronta i tuoi punteggi con quelli dei tuoi amici e del resto del mondo (richiede un collegamento a Internet attivo).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_LOBBIES_INTERNET">
+      <Text>Sale d'attesa: Internet</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_LOBBIES_INTERNET_TT">
+      <Text>Sale d'attesa Steam su Internet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_FAVORITES">
+      <Text>Server: Preferiti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_FAVORITES_TT">
+      <Text>Server dedicati Steam segnati come Preferiti.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_FRIENDS">
+      <Text>Server: Amici</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_FRIENDS_TT">
+      <Text>Server dedicati Steam ospitati da amici su Internet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_HISTORY">
+      <Text>Server: Cronologia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_HISTORY_TT">
+      <Text>Server dedicati Steam in cui hai giocato di recente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_INTERNET">
+      <Text>Server: Internet</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_INTERNET_TT">
+      <Text>Server dedicati Steam su Internet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_LAN">
+      <Text>Server: LAN</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_LAN_TT">
+      <Text>Server dedicati Steam in rete locale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_GAME">
+      <Text>Carica partita</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_GAME_TT">
+      <Text>Carica una partita salvata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_MAP">
+      <Text>Carica mappa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_MAP_TT">
+      <Text>Carica una mappa specifica</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_MENU_DLC">
+      <Text>DLC</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_MENU_MODS">
+      <Text>MOD</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_MENU_REQUIRED_DLC">
+      <Text>Per questa partita salvata è necessaria la seguente DLC:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_MENU_REQUIRED_MODS">
+      <Text>Per questa partita salvata sono necessari i seguenti Mod:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_MOD">
+      <Text>Carica un mod</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_REPLAY_MENU_INVALID_REPLAY_FILE">
+      <Text>File di replay non valido o di formato obsoleto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_REPLAY_MENU_PLEASE_SELECT_REPLAY">
+      <Text>Seleziona un file di replay.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_REPLAY_MENU_SELECT_REPLAY">
+      <Text>Seleziona un replay</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_REPLAY_MENU_TITLE">
+      <Text>SELEZIONA UN REPLAY</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_SCENARIO">
+      <Text>Carica uno scenario</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOADING_SAVED_GAME">
+      <Text>Caricamento partita salvata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOBBY_REQUIRED_DLC">
+      <Text>DLC richiesti:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOCKED">
+      <Text>BLOCCATO</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAIL_PASSWORD_USAGE_INFO">
+      <Text>Per ragioni di sicurezza Civilization 5 non salva né trasmette la tua password email (SMTP). Inserisci nuovamente la tua password email.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_AMAZON">
+      <Text>Amazzonia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_AMAZON_HELP">
+      <Text>Una regione simile alla giungla amazzonica del Sudamerica, ma con elementi disposti casualmente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ANCIENT_LAKES">
+      <Text>Antichi laghi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ANCIENT_LAKES_HELP">
+      <Text>Una regione composta interamente di terre emerse, con un grande lago nel centro.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ARBOREA">
+      <Text>Arborea</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ARBOREA_HELP">
+      <Text>Un mondo coperto quasi interamente da foreste.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ARCHIPELAGO">
+      <Text>Arcipelago</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ARCHIPELAGO_HELP">
+      <Text>Questo mondo sarà composto da molte isole.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_BIG_AND_SMALL">
+      <Text>Grandi e piccoli</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_BIG_AND_SMALL_HELP">
+      <Text>Un mondo fatto di regioni composte da grandi continenti e piccole isole.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_BOREAL">
+      <Text>Boreale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_BOREAL_HELP">
+      <Text>Una grande regione composta interamente da tundra, con molte foreste.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_CONTINENTS">
+      <Text>Continenti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_CONTINENTS_HELP">
+      <Text>Il mondo sarà composto da poche, grandi terre emerse e qualche isola più piccola.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_CONTINENTS_PLUS">
+      <Text>Continenti Plus</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_CONTINENTS_PLUS_HELP">
+      <Text>Simile a Continenti, ma con script migliorati per la gestione delle catene di isole e il posizionamento delle città-stato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_CUSTOM_CONTINENTS">
+      <Text>Continenti personalizzati</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_CUSTOM_CONTINENTS_HELP">
+      <Text>Meno casuale di Continenti: puoi controllare il numero di continenti.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_DONUT">
+      <Text>Ciambella</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_DONUT_HELP">
+      <Text>Una pangea circolare. Puoi scegliere il tipo di terreno nel centro.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_EARTH">
+      <Text>Globo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_EARTH_HELP">
+      <Text>Una mappa che abbraccia l'intero pianeta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FANTASY">
+      <Text>Reame fantasy</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FANTASY_HELP">
+      <Text>Un piccolo mondo, privo di oceani. Le regioni climatiche e la disposizione delle risorse non rispettano le leggi meteorologiche.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FOLDER_ADDITIONAL">
+      <Text>Mappe aggiuntive</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FOLDER_ADDITIONAL_HELP">
+      <Text>Mappe aggiuntive disponibili nel gioco.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FOUR_CORNERS">
+      <Text>Quattro angoli</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FOUR_CORNERS_HELP">
+      <Text>Questa mappa è suddivisa in 4 sezioni identiche, separate dall'acqua, con delle terre emerse proprio nel centro.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FRACTAL">
+      <Text>Frattale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FRACTAL_HELP">
+      <Text>Una mappa altamente casuale che spesso dà come risultato continenti sottili e sinuosi.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_GLOBAL_HIGHLANDS">
+      <Text>Altopiano globale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_GLOBAL_HIGHLANDS_HELP">
+      <Text>Un mondo molto grande, dominato da colline e catene montuose.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_GREAT_PLAINS">
+      <Text>Grandi pianure</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_GREAT_PLAINS_HELP">
+      <Text>Una regione simile alle grandi pianure del Nord America, ma con elementi disposti casualmente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_HEMISPHERES">
+      <Text>Emisferi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_HEMISPHERES_HELP">
+      <Text>Un mondo composto da due grandi continenti abbastanza bilanciati. Adatto per un duello o per le partite multigiocatore a squadre.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_HIGHLANDS">
+      <Text>Altopiani</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_HIGHLANDS_HELP">
+      <Text>Una grande regione dominata da colline e catene montuose.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_HUB">
+      <Text>Nucleo centrale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_HUB_HELP">
+      <Text>Ogni civiltà ha un proprio subcontinente separato. Tutti i subcontinenti sono collegati alla regione artica nel centro della mappa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ICE_AGE">
+      <Text>Grande glaciazione</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ICE_AGE_HELP">
+      <Text>Un mondo stretto nella morsa di una severa glaciazione, in cui sono abitabili solo le regioni vicine all'equatore.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_INLAND_SEA">
+      <Text>Mare interno</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_INLAND_SEA_HELP">
+      <Text>Una regione composta interamente di terre emerse, con un grande mare di acqua salata nel centro.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_LAKES">
+      <Text>Laghi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_LAKES_HELP">
+      <Text>Un mondo privo di oceani, con bacini d'acqua minori.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_LARGE_ISLANDS">
+      <Text>Grandi isole</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_LARGE_ISLANDS_HELP">
+      <Text>Un mondo formato da numerose grandi isole, di simile dimensione ma con territorio variabile. Le civiltà iniziano sulle migliori isole disponibili.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MAZE">
+      <Text>Labirinto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MAZE_HELP">
+      <Text>Una mappa molto originale, composta da un labirinto di terre emerse e passaggi marini.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MEDITERRANEAN">
+      <Text>Mediterraneo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MEDITERRANEAN_HELP">
+      <Text>Una regione simile al mar Mediterraneo, ma con elementi disposti casualmente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MEDIUM_AND_SMALL">
+      <Text>Medio e piccolo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MEDIUM_AND_SMALL_HELP">
+      <Text>Un mondo fatto di regioni composte da grandi continenti e piccole isole.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MIRROR">
+      <Text>Specchio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MIRROR_HELP">
+      <Text>Un mondo in cui una metà è specchio dell'altra. Progettato principalmente per divertirsi in modalità multigiocatore.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_NORTH_VS_SOUTH">
+      <Text>Nord contro Sud</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_NORTH_VS_SOUTH_HELP">
+      <Text>Una regione tagliata orizzontalmente a metà da un deserto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OASIS">
+      <Text>Oasi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OASIS_HELP">
+      <Text>Una regione fertile divisa a metà da un arido deserto. Adatto per un duello o per le partite multigiocatore a squadre.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ABUNDANT">
+      <Text>Grande</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_AMOUNT_OF_TINY_ISLANDS">
+      <Text>quantità di piccole isole</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ARCHIPELAGO">
+      <Text>Arcipelago</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ARID">
+      <Text>Arido</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_BALANCED_RESOURCES">
+      <Text>Bilanciate</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_BARREN">
+      <Text>Brullo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_BODIES_OF_WATER">
+      <Text>Corpi d'acqua</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_BUFFER_ZONES">
+      <Text>Zone cuscinetto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_BUFFER_ZONES_HELP">
+      <Text>Scegli se aggiungere piccole aree emerse tra le regioni create per ogni civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_CENTER_REGION">
+      <Text>Regione centrale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_CLUSTERS">
+      <Text>Gruppetti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_CLUSTERS_HELP">
+      <Text>Catene montuose in stile frattale: pochi gruppi di montagne, ma più estesi.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_CONTINENTS_SIZE">
+      <Text>Dimensione dei continenti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_COOL">
+      <Text>Fresco</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_COPY">
+      <Text>Copia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_CRAZY">
+      <Text>Pazzo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_CRAZY_HELP">
+      <Text>Le risorse saranno posizionate in luoghi irragionevoli; inoltre alcune di esse saranno presenti in quantità spropositata.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_CYLINDER">
+      <Text>Cilindro</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_DENSE">
+      <Text>Compatto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_DESERT">
+      <Text>Deserto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_DOMINANT_TERRAIN">
+      <Text>Terreno dominante</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_DRY">
+      <Text>Secca</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_DRY_HELP">
+      <Text>Le sole fonti di acqua dolce sono le oasi nelle aree desertiche.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_EXTRAS">
+      <Text>Extra</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FEW_TINY_ISLANDS">
+      <Text>Poche isole minuscole</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FIVE_BILLION_YEARS">
+      <Text>5 miliardi di anni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FIVE_PER_CONTINENT">
+      <Text>5</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FIVE_PER_CONTINENT_HELP">
+      <Text>Sarà scelto un modello di mappa che include esattamente cinque continenti principali.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FLAT">
+      <Text>Piatto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FOUR_BILLION_YEARS">
+      <Text>4 miliardi di anni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FOUR_CORNERS">
+      <Text>Quattro angoli</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FOUR_PER_CONTINENT">
+      <Text>4</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FOUR_PER_CONTINENT_HELP">
+      <Text>Sarà scelto un modello di mappa che include esattamente quattro continenti principali.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_GLOBAL_CLIMATE">
+      <Text>Clima globale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_GLOBAL_CLIMATE_HELP">
+      <Text>Un clima standard, come se la mappa rappresentasse un intero pianeta.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_HIGH">
+      <Text>Alto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_HILLS">
+      <Text>Colline</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_HOT">
+      <Text>Caldo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_INVERSION">
+      <Text>Inversione</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_IRRATIONAL">
+      <Text>Irrazionale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_IRRATIONAL_HELP">
+      <Text>Le risorse saranno posizionate in luoghi assurdi: ad esempio, Banane nel ghiaccio.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ISLAND_REGION_SEPARATE">
+      <Text>Regione delle isole separata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ISLANDS">
+      <Text>Isole</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ISLANDS_MIXED_IN">
+      <Text>Isole nel mucchio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ISLANDS_OVERLAP">
+      <Text>Isole sovrapposte</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ISLANDS_SIZE">
+      <Text>Dimensione delle isole</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ISTHMUS_WIDTH">
+      <Text>Ampiezza istmo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_JUNGLE">
+      <Text>Giungla</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LAND_SHAPE">
+      <Text>Forma della terra</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LANDMASS_TYPE">
+      <Text>Tipo di terreno</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LARGE_CONTINENTS">
+      <Text>Grandi continenti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LARGE_ISLANDS">
+      <Text>Grandi isole</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LARGE_LAKES">
+      <Text>Grandi laghi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LARGE_LAKES_HELP">
+      <Text>Ci saranno laghi più grandi e qualche mare molto piccolo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LEFT_VS_RIGHT">
+      <Text>Sinistra contro destra</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LEGENDARY_START">
+      <Text>Inizio leggendario</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LOGICAL">
+      <Text>Logico</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LOGICAL_HELP">
+      <Text>Le risorse obbediranno alle regole standard e saranno posizionate nel modo più logico e consueto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LOW">
+      <Text>Basso</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MANY_TINY_ISLANDS">
+      <Text>Molte isole minuscole</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MAZE_WIDTH">
+      <Text>Ampiezza del labirinto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MEDIUM">
+      <Text>Medio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MILD">
+      <Text>Temperato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MIRROR_TYPE">
+      <Text>Tipo di specchio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MODERATE">
+      <Text>Moderato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MOUNTAIN_DENSITY">
+      <Text>Densità montagne</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MOUNTAIN_PATTERN">
+      <Text>Schema montagne</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MOUNTAINS">
+      <Text>Montagne</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NARROW_CONTINENTS">
+      <Text>Continenti sottili</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NATURAL">
+      <Text>Naturale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NATURAL_HELP">
+      <Text>È possibile la presenza di baie e penisole. Questa è la forma delle terre emerse più casuale possibile.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NEUTRAL_TERRITORY">
+      <Text>Territorio neutrale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NO">
+      <Text>No</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NO_BUFFER_ZONES_HELP">
+      <Text>Scegli di non aggiungere terre addizionali tra le varie civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NO_JUNGLES">
+      <Text>Niente giungla</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NO_TINY_ISLANDS">
+      <Text>Niente isole minuscole</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NORMAL">
+      <Text>Normale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NUM_CONTINENTS">
+      <Text>Numero dei continenti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NUMBER_OF_MAIN_ISLANDS">
+      <Text>Numero delle isole principali</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_OCEAN">
+      <Text>Oceano</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ONE_PER_CONTINENT">
+      <Text>Una per continente</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ONE_PER_CONTINENT_HELP">
+      <Text>Sarà scelto un modello di mappa che include esattamente un continente per ogni squadra (per un massimo di 6).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ONE_PER_PLAYER">
+      <Text>Una per giocatore</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_OPPOSITE">
+      <Text>Opposti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PANGAEA">
+      <Text>Pangea</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_FIVE">
+      <Text>Largo 5 terreni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_FOUR">
+      <Text>Largo 4 terreni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_FOUR_HELP">
+      <Text>I ponti che collegano i subcontinenti saranno larghi 4 spazi.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_ONE">
+      <Text>Largo 1 terreno</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_THREE">
+      <Text>Largo 3 terreni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_THREE_HELP">
+      <Text>I ponti che collegano i subcontinenti saranno larghi 3 spazi.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_TWO">
+      <Text>Largo 2 terreni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_TWO_HELP">
+      <Text>I ponti che collegano i subcontinenti saranno larghi 2 spazi.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PRESSED">
+      <Text>Schiacciato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PRESSED_HELP">
+      <Text>Ci saranno meno irregolarità nella forma delle coste, e saranno meno pronunciate. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RAINFALL">
+      <Text>Precipitazioni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RANDOM">
+      <Text>Casuale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RANGES">
+      <Text>Cordigliere</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RANGES_HELP">
+      <Text>Catene montuose in stile frattale: di media grandezza, contorte e molto imprevedibili.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_REFLECTION">
+      <Text>Riflesso</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RESOURCE_APPEARANCE">
+      <Text>Comparsa delle risorse</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RESOURCES">
+      <Text>Risorse</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RIDGELINES">
+      <Text>Catene</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RIDGELINES_HELP">
+      <Text>Catene montuose ispirate alla tettonica delle placche, disposte lungo faglie generate casualmente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RING_WIDTH">
+      <Text>Larghezza dell'anello</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RIVERS">
+      <Text>Fiumi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RIVERS_AND_SEAS">
+      <Text>Fiumi e mari</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RIVERS_AND_SEAS_HELP">
+      <Text>Grandi laghi o mari, con qualche fiume.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RIVERS_HELP">
+      <Text>Fiumi serpeggianti si dipartono da una catena montuosa centrale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SCATTERED">
+      <Text>Sparsa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SCATTERED_HELP">
+      <Text>Catene montuose in stile frattale: piccole, numerose e molto sparse.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SEA_LEVEL">
+      <Text>Livello del mare</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SEAS">
+      <Text>Mari</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SEAS_HELP">
+      <Text>La maggior parte degli specchi d'acqua saranno mari salati di dimensioni modeste, dalla forma fortemente casuale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SEVERAL_EXTRAS">
+      <Text>Diversi extra</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SEVERE">
+      <Text>Difficile</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SEVERITY">
+      <Text>Severità della regione desertica</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SIX_PER_CONTINENT">
+      <Text>6</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SIX_PER_CONTINENT_HELP">
+      <Text>Sarà scelto un modello di mappa che include esattamente sei continenti principali.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SMALL_CONTINENTS">
+      <Text>Continenti piccoli</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SMALL_ISLANDS">
+      <Text>Isole piccole</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SMALL_LAKES">
+      <Text>Laghi piccoli</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SMALL_LAKES_HELP">
+      <Text>Molti laghi piccoli e piccolissimi, sparsi con omogeneità in tutta la mappa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SOLID">
+      <Text>Denso</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SOLID_HELP">
+      <Text>Ogni civiltà comincerà la partita su un grande blocco di terre emerse.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SPARSE">
+      <Text>Rado</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SPOKE_WIDTH">
+      <Text>Larghezza dei raggi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_STANDARD">
+      <Text>Standard</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_START_ANYWHERE">
+      <Text>Cominciare ovunque</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_START_SEPERATED">
+      <Text>Cominciare separati</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_START_TOGETHER">
+      <Text>Cominciare vicini</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_STRATEGIC_BALANCE">
+      <Text>Bilanciamento strategico</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TEAM_PLACEMENT">
+      <Text>Posizionamento squadre</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TEAM_SETTING">
+      <Text>Impostaz. squadre</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TEMPERATE">
+      <Text>Temperato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TEMPERATURE">
+      <Text>Temperatura</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_THIN">
+      <Text>Sottile</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_THREE_BILLION_YEARS">
+      <Text>3 miliardi di anni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_THREE_PER_CONTINENT">
+      <Text>3</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_THREE_PER_CONTINENT_HELP">
+      <Text>Sarà scelto un modello di mappa che include esattamente tre continenti principali.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TINY_ISLANDS">
+      <Text>Isole minuscole</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TOP_VS_BOTTOM">
+      <Text>Alto contro basso</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TOROID">
+      <Text>Toroidale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TWO_PER_CONTINENT">
+      <Text>2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TWO_PER_CONTINENT_HELP">
+      <Text>Sarà scelto un modello di mappa che include esattamente due continenti principali.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_VARIED">
+      <Text>Vario</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_VARIOUS_TINY_ISLANDS">
+      <Text>Varie isole minuscole</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_WATER_SETTING">
+      <Text>Impostaz. acqua</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_WET">
+      <Text>Umido</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_WIDE_CONTINENTS">
+      <Text>Continenti ampi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_WITHOUT_OCEANS">
+      <Text>Senza oceani</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_WORLD_AGE">
+      <Text>Età del mondo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_WORLD_WRAP">
+      <Text>Il mondo si richiude su se stesso</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_YES_10_CIVS_MAX">
+      <Text>Sì (10 Civiltà Max)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_YES_10_CIVS_MAX_HELP">
+      <Text>Aggiungi terre emerse addizionali tra le varie civiltà (disponibile solo fino a un massimo di dieci civiltà).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OVAL">
+      <Text>Ovale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OVAL_HELP">
+      <Text>Una pangea di forma ovale dalla costa disseminata da baie e insenature casuali.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_PANGAEA">
+      <Text>Pangea</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_PANGAEA_HELP">
+      <Text>Tutti i giocatori partono sullo stesso, grande continente. È possibile che ci sia anche qualche isoletta.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_PANGAEA_PLUS">
+      <Text>Pangea Plus</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_PANGAEA_PLUS_HELP">
+      <Text>Simile a Pangea, ma con script migliorati per la gestione delle catene di isole e il posizionamento delle città-stato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_POLYNESIA">
+      <Text>Polinesia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_POLYNESIA_HELP">
+      <Text>Una regione simile alle isole della Polinesia nel Pacifico, ma con elementi disposti casualmente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_RAINFOREST">
+      <Text>Foresta pluviale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_RAINFOREST_HELP">
+      <Text>Un mondo coperto quasi interamente da giungla.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_RING">
+      <Text>Anello</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_RING_HELP">
+      <Text>Ogni civiltà ha un proprio subcontinente separato. Le civiltà sono collegate a quelle più vicine come sul quadrante di un orologio.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ROCKY_MOUNTAINS">
+      <Text>Montagne rocciose</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ROCKY_MOUNTAINS_HELP">
+      <Text>Una regione simile alle Montagne Rocciose del Nord America, ma con elementi disposti casualmente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SAHARA">
+      <Text>Sahara</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SAHARA_HELP">
+      <Text>Una regione simile al deserto africano del Sahara, ma con elementi disposti casualmente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SANDSTORM">
+      <Text>Tempesta di sabbia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SANDSTORM_HELP">
+      <Text>Un mondo duro, composto più che altro da deserto con qualche piccola area di pianura e prateria.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT">
+      <Text>Mappa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_DESERT">
+      <Text>Deserto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_DESERT_HELP">
+      <Text>Un grande deserto punteggiato da colline! L'impostazione dell'acqua ha un grande impatto sul gioco.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_FOREST">
+      <Text>Foresta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_FOREST_HELP">
+      <Text>Una rigogliosa foresta interrotta da qualche prateria.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_GRASSLANDS">
+      <Text>Prateria</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_GRASSLANDS_HELP">
+      <Text>Poche colline e foreste sparse in una grande prateria.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_HILLS">
+      <Text>Colline</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_HILLS_HELP">
+      <Text>Un terreno aspro e collinoso con qualche vallata composta da praterie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_JUNGLE">
+      <Text>Giungla</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_JUNGLE_HELP">
+      <Text>Una giungla lussureggiante punteggiata da colline e foreste.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_PLAINS">
+      <Text>Pianura</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_PLAINS_HELP">
+      <Text>Poche aree di terreni diversi sparse in una grande pianura.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_TUNDRA">
+      <Text>Tundra</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_TUNDRA_HELP">
+      <Text>Un panorama gelato, con piccole sacche di pianure fertili.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SIBERIA">
+      <Text>Siberia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SIBERIA_HELP">
+      <Text>Una regione simile alla Siberia nel nord dell'Asia, ma con elementi disposti casualmente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SIZE_FORMAT">
+      <Text>Dimensioni della mappa: {1_string}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SKIRMISH">
+      <Text>Schermaglia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SKIRMISH_HELP">
+      <Text>Una mappa bilanciata, progettata per 2 giocatori.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SMALL_CONTINENTS">
+      <Text>Continenti piccoli</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SMALL_CONTINENTS_HELP">
+      <Text>Il mondo sarà composto da poche terre emerse di grandezza media e da qualche isola più piccola.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SOUTH_PACIFIC">
+      <Text>Pacifico meridionale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SOUTH_PACIFIC_HELP">
+      <Text>Una regione simile al Pacifico meridionale, che include Australia, sud-est asiatico e numerose isole.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TEAM_BATTLEGROUND">
+      <Text>Campo di battaglia a squadre</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TEAM_BATTLEGROUND_HELP">
+      <Text>Una regione piccolissima, ricca di terre emerse, concepita esplicitamente per veloci partite multigiocatore a squadre.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TERRA">
+      <Text>Globo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TERRA_HELP">
+      <Text>Un mondo molto esteso, simile alla Terra, in cui tutte le civiltà partono su un continente simile a: Asia/Europa/Africa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TILTED_AXIS">
+      <Text>Asse inclinato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TILTED_AXIS_HELP">
+      <Text>Un mondo molto grande, piegato sul fianco in modo che il suo polo sud sia sempre rivolto verso il sole.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TINY_ISLANDS">
+      <Text>Isole minuscole</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TINY_ISLANDS_HELP">
+      <Text>Questo mondo sarà composto da molte piccole isolette.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TITLE">
+      <Text>Seleziona una mappa modificata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TYPE_TITLE">
+      <Text>Seleziona il tipo di mappa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_WEST_VS_EAST">
+      <Text>Ovest contro Est</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_WEST_VS_EAST_HELP">
+      <Text>Una regione tagliata a metà verticalmente da un ampio canale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_WHEEL">
+      <Text>Ruota</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_WHEEL_HELP">
+      <Text>Ogni civiltà ha un proprio subcontinente separato. Le aree sono collegate da ponti che richiamano entrambi gli stili Anello e Nucleo centrale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAX_TURN_FORMAT">
+      <Text>Numero massimo turni: {1_number}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MINUTES">
+      <Text>Minuti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_ADV_SETUP">
+      <Text>Avanzata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_BACK">
+      <Text>Indietro</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_RANDOMIZE">
+      <Text>Casuale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_START_GAME">
+      <Text>Avvia una partita</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOD_INTERNET_LOBBY">
+      <Text>PARTITE MODIFICATE SU INTERNET </Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOD_LAN_LOBBY">
+      <Text>PARTITE MODIFICATE SU RETE LOCALE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOD_MP_GAME_SETUP_HEADER">
+      <Text>CONFIGURA PARTITA MULTIGIOCATORE MODIFICATA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODS">
+      <Text>Firaxis merda</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODS_SELECT_MULTIPLAYER_TYPE">
+      <Text>Firaxis merda</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODS_TT">
+      <Text>Accedi ai mod creati dagli utenti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_DISABLE_SLOT">
+      <Text>Disabilita lo slot</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_ENABLE_SLOT">
+      <Text>Abilita lo slot</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_HOST_LOST">
+      <Text>Il collegamento di rete con l'host è stato interrotto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_JOIN_FAILED">
+      <Text>Errore nel collegamento alla sessione multigiocatore.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_JOIN_FAILED_MISSING_RESOURCES">
+      <Text>Errore nel collegamento alla partita multigiocatore.  Alcuni DLC/Mod non sono installati.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_KICK_PLAYER">
+      <Text>Rimuovi giocatore</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_KICKED">
+      <Text>Sei stato cacciato dall'host della partita.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_LAST_PLAYER">
+      <Text>Sei l'ultimo giocatore umano rimasto nella partita.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_LOCK_SLOT">
+      <Text>Blocca giocatore IA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_NETWORK_CONNECTION_LOST">
+      <Text>Collegamento alla rete perduto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_NICK_NAME">
+      <Text>Soprannome</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_PASSWORD">
+      <Text>Password</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_READY_CHECK">
+      <Text>Stato di preparazione</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_READY_CHECK_UNAVAILABLE_DATA_HELP">
+      <Text>Lo stato "Pronto" non è disponibile perché un altro giocatore sta usando un contenuto scaricabile che non è installato sul tuo computer.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_RETYPE_PASSWORD">
+      <Text>Digita ancora</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_ROOM_FULL">
+      <Text>La partita contiene già il numero massimo di giocatori.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_SWAP_BUTTON_TT">
+      <Text>Passa a questo slot giocatore.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_UNLOCK_SLOT">
+      <Text>Sblocca giocatore IA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_USE_PASSWORD">
+      <Text>Usa password</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_USE_PASSWORD_TT">
+      <Text>Usa una password per dare inizio al turno di un giocatore</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_VERSION_MISMATCH_FOR_HOST">
+      <Text>Problemi con la versione del giocatore: {1_PlayerName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_VERSION_MISMATCH_FOR_PLAYER">
+      <Text>Problemi con la versione dell'host.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER">
+      <Text>GIOCA CON GOBBI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_AUTOSAVES">
+      <Text>Autosalvataggi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_BROWSE_GAMES">
+      <Text>Naviga nelle partite</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_CANCEL_LOAD_TT">
+      <Text>Annulla caricamento di una partita multigiocatore salvata.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_CONNECT_TO_IP">
+      <Text>Collegati a un ind. IP</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_CONNECT_TO_IP_TT">
+      <Text>Collegati a una partita Pitboss a un indirizzo IP pubblico specificato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_DEDICATED_SERVER_ROOM">
+      <Text>Stanza del server dedicato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_DEFAULT_PLAYER_NAME">
+      <Text>Giocatore {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_DEFAULT_SERVER_NAME">
+      <Text>Server {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_DEFAULT_SERVER_PLAYER_NAME">
+      <Text>Server</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_DEFAULT_TEAM_NAME">
+      <Text>Sq. {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_DLCHOSTED">
+      <Text>DLC</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_GAME_SETUP_HEADER">
+      <Text>CONFIGURA PARTITA MULTIGIOCATORE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_GAMES_FOUND">
+      <Text>Partite trovate:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_HOST_GAME">
+      <Text>Ospita partita</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_HOST_GAME_TT">
+      <Text>Avvia una nuova partita multigiocatore.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_HOST_LAN">
+      <Text>Ospita una partita in LAN</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_HOST_LAN_DESC">
+      <Text>Scegli le opzioni di gioco e poi ospita una partita. Quest'opzione creerà una partita sulla tua rete locale; i giocatori nella "sala d'attesa" saranno in grado di vederla e di partecipare.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_HOST_PRIVATE_GAME">
+      <Text>Ospita una partita privata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_HOTSEAT_GAME">
+      <Text>Stesso computer</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_HOTSEAT_GAME_TT">
+      <Text>Avvia una partita multigiocatore in cui i giocatori si alternano eseguendo i loro turni su questo computer.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_INTERNET_DESC">
+      <Text>Scegli il tipo di partita che vuoi giocare e il sistema ti metterà in contatto con giocatori che hanno le stesse preferenze. Per ospitare un gioco a cui possono partecipare solo amici invitati da te e non sconosciuti spunta l'opzione Ospita una partita privata.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_INTERNET_GAME">
+      <Text>Internet</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_INTERNET_GAME_TT">
+      <Text>Gioca una partita multigiocatore su Internet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_INTERNET_LOBBY">
+      <Text>PARTITE SU INTERNET</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_INVITE">
+      <Text>invito</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_INVITE_TT">
+      <Text>Invita gli amici a unirsi alla tua partita.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_JOIN_GAME">
+      <Text>Partecipa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_JOINING_GAMESTATE">
+      <Text>Recupero informazioni sull'host...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_JOINING_HOST">
+      <Text>Connessione all'host...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_JOINING_PLAYERS">
+      <Text>Connessione ai giocatori...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_JOINING_ROOM">
+      <Text>Cercando le chiavi della sala d'attesa...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_LAN_GAME">
+      <Text>Rete locale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_LAN_GAME_TT">
+      <Text>Gioca una partita multigiocatore in rete locale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_LAN_LOBBY">
+      <Text>PARTITE SU RETE LOCALE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_LAUNCH_GAME">
+      <Text>Avvia partita</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_LOBBY_NO">
+      <Text>No</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_LOBBY_YES">
+      <Text>Sì</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_MEMBERS">
+      <Text>Membri</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_MODSHOSTED">
+      <Text>Mod</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_OBSERVER_TEAM_NAME">
+      <Text>Osservatori</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_PITBOSS_GAME">
+      <Text>Pitboss</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_PITBOSS_GAME_TT">
+      <Text>Avvia una partita multigiocatore in cui un server dedicato controlla il gioco per un lungo periodo di tempo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_PITBOSS_LOBBY">
+      <Text>PARTITE PITBOSS</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_PLAYER_STATUS_READY">
+      <Text>Pronto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_PRIVATE_GAME">
+      <Text>Partita privata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_RECONNECT">
+      <Text>Ricollegati all'ultima partita</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_REFRESH_GAME_LIST">
+      <Text>Aggiorna</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_REFRESH_GAME_LIST_TT">
+      <Text>Scarica l'ultima lista di informazioni sulle partite.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_RESUME_LAST_GAME">
+      <Text>Riprendi ultima partita</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_SEARCHING_GAME">
+      <Text>Ricerca partite...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_SELECT_MULTIPLAYER_TYPE">
+      <Text>Multigiocatore</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_SELECT_SAVED_GAME">
+      <Text>Seleziona partita salvata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_SERVER_NAME">
+      <Text>Nome del server</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM">
+      <Text>Stanza d'allestimento</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM_GAME_OPTIONS_TT">
+      <Text>Modifica le opzioni di gioco (solo per l'host).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM_HEADER_CIVILIZATION">
+      <Text>Civiltà</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM_HEADER_PLAYER">
+      <Text>Giocatori</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM_HEADER_PLAYER_TT">
+      <Text>Visualizza la lista di giocatori.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STANDARD_GAME">
+      <Text>Standard</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STANDARD_GAME_TT">
+      <Text>Avvia una partita multigiocatore in cui i giocatori eseguono senza interruzione i loro turni con ogni altro giocatore.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STATUS_LISTING">
+      <Text>Stato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STOP_REFRESH_GAME_LIST">
+      <Text>Annulla</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STOP_REFRESH_GAME_LIST_TT">
+      <Text>Arresta l'aggiornamento delle informazioni sull'elenco delle partite.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STRING">
+      <Text>Multigiocatore </Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_TO_ALL">
+      <Text>A tutti:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_TT">
+      <Text>Multiplayer su LAN o Internet </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NAME_CIV_TITLE">
+      <Text>Dai un nome alla tua civiltà!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NAME_REENTER_MAIL_PASSWORD">
+      <Text>Inserisci nuovamente la tua password email</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_REPLAYS">
+      <Text>NESSUN REPLAY DISPONIBILE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_SAVED_GAMES">
+      <Text>Nessun salvataggio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NUMBERING_FORMAT">
+      <Text>{1_number}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPTIONS">
+      <Text>OPZIONI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPTIONS_TT">
+      <Text>Impostazioni di gioco e del sistema</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OTHER">
+      <Text>ALTRO</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OTHER_MENU_VIEW_REPLAYS">
+      <Text>VEDI I REPLAY</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OTHER_MENU_VIEW_REPLAYS_TT">
+      <Text>Vedi i replay delle partite precedenti.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OTHER_TT">
+      <Text>Altre informazioni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_CHIEFTAN">
+      <Text>Capo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_CIVILIZATION_POINTS">
+      <Text>I miei punti civiltà:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_CIVNAME">
+      <Text>Nome della civiltà</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_CONTINENTS">
+      <Text>Continenti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_DEBUG_MICRO">
+      <Text>Debug Micro</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_DIFFICULTY">
+      <Text>Seleziona il livello di difficoltà</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_DIPLOSTATUS">
+      <Text>Status diplomatico</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_EMPEROR">
+      <Text>Imperatore</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_FRACTAL">
+      <Text>Frattale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_GAME_SPEED">
+      <Text>Seleziona velocità di gioco</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_HUB">
+      <Text>Hub</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_IMMORTAL">
+      <Text>Immortale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_LEADERNAME">
+      <Text>Nome del leader</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_MAPSIZE">
+      <Text>Seleziona le dimensioni della mappa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_MAPTYPE">
+      <Text>Seleziona il tipo di mappa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_SMALL">
+      <Text>Piccola</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_SPEED_EPIC">
+      <Text>Epica</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_SPEED_QUICK">
+      <Text>Veloce</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_SPEED_STANDARD">
+      <Text>Standard</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_STANDARD">
+      <Text>Standard</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_TINY">
+      <Text>Minuscola</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_WHEEL">
+      <Text>Ruota</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAY_NOW">
+      <Text>GIOCA ORA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAY_NOW_SETTINGS">
+      <Text>Gioca con le impostazioni attuali: </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAY_NOW_TT">
+      <Text>Gioca con le opzioni più recenti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAYER_TYPE_HUMAN">
+      <Text>Umano</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_CIV">
+      <Text>Civiltà casuale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_LEADER">
+      <Text>Leader casuale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_LEADER_CIV">
+      <Text>{1_Leader} - {2_Civ}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_LEADER_HELP">
+      <Text>Il gioco sceglierà casualmente il leader che dovrai interpretare.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_MAP_SCRIPT">
+      <Text>Casuale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_MAP_SCRIPT_HELP">
+      <Text>Il gioco sceglierà casualmente un tipo di mappa per la partita (non Terra). La scelta non ti sarà comunicata.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_MAP_SIZE">
+      <Text>Dimensioni casuali</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_MAP_SIZE_HELP">
+      <Text>Il gioco sceglierà casualmente le dimensioni della mappa. La scelta non ti sarà comunicata.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REFRESH_GAME_LIST_TT">
+      <Text>Ritorna alla configurazione del gioco</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SAVE_GAME_CONFIGURATION_TT">
+      <Text>Salva la configurazione d'avvio della partita.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCENARIOS">
+      <Text>SCENARI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SECONDS">
+      <Text>Secondi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SELECT_MAP_TYPE_BACK">
+      <Text>Indietro</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SELECT_MAP_TYPE_BACK_HELP">
+      <Text>Torna alla cartella superiore.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SELECT_SAVE_GAME">
+      <Text>Seleziona un salvataggio.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SETUP_GAME">
+      <Text>CONFIGURA LA PARTITA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SETUP_GAME_TT">
+      <Text>Modifica la configurazione della partita</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SINGLE_PLAYER">
+      <Text>Giocatore singolo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_AI">
+      <Text>IA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_AI_TT">
+      <Text>Giocatore IA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_CLOSED">
+      <Text>Chiuso</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_CLOSED_TT">
+      <Text>Gli slot chiusi non possono essere usati dai giocatori.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_HUMAN_TT">
+      <Text>Giocatore umano</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_HUMANREQ">
+      <Text>Umano richiesto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_HUMANREQ_TT">
+      <Text>Gli slot Umano richiesto devono essere occupati da un giocatore umano prima che la partita possa iniziare.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_OBSERVER">
+      <Text>Osservatore</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_OBSERVER_TT">
+      <Text>Gli osservatori assistono alla partita senza partecipare come civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_OPEN">
+      <Text>Aperto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_OPEN_TT">
+      <Text>Gli slot aperti possono essere occupati da nuovi giocatori.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SOMEONE_STILL_LOADING">
+      <Text>QUALCUNO sta ANCORA caricando</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SORTBY_LASTMODIFIED">
+      <Text>Ordina per ultima modifica</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SORTBY_NAME">
+      <Text>Ordina per nome</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STAGING_ROOM_TIME_MS">
+      <Text>ms</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STAGING_ROOM_TIME_S">
+      <Text>s</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STAGING_ROOM_UNDER_1_MS">
+      <Text>&lt;1ms</Text>
+    </Row>
+    <Row Tag="TXT_KEY_START_ERA_FORMAT">
+      <Text>Inizia l'epoca: {1_string}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_START_GAME">
+      <Text>Avvia la partita</Text>
+    </Row>
+    <Row Tag="TXT_KEY_START_SCENARIO">
+      <Text>Inizia scenario</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAM_EMPTY_SAVE">
+      <Text>Slot salvataggio vuoto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMCLOUD">
+      <Text>Steam Cloud</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMCLOUD_SAVE">
+      <Text>{1_SaveNumber}. {2_SaveName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TITLE_BAR">
+      <Text>Titolo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TITLE_BODY_DESCRIPTION">
+      <Text>Corpo per le cose che hanno bisogno di un po' di testo sotto il titolo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL">
+      <Text>TUTORIAL</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL_TT">
+      <Text>Scenari che introducono alcuni concetti base del gioco</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNAVAILABLE_LEADER">
+      <Text>Leader non disponibile</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNAVAILABLE_LEADER_HELP">
+      <Text>Il pacchetto DLC "{1_string}" non è installato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNAVAILABLE_LEADER_TT">
+      <Text>Il Leader non è disponibile perchè alcuni giocatori non possiedono il contenuto scaricabile necessario: '{1_string}'.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPDATING_GAME_DATA">
+      <Text>Configurazione dei dati di gioco... Attendere.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORYS_FORMAT">
+      <Text>Tipi di vittoria: </Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAITING_FOR_INVITE_RESPONSE">
+      <Text>In attesa di {1_player}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_SIZE">
+      <Text>Dimensione del mondo</Text>
+    </Row>
+  </Language_IT_IT>
+</GameData>
