@@ -41,7 +41,7 @@
 
     <ScrollPanel Anchor="c,c" Size="1024,Full" ID="MajorScroll" Vertical="1" AutoScrollBar="0" >
         <Box Anchor="C,B" Offset="0,0" Size="1024,Full" Color="0,255,255,0" >
-            <SlideAnim Anchor="c,c" Start="0,0" End="0,0" Cycle="Once" Speed="0.003" ID="SlideAnim" >
+            <SlideAnim Anchor="c,c" Start="0,0" End="0,-46000" Cycle="Once" Speed="0.003" ID="SlideAnim" >
                 <Stack  Anchor="C,T" ID="CreditsList" Offset="0,10" Padding="20" StackGrowth="Bottom">
                     <Box Size="1024,Full" Color="0,0,0,0" />
                 </Stack>
