@@ -24,7 +24,7 @@ function ShowHideHandler( bIsHide, bIsInit )
 		PreGame.ResetMapOptions();
 		PreGame.LoadPreGameSettings();
 		    
-        Controls.Civ5Logo:SetTexture( "CivilzationV_Logo.dds" );
+        Controls.Civ5Logo:SetTexture( "Assets/UI/Art/Civilization_V_LogoGobbi.dds" );
         
         Controls.MainMenuScreenUI:SetHide( false );
         local str = Locale.ConvertTextKey( "TXT_KEY_PLAY_NOW_SETTINGS" ) .. "[NEWLINE]";

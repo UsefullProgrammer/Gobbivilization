@@ -14,7 +14,7 @@ local fTime = 0;
 
 function ShowHideHandler( bIsHide, bIsInit )
     if( not bIsHide ) then
-        Controls.Civ5Logo:SetTexture( "CivilzationV_Logo.dds" );
+        Controls.Civ5Logo:SetTexture( "Assets/UI/Art/Civilization_V_LogoGobbi.dds" );
         
         Controls.MainMenuScreenUI:SetHide( false );
     else
