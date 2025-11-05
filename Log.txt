@@ -1,5 +1,10 @@
+V 0.1 Beta
 Ora le città conquistate perdono solo il 23% della popolazione.
 VERY_UNHAPPY_THRESHOLD è a -15 e non -10
 A parte le strutture difensive ora quasi tutte le strutture, tranne ovviamente le meraviglie nazionali e corthouse hanno una probabilità di essere catturate invece di essere distrutte del 75% (prima era 66% alcune e 75% altre non venivano mai catturate)
 Ora i camelli arcieri non possono muoversi dopo aver attaccato.
 Il granaio costa 50 invece di 60.
+Modificato texture.
+Modificato alcuni testi del menu
+Ottimizzato apertura ora non fa più il disclaimer.
+Spostato il punteggio a sinistra in alto così in multiplayer potete vedere le notifiche e i punteggi.

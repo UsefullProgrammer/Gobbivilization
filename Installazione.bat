@@ -66,5 +66,13 @@ echo BACKUP = [%BACKUP%]
 robocopy "%UPDATE%" "%DEST%" /E /NFL /NDL /NJH /NJS /NP
 echo Installazione completata.
 echo.
+echo Avviare civ V (S/N)?
+set /p "RISPOSTA=> "
 
+if /I "%RISPOSTA%"=="S" (
+    echo [+] Avvio Civilization V...
+    start "" "%DEST%\CivilizationV.exe"
+) else (
+    echo [-] Avvio annullato.
+)
 pause
