@@ -14,7 +14,7 @@ local g_TeamData = {};
 
 local TOP_COMPENSATION = 120;
 local CHAT_COMPENSATION = 170;
-local MINIMAP_GUESS = 250;
+local ActionInfoPanel = 36;
 local _, screenY = UIManager:GetScreenSizeVal();
 Controls.MPListScroll:SetSizeY( screenY - MINIMAP_GUESS - TOP_COMPENSATION - CHAT_COMPENSATION );
 

@@ -3,7 +3,7 @@ setlocal
 
 :: Percorso di destinazione
 set "PATH_E=E:\SteamLibrary\steamapps\common\Sid Meier's Civilization V"
-set "PATH_C=C:\SteamLibrary\steamapps\common\Sid Meier's Civilization V"
+set "PATH_C=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V"
 :: Controllo esistenza
 if exist "%PATH_E%" (
     set "DEST=%PATH_E%"
@@ -64,9 +64,11 @@ echo.
 echo Disinstallazione file unici completata. Premere per continuare la disisntellazione
 echo === Reinstallo versione vecchia dei file esistenti ===
 
-robocopy "%BACKUP%" "%DEST%" /E /XC /XN /XO /NFL /NDL /NJH /NJS /NP
-echo Backup salvato in .\backup
+robocopy "%BACKUP%" "%DEST%" /E /XC /XN /XO /NFL /NDL /NJH /NJS
+echo ripristino versione vanilla
+rcedit-x64.exe "CivilizationV.exe" --set-version-string FileVersion "1, 0, 3, 279, (403694) (11/19/2014)"
+rcedit-x64.exe "CivilizationV.exe" --set-version-string ProductVersion "1, 0, 3, 279, (403694) (11/19/2014)"
+echo Installazione rispristinata.
 echo.
 
-mkdir "%BACKUP%"
-)
+pause
