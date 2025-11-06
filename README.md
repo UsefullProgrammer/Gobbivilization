@@ -1,4 +1,4 @@
-# 🎮 Patch amatoriale per migliorare l’esperienza di gioco
+# Patch amatoriale per migliorare l’esperienza di gioco
 
 Questa è una patch creata per giocare con i miei amici e migliorare la stabilità online.  
 Purtroppo, per politiche interne della società videoludica, i giochi non vengono migliorati ma sostituiti da nuovi titoli.
@@ -40,7 +40,7 @@ La versione per Mac è ancora in fase di sviluppo.
 
 ---
 
-## 📜 Modifiche al gameplay
+## Modifiche al gameplay
 
 Consulta il file `Log.txt` per conoscere tutte le modifiche apportate.
 
