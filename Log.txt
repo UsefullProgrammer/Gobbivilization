@@ -8,3 +8,10 @@ Modificato texture.
 Modificato alcuni testi del menu
 Ottimizzato apertura ora non fa più il disclaimer.
 Spostato il punteggio a sinistra in alto così in multiplayer potete vedere le notifiche e i punteggi.
+
+V 0.2 Beta
+Sistemato lista punteggi
+Sistemato traduzioni in italiano.
+Messo nuovi bat utili.
+Abilitato popup del "classifica dei popoli" in multiplayer.
+Messo divisione tra meraviglie e meraviglie nazionali.

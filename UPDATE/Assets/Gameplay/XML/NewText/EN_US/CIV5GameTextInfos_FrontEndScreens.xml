@@ -1060,7 +1060,7 @@
 			<Text>Map information not found</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_LOADING">
-			<Text>Loading...</Text>
+			<Text>Arming nukes for Jarmen...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PGSCREEN_LEADERNAME">
 			<Text>Leader Name</Text>
@@ -1296,18 +1296,18 @@
 		</Row>
 
 		<!-- Multiplayer Setup Screens-->
-		<Row Tag="TXT_KEY_MULTIPLAYER_JOINING_ROOM">
-			<Text>Joining Room...</Text>
+		<Row Tag="TXT_KEY_MULTIPLAYER_JOINING_GAMESTATE">
+			<Text>Retrieving intimate information...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MULTIPLAYER_JOINING_HOST">
-			<Text>Connecting to host...</Text>
+		<Text>Beating up Jarmen...</Text>
 		</Row>
-    <Row Tag="TXT_KEY_MULTIPLAYER_JOINING_PLAYERS">
-      <Text>Connecting to players...</Text>
-    </Row>
-    <Row Tag="TXT_KEY_MULTIPLAYER_JOINING_GAMESTATE">
-      <Text>Retrieving Host Information...</Text>
-    </Row>
+			<Row Tag="TXT_KEY_MULTIPLAYER_JOINING_PLAYERS">
+			<Text>Preparing nukes for Marcus...</Text>
+		</Row>
+			<Row Tag="TXT_KEY_MULTIPLAYER_JOINING_ROOM">
+			<Text>Looking for the room keys...</Text>
+		</Row>
 		<Row Tag="TXT_KEY_MULTIPLAYER_SEARCHING_GAME">
 			<Text>Searching for Games...</Text>
 		</Row>

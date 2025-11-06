@@ -1,0 +1,1358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_IT_IT>
+    <Row Tag="TXT_KEY_ABLTY_BRIDGE_STRING">
+      <Text>Permette di costruire ponti sui fiumi.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ABLTY_D_PACT_STRING">
+      <Text>Permette di stabilire Patti di Difesa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ABLTY_DEFENSIVE_EMBARK_STRING">
+      <Text>Permette alle truppe imbarcate di difendersi dagli attacchi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ABLTY_FAST_EMBARK_STRING">
+      <Text>Accelera il movimento delle truppe imbarcate.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ABLTY_FASTER_MOVEMENT_STRING">
+      <Text>Movimento più veloce su</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ABLTY_FRESH_WATER_STRING">
+      <Text>Acqua dolce</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ABLTY_NO_FRESH_WATER_STRING">
+      <Text>non c'è acqua dolce</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ABLTY_OCEAN_EMBARK_STRING">
+      <Text>Permette alle truppe imbarcate di attraversare gli oceani.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ABLTY_OPEN_BORDER_STRING">
+      <Text>Permette di stabilire Diritti di Passaggio.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ABLTY_R_PACT_STRING">
+      <Text>Permette di stabilire Accordi di Ricerca.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ABLTY_T_PACT_STRING">
+      <Text>Permette di stabilire Accordi Commerciali.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ABLTY_YIELD_IMPRVD_STRING">
+      <Text>la resa è migliorata di</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ACCEPT_BUTTON">
+      <Text>Accetta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ECON_TITLE">
+      <Text>Consigliere finanziario</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FOREIGN_TITLE">
+      <Text>Consigliere estero</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MILITARY_TITLE">
+      <Text>Consigliere militare</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RESET_TEXT">
+      <Text>I miei studi mostrano che il tuo popolo si fida del tuo governo. Continua a esplorare e a incontrare nuove civiltà: chissà dove ci porterà il futuro? Un giorno potremmo addirittura arrivare alle stelle!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RESET_TITLE">
+      <Text>Stai andando benone!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCIENCE_TITLE">
+      <Text>Consigliere scientifico</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_THANK_YOU">
+      <Text>Grazie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_TY_TT">
+      <Text>Congeda il consigliere</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISORINFOPOPUP_BACK">
+      <Text>Torna indietro</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISORINFOPOPUP_CIVILOPEDIA">
+      <Text>Civilopedia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISORINFOPOPUP_FORWARD">
+      <Text>Vai avanti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALWAYS_AT_WAR_WITH_CITY">
+      <Text>Sei sempre in guerra col propietario di questa città!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALWAYS_WAR_TT">
+      <Text>Tutte le civiltà sono costantemente in guerra tra loro.[NEWLINE]La Dipolomazia dovrebbe essere l'ultima delle tue preoccupazioni.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AUTOCRACY_TITLE">
+      <Text>Terribile {1_PlayerName:textkey} {@2_CivName[2]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BACK_BUTTON">
+      <Text>Indietro</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FEATURE_PRODUCTION">
+      <Text>, fornendo {1_Num} [ICON_PRODUCTION] Produzione alla Città più vicina.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FOOD_STRING">
+      <Text>{1_Num}[ENDCOLOR] [ICON_FOOD] Cibo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_GOLD_STRING">
+      <Text>{1_Num}[ENDCOLOR] [ICON_GOLD] Oro</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_PRODUCTION_STRING">
+      <Text>{1_Num}[ENDCOLOR] [ICON_PRODUCTION] Produzione</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_SCIENCE_STRING">
+      <Text>{1_Num}[ENDCOLOR] [ICON_RESEARCH] Scienza</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CANCEL_BUTTON">
+      <Text>Annulla</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CANNOT_PURCHASE_NO_GOLD">
+      <Text>[NEWLINE]Non hai sufficiente [ICON_GOLD] Oro per questo acquisto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CANNOT_PURCHASE_UNIT_HERE">
+      <Text>[NEWLINE]Non puoi realizzare l'acquisto mentre un'altra unità è di stanza in questa città.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_FREE_GREAT_PERSON">
+      <Text>SCEGLI GRANDE PERSONAG.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_FREE_GREAT_PERSON_TT">
+      <Text>Scegli un Grande Personaggio gratuito per il tuo impero!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_FREE_TECH">
+      <Text>TECNOLOGIA GRATUITA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_FREE_TECH_TT">
+      <Text>Puoi scegliere una tecnologia gratuita per il tuo impero!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_POLICY">
+      <Text>ADOTTA UNA POLITICA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_POLICY_TT">
+      <Text>Puoi adottare una nuova Politica Sociale!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_PRODUCTION">
+      <Text>SCEGLI LA PRODUZIONE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_PRODUCTION_TT">
+      <Text>Puoi scegliere un nuovo progetto di costruzione per una delle tue città!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RESEARCH">
+      <Text>SCEGLI LA RICERCA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RESEARCH_TT">
+      <Text>Puoi scegliere un nuovo progetto di ricerca per il tuo impero!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_RANGE_ATTACK">
+      <Text>LA CITTÀ PUÒ ATTACCARE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_RANGE_ATTACK_TT">
+      <Text>Esegui un attacco a distanza contro un nemico vicino.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_SCREEN_PROD_PER_TURN">
+      <Text>{1_Num} [ICON_PRODUCTION] Produzione/Turno</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILIAN">
+      <Text>CIVILE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMMERCE_TITLE">
+      <Text>Doge {1_PlayerName:textkey} {@2_CivName[2]} </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_DENOUNCE">
+      <Text>Sei sicuro di voler denunciare pubblicamente {@1_LeaderName}?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_DISABLE_MOD">
+      <Text>Sei sicuro di voler disattivare questo mod?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_ENABLE_MOD">
+      <Text>Sei sicuro di voler attivare questo mod?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_KICK">
+      <Text>Sei sicuro di voler espellere {1_PlayerName:textkey} dalla partita?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_POLICY">
+      <Text>Sei sicuro di voler adottare questa Politica Sociale?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_TXT">
+      <Text>Questo cancellerà permanentemente il tuo salvataggio. Sei sicuro di volerlo fare?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_WAR">
+      <Text>Sei sicuro di voler dichiarare guerra?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_WAR_PROTECTED_CITY_STATE">
+      <Text>Sei certo di voler dichiarare guerra a {@1_CivName[1]}? Al momento sono sotto la protezione di: </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_CITY_MOD">
+      <Text>+{1_Num}% [ICON_CULTURE] dalla città</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_FROM_BUILDINGS">
+      <Text>{1_Num} [ICON_CULTURE] dagli edifici</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_FROM_POLICIES">
+      <Text>{1_Num} [ICON_CULTURE] dalle politiche</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_FROM_SPECIALISTS">
+      <Text>{1_Num} [ICON_CULTURE] dagli specialisti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_FROM_TERRAIN">
+      <Text>{1_Num} [ICON_CULTURE] dal terreno</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_FROM_TRAITS">
+      <Text>{1_Num} [ICON_CULTURE] dai tratti distintivi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_HELP_INFO">
+      <Text>La [ICON_CULTURE] Cultura aiuta le città a espandere il loro territorio, rendendole così più produttive. Inoltre si può spendere per le [COLOR_POSITIVE_TEXT]Politiche Sociali[ENDCOLOR] di tutto l'impero.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_INFO">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num}/{2_Num}[ENDCOLOR] per l'estensione dei confini</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_PLAYER_MOD">
+      <Text>+{1_Num}% [ICON_CULTURE] dall'impero</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_TURNS">
+      <Text>({1_Num} {1_Num: plural 1?turno;other?turni;})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_WONDER_BONUS">
+      <Text>+{1_Num}% [ICON_CULTURE] per il possesso di una Grande Meraviglia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CUR_ERA_TURNS_FORMAT">
+      <Text>{2_number} {2_number: plural 1?turno; other?turni;} - epoca corrente: {1_era}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CURRENTLY_SELECTED_UNIT">
+      <Text>Questa è l'unità correntemente selezionata.[NEWLINE][NEWLINE](Clicca per centrare la telecamera su di essa)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_ACCEPTED">
+      <Text>Accordo accettato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_ACCEPTED_BY_THEM">
+      <Text>La tua offerta a {1_Player} è stata accettata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_ACCEPTED_BY_YOU">
+      <Text>Hai accettato l'offerta di {1_Player}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_COUNTER_BY_THEM">
+      <Text>{1_Player} ti ha fatto una contro-proposta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_COUNTER_BY_YOU">
+      <Text>Hai fatto una contro-proposta a {1_Player}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_COUNTER_RECIEVED">
+      <Text>Hai ricevuto una contro-proposta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_COUNTER_SENT">
+      <Text>Hai formulato una contro-proposta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_EXPIRED">
+      <Text>L'accordo non è più valido</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_EXPIRED_FROM_THEM">
+      <Text>La tua offerta a {1_Player} non è più valida.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_EXPIRED_FROM_YOU">
+      <Text>La offerta fatta da {1_Player} non è più valida.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_OFFERED">
+      <Text>Accordo proposto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_OFFERED_BY_THEM">
+      <Text>{1_Player} ti ha proposto un accordo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_OFFERED_BY_YOU">
+      <Text>Hai proposto un accordo a {1_Player}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_REJECTED">
+      <Text>Offerta rifiutata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_REJECTED_BY_THEM">
+      <Text>La tua offerta a {1_Player} è stata rifiutata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_REJECTED_BY_YOU">
+      <Text>Hai rifiutato l'offerta di {1_Player}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_WITHDRAWN">
+      <Text>Offerta ritirata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_WITHDRAWN_BY_THEM">
+      <Text>L'offerta di {1_Player} è stata ritirata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEAL_WITHDRAWN_BY_YOU">
+      <Text>Hai ritirato la tua offerta a {1_Player}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEFAULT_BUTTON">
+      <Text>Predefinito</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DELETE_BUTTON">
+      <Text>Elimina</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DELETE_MOD_TXT">
+      <Text>Così facendo cancellerai permanentemente questo mod. Sei sicuro di volerlo fare?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ADDITIONAL">
+      <Text>Informazioni aggiuntive</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CITIES">
+      <Text>CITTÀ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CIVILIZATION_NAME">
+      <Text>Nome della civiltà</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CLOSE_CHAT">
+      <Text>Chiudi la chat</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CLOSE_CHAT_TT">
+      <Text>Attiva/Disattiva il pannello di chat</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CSTATE_GIVE_UNIT_TT">
+      <Text>Dona un'unità a questa città-stato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CSTATE_SPEAK_WITH">
+      <Text>Parla con una città-stato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DIPLOMACY_BUTTON">
+      <Text>DIPLOMAZIA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ITEMS_LABEL">
+      <Text>Oggetti {1_PlayerName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ITEMS_LUXURY_RESOURCES">
+      <Text>RISORSE DI LUSSO</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ITEMS_OTHER_PLAYERS">
+      <Text>ALTRI GIOCATORI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ITEMS_STRATEGIC_RESOURCES">
+      <Text>RISORSE STRATEGICHE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LEADER_NAME">
+      <Text>Nome del leader</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_AFRAID">
+      <Text>{@1_Leader: gender masculine?TIMOROSO; feminine?TIMOROSA;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_DENOUNCING">
+      <Text>[COLOR_WARNING_TEXT]DENUNCIA![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_FRIENDLY">
+      <Text>AMICHEVOLE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_GUARDED">
+      <Text>DIFFIDENTE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_HOSTILE">
+      <Text>OSTILE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_LIBERATED">
+      <Text>LIBERATA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_NEUTRAL">
+      <Text>NEUTRALE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_WAR">
+      <Text>[COLOR_WARNING_TEXT]GUERRA![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MY_INFO">
+      <Text>Le tue informazioni:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MY_SCORE">
+      <Text>Il tuo punteggio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MY_SCORE_CITIES">
+      <Text>{1_Num} per le città</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MY_SCORE_FUTURE_TECH">
+      <Text>{1_Num} per la Tecnologia futura</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MY_SCORE_LAND">
+      <Text>{1_Num} per il territorio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MY_SCORE_POPULATION">
+      <Text>{1_Num} per la popolazione</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MY_SCORE_TECH">
+      <Text>{1_Num} per la tecnologia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MY_SCORE_WONDERS">
+      <Text>{1_Num} per le Meraviglie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NAME">
+      <Text>Nome</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NOTIFICATION_LOG_TT">
+      <Text>La tua Cronologia delle segnalazioni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NUM_CSTATE_MET">
+      <Text>Hai incontrato {1_Num} città-stato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OPEN_ADVISORS_TT">
+      <Text>Chiedi ai tuoi consiglieri cosa pensano della situazione attuale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OPEN_CHAT">
+      <Text>Apri chat</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OPEN_CHAT_TT">
+      <Text>Attiva/Disattiva il pannello di chat grande.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OPEN_SOCIAL_POLICY_TT">
+      <Text>Le tue Politiche Sociali</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SPEAK_TO">
+      <Text>Scegli un leader con cui parlare...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_STATUS">
+      <Text>Status diplomatico</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TO_ALL">
+      <Text>A tutti:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TO_PLAYER">
+      <Text>A {1_player}:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TO_TEAM">
+      <Text>Alla squadra:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TO_TRADE_CITY_NO_THEM">
+      <Text>Non hanno alcuna città da scambiare.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TO_TRADE_CITY_NO_TT">
+      <Text>Non abbiamo alcuna città da scambiare.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TO_TRADE_CITY_TT">
+      <Text>Scambia una città.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE">
+      <Text>VOTO ONU</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TT">
+      <Text>Devi votare alle Nazioni Unite!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_YOUR_ITEMS_LABEL">
+      <Text>I TUOI oggetti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EDIT_BUTTON">
+      <Text>Cambia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EFFECTED_MODS_TXT">
+      <Text>Mod influenzati:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EMPTY">
+      <Text>Vuoto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_TURNS_FORMAT">
+      <Text>{2_number} {2_number: plural 1?turno; other?turni;} - Partita iniziata nell'{1_era}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPERIENCE_POPUP">
+      <Text>[COLOR_XP_BLUE]+{1_Num} XP[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FOOD_HELP_INFO">
+      <Text>[ICON_FOOD] Il Cibo determina quanto velocemente una città cresce e acquisisce nuovi [ICON_CITIZEN] cittadini. I cittadini lavorano la terra e raccolgono [ICON_FOOD], [ICON_PRODUCTION] e [ICON_GOLD] per la città. Una città più grande è quasi sempre preferibile a una piccola!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FOOD_PROGRESS">
+      <Text>Avanzamento: {1_Num}/{2_Num} [ICON_FOOD]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FOOD_USAGE">
+      <Text>([COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] - [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] consumato dai [ICON_CITIZEN] Cittadini)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FOODMOD_CAPITAL">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore per la [ICON_CAPITAL] capitale: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FOODMOD_PLAYER">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore per l'impero: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FOODMOD_RELIGION">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore credenza religiosa: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FOODMOD_UNHAPPY">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT][ICON_HAPPINESS_4] Modificatore per l'infelicità: {1_Num}%[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FOODMOD_WLTKD">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore "Viva il giorno del Re": {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FORWARD_BUTTON">
+      <Text>Avanti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FREE">
+      <Text>GRATIS</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FREEDOM_TITLE">
+      <Text>Presidente {1_PlayerName:textkey} {@2_CivName[2]} </Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOLD_HELP_INFO">
+      <Text>[ICON_GOLD] L'Oro è conservato nel tesoro nazionale e può essere utilizzato per espandere il proprio territorio, acquistare oggetti nelle città e per condurre azioni diplomatiche.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOLDEN_AGE_FLAVOR">
+      <Text>Congratulazioni! I tuoi cittadini sono da tempo contenti del tuo governo! Il tuo impero è entrato in un'Età dell'Oro!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOODBYE_BUTTON">
+      <Text>Arrivederci</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HAVENT_MET">
+      <Text>Non hai ancora incontrato questo giocatore!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOF_RESULTS">
+      <Text>Risultati</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOF_SETTINGS">
+      <Text>Impostazioni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HONOR_TITLE">
+      <Text>Grande {1_PlayerName:textkey} {@2_CivName[2]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOST_MIGRATED">
+      <Text>{1_PlayerName:textkey} è ora l'host della partita.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOTSEAT_NEXT_PLAYER">
+      <Text>È il turno del giocatore successivo!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IC_RESOURCE">
+      <Text>Lista delle risorse</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_OF_CIV">
+      <Text>{@1_LeaderName} del popolo {@2_CivName[2]} </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERTY_TITLE">
+      <Text>Console {1_PlayerName:textkey} {@2_CivName[2]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAX_TURNS">
+      <Text>Numero massimo turni: {1_maxTurns}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MINOR_QUEST_BLOCKING">
+      <Text>MESSAGGIO CITTÀ-STATO</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MINOR_QUEST_BLOCKING_TT">
+      <Text>[COLOR_POSITIVE_TEXT]CLICCA CON IL PULSANTE DESTRO[ENDCOLOR] per chiudere.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_GREAT_PERSON_CHOOSE_TECH">
+      <Text>Un Grande Personaggio ha scoperto una nuova tecnologia per la tua civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_PLAYERS_SIGN_RESEARCH_AGREEMENT">
+      <Text>I giocatori firmano un accordo di ricerca.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_UNKNOWN">
+      <Text>Sconosciuto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOD_VERSION_AVAILABLE">
+      <Text>È disponibile la versione {1_VersionNumber}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MONTH1">
+      <Text>Gennaio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MONTH10">
+      <Text>Ottobre</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MONTH11">
+      <Text>Novembre</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MONTH12">
+      <Text>Dicembre</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MONTH2">
+      <Text>Febbraio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MONTH3">
+      <Text>Marzo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MONTH4">
+      <Text>Aprile</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MONTH5">
+      <Text>Maggio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MONTH6">
+      <Text>Giugno</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MONTH7">
+      <Text>Luglio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MONTH8">
+      <Text>Agosto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MONTH9">
+      <Text>Settembre</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_STACKED_UNIT">
+      <Text>MUOVI UNITÀ RAGGRUPPATA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_STACKED_UNIT_TT">
+      <Text>Seleziona un'unità che è stata raggruppata con un'altra unità dello stesso tipo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_UNIT_TT">
+      <Text>{1_PlayerHandle}: {@3_UnitName} {@2_Adjective}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NAME_CITY_TITLE">
+      <Text>Dai un nome alla tua città!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NAME_UNIT_TITLE">
+      <Text>Dai un nome alla tua Unità!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEW_GAME">
+      <Text>Nuova partita</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEXT_TURN">
+      <Text>TURNO SUCCESSIVO</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEXT_TURN_TT">
+      <Text>Termina il tuo turno e permetti agli altri giocatori di agire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_BUILDING_COUNT_NEEDED">
+      <Text>[NEWLINE]Numero di edifici {2_BuildingName:textkey} ancora richiesti: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_BUILDING_LACKS_RESOURCES">
+      <Text>[NEWLINE]Necessita della risorsa {3_ResourceName:textkey} ({1_Num} {2_ResourceIcon}).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_BUILDING_LOCAL_RESOURCE">
+      <Text>[NEWLINE]Richiede fonte migliorata di {2_ResourceIcon} {1_ResourceName:textkey}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_GAME_COUNT_MAX">
+      <Text>[NEWLINE]Ne {1: plural 1?può;other?possono;} esistere solo {1_Num} in tutto il mondo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_NUKES">
+      <Text>[NEWLINE]Non è possibile costruire armi nucleari.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_PLAYER_COUNT_MAX">
+      <Text>[NEWLINE]Se ne {1: plural 1?può;other?possono;} avere solo {1_Num} per giocatore.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT">
+      <Text>[NEWLINE]I Coloni possono essere costruiti solo nelle città che hanno almeno {1_Num} [ICON_CITIZEN] cittadini.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT_HARDCODED">
+      <Text>[NEWLINE]I Coloni possono essere costruiti solo nelle città che hanno almeno 2 [ICON_CITIZEN] cittadini.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_SPECIAL_UNIT">
+      <Text>[NEWLINE]Non è possibile costruire questo tipo di unità speciale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_TEAM_COUNT_MAX">
+      <Text>[NEWLINE]Se ne {1: plural 1?può;other?possono;} avere solo {1_Num} per squadra.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_UNIT_LACKS_RESOURCES">
+      <Text>[NEWLINE]Necessita della risorsa {3_ResourceName:textkey} ({1_Num} {2_ResourceIcon}).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_UNIT_PROJECT_REQUIRED">
+      <Text>[NEWLINE]Richiede: {1_ProjectName:textkey}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_UNIT_REQUIRES_BUILDING">
+      <Text>[NEWLINE]Richiede {@1_BuildingName[3]} in questa città.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_VERY_UNHAPPY_SETTLERS">
+      <Text>[NEWLINE]Non si può intraprendere la costruzione quando l'impero è [ICON_HAPPINESS_4] molto infelice.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_BUTTON">
+      <Text>No</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ENEMY">
+      <Text>Un'unità nemica è stata avvistata nel nostro territorio!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ENEMY_SUMMARY">
+      <Text>Il nemico è vicino!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REBELS">
+      <Text>L'[ICON_HAPPINESS_4] Infelicità nel nostro impero è pari almeno a 20, perciò si è verificata una sollevazione nel nostro territorio!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REBELS_SUMMARY">
+      <Text>Sono apparsi dei Ribelli!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TURN_MODE_SEQUENTIAL">
+      <Text>Sei in guerra contro un giocatore umano. I tuoi turni saranno eseguiti in sequenza con tutte le civiltà in guerra sino alla fine del conflitto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TURN_MODE_SEQUENTIAL_SUMMARY">
+      <Text>Turni sequenziali!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TURN_MODE_SIMULTANEOUS">
+      <Text>La tua guerra contro un giocatore umano è finita. I tuoi turni saranno eseguiti simultaneamente a quelli di tutte le altre civiltà in pace.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TURN_MODE_SIMULTANEOUS_SUMMARY">
+      <Text>Turni simultanei!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OK_BUTTON">
+      <Text>OK</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPEN_TECH_TREE">
+      <Text>Apri l'Albero delle tecnologie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ORDER_TITLE">
+      <Text>Primo ministro {1_PlayerName:textkey} {@2_CivName[2]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OVERWRITE_TXT">
+      <Text>In questo modo sovrascriverai il salvataggio corrente. Sei sicuro di volerlo fare?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PATRONAGE_TITLE">
+      <Text>Illustre {1_PlayerName:textkey} {@2_CivName[2]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PIETY_TITLE">
+      <Text>Compassionevole {1_PlayerName:textkey} {@2_CivName[2]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAYER_CONNECTING">
+      <Text>{1_PlayerName:textkey} si sta unendo alla partita.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAYER_DISCONNECTED">
+      <Text>{1_PlayerName:textkey} si è disconnesso. L'IA controllerà la sua civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAYER_DISCONNECTED_PITBOSS">
+      <Text>{1_PlayerName:textkey} si è disconnesso.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAYER_KICKED">
+      <Text>{1_PlayerName:textkey} è stato cacciato dalla partita.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAYER_RECONNECTED">
+      <Text>{1_PlayerName:textkey} si è collegato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAYER_TURN_ENDED">
+      <Text>Il turno del giocatore {1_PlayerName:textkey} si è concluso.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLEASE_WAIT">
+      <Text>ATTENDERE PREGO</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLEASE_WAIT_TT">
+      <Text>Elaborazione del turno degli altri giocatori in corso.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_BARBARIAN_CLEARED">
+      <Text>Accampamento barbaro distrutto!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_BUILDINGS">
+      <Text>EDIFICI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CITY_PLOT_MANAGEMENT">
+      <Text>Vuoi assegnare i civili al lavoro in caselle diverse?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GET_CULTURE">
+      <Text>+{1_Num} Cultura[NEWLINE]+ Diritto di Passaggio[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GET_HAPPINESS">
+      <Text>+{1_Num} Felicità (civiltà favorita!)[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GET_SCIENCE">
+      <Text>+{1_Num} Scienza[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_QUEST_DEFEAT_UNITS">
+      <Text>Missione: sconfiggi {1_Num} unità del giocatore {2_PlayerName}.[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_QUEST_DESTROY_BARBARIANS_NEAR">
+      <Text>Richiesta: distruggi i barbari vicini a {1_Name}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_QUEST_ROAD_ACTIVE">
+      <Text>Missione: collega con una strada per ottenere un bonus di [ICON_INFLUENCE] Influenza [NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_QUEST_ROAD_COMPLETE">
+      <Text>Richiesta completata: connessione con una strada![NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATES">
+      <Text>Città-stato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_GIVE_UNIT_CONFIRMATION">
+      <Text>Vuoi donare {2_UnitName[5]} a {1_CivName}?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_GOLDEN_AGE_BEGIN">
+      <Text>L'Età dell'Oro è iniziata!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_GREAT_PERSON_BORN">
+      <Text>È nato un Grande Personaggio!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_NATURAL_WONDER_FIRST_FOUND_GOLD">
+      <Text>[NEWLINE]Per essere stato il primo a scoprire questa Meraviglia hai guadagnato {1_Num} [ICON_GOLD]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_NATURAL_WONDER_FOUND">
+      <Text>Scoperta una Meraviglia naturale!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_NATURAL_WONDER_FOUND_HAPPY">
+      <Text>[NEWLINE]Se rientra nei tuoi confini guadagni {1_Num} [ICON_HAPPINESS_1]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_NATURAL_WONDER_FOUND_PROMOTE">
+      <Text>[NEWLINE]Promozione gratuita per le unità adiacenti:[NEWLINE]{1_PromoteString}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_NATURAL_WONDER_FOUND_TT">
+      <Text>Congratulazioni! Hai scoperto {@1_NWName[2]} e questo ha aumentato la [ICON_HAPPINESS_1] Felicità nell'impero.[NEWLINE][NEWLINE]Resa se lavorata: </Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_NATURAL_WONDER_SUBSEQUENT_FOUND_GOLD">
+      <Text>[NEWLINE]Per aver scoperto questa Meraviglia (dopo un'altra squadra) hai guadagnato {1_Num} [ICON_GOLD]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_NEW_ERA_DESCRIPTION">
+      <Text>Benvenuto nell'{@1_EraDescription}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_NEW_ERA_TITLE">
+      <Text>Nuova epoca</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_NORMAL_VIEW">
+      <Text>Visuale normale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_RETURN_CIVILIAN_AI">
+      <Text>Se gliela restituisci, ti saranno molto grati!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_RETURN_CIVILIAN_CITY_STATE">
+      <Text>Restituendola guadagnerai {1_Num} [ICON_INFLUENCE] Influenza!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_RETURN_CIVILIAN_CONFIRMATION">
+      <Text>Hai catturato un'unità civile che una volta apparteneva {1_CivName[3]}. Hai la possibilità di restituirla alla civiltà originale o di tenerla per te come {@2_NewUnitName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_RETURN_CIVILIAN_CONFIRMATION_RETURN">
+      <Text>Restituisci l'unità</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_RETURN_CIVILIAN_CONFIRMATION_TAKE">
+      <Text>Tienila per te</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_RUINS_EXPLORED">
+      <Text>Rovine esplorate!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_SCORE">
+      <Text>Punteggio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_STRATEGIC_VIEW">
+      <Text>Visuale strategica</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_STRATEGIC_VIEW_TT">
+      <Text>Passa dalla Visuale strategica alla Visuale normale di gioco.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_UN_ELEC_RESULTS">
+      <Text>Risultato delle elezioni alle Nazioni Unite</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_UN_PLAYER">
+      <Text>Giocatore</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_UN_TEAM">
+      <Text>Squadra</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_UN_TEAM_LABEL">
+      <Text>Sq. {1_TeamNum}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_UN_VOTED_FOR">
+      <Text>Votato per</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_UN_VOTES">
+      <Text>Voti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_UNITED_NATIONS_VOTE">
+      <Text>Le Nazioni Unite votano!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_UNITS">
+      <Text>UNITÀ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_VOTE_RESULTS_UNMET_PLAYER">
+      <Text>Un giocatore sconosciuto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_VOTE_RESULTS_UNMET_TEAM">
+      <Text>Squadra non ancora incontrata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_VOTE_RESULTS_YOU">
+      <Text>Tu</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_VOTE_RESULTS_YOUR_TEAM">
+      <Text>La tua squadra</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_VOTES_TO_WIN">
+      <Text>Voti necessari per vincere</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_WHOS_WINNING">
+      <Text>Chi sta vincendo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_WONDERS">
+      <Text>MERAVIGLIE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_GREAT_PERSON">
+      <Text>{@1_UnitName[2]} è nato a {1_CityName:textkey}![NEWLINE]Puoi spenderlo subito per guadagnare 2 punti civiltà o trasformarlo in un'unità,[NEWLINE]il che ti permetterà di usare la sua abilità speciale in una città!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_GREAT_PERSON_UNIT">
+      <Text>Unità</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_GREAT_PERSON_VPS">
+      <Text>Punti civiltà</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_MINOR_GOLD_GIFT">
+      <Text>Potresti fornire a {1_CivName:textkey} un dono in Oro.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_MINOR_GOLD_GIFT_AMOUNT">
+      <Text>{1_NumGold} [ICON_GOLD] Oro ti farà guadagnare {2_NumFriendship} [ICON_INFLUENCE] Influenza</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_MINOR_GOLD_GIFT_CANT">
+      <Text>Con almeno {1_NumGold} Oro, potresti offrire un dono a {2_CivName:textkey}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_BUILDING_CITY">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore per gli edifici: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_BUILDING_POLICY">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore delle Politiche per gli edifici: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_BUILDING_POLICY_PLAYER">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore della politica imperiale per gli edifici: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_BUILDING_TRAIT">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore del tratto distintivo per gli edifici: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_CAPITAL_BUILDING_TRAIT">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore del tratto distintivo per gli edifici nella [ICON_CAPITAL] capitale: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_CAPITAL_SETTLER_PLAYER">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore della capitale per i Coloni: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_FOOD_CONVERSION">
+      <Text>[NEWLINE][ICON_BULLET]Dal [ICON_FOOD] Cibo in eccesso: +{1_Num} [ICON_PRODUCTION]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_MILITARY">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore per le unità militari: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_MILITARY_PLAYER">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore a livello di impero per le unità militari: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_NATIONAL_WONDER_PLAYER">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore a livello di impero per le Meraviglie nazionali: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_RAILROAD_CONNECTION">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore per i collegamenti ferroviari: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_RELIGION_PLAYER">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore a livello di impero per gli edifici religiosi: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_SETTLER_PLAYER">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore a livello di impero per i Coloni: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_SPACE">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore per l'astronave: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_SPACE_PLAYER">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore a livello di impero per l'astronave: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_SPECIALIST_PLAYER">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore a livello di impero per gli specialisti: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_TEAM_WONDER_PLAYER">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore a livello di impero per le Meraviglie di squadra: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_UNIT_COBMAT_CLASS_PLAYER">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore a livello di impero per la Classe di combattimento delle unità: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_UNIT_COMBAT_TYPE">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore per la Classe di combattimento delle unità: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_UNIT_DOMAIN">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore per il Dominio delle unità: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_UNIT_SUPPLY">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore a livello di impero per l'approvvigionamento delle unità: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_UNIT_TRAIT">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore del tratto distintivo per il Tipo delle unità: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_UNIT_WITH_BUILDING">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore per {2_BuildingName}: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_WONDER_CITY">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore della città per le Meraviglie: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_WONDER_LOCAL_RES">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore alle Meraviglie per la risorsa {2_ResourceName}: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_WONDER_PLAYER">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore a livello di impero per le Meraviglie: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_WONDER_POLICY">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore della politica per le Meraviglie: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_WONDER_RELIGION">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore alle Meraviglie per le credenze religiose: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_WORLD_WONDER_PLAYER">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore a livello di impero per le Grandi meraviglie: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_YIELD">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore della città: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_YIELD_AREA">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore della città per l'Area: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_YIELD_CAPITAL">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore della città per la [ICON_CAPITAL] capitale: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore dell'Età dell'Oro: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_YIELD_HAPPINESS">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore della città per la Felicità: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_YIELD_PLAYER">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore misto del giocatore: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_YIELD_RESOURCES">
+      <Text>[NEWLINE][ICON_BULLET]Modificatore della città per le risorse: {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODPANEL_CITY_NAME">
+      <Text>Città</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_CULTURE">
+      <Text>[ICON_CULTURE] Cultura: +{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE">
+      <Text>[ICON_STRENGTH] Difesa: +{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_FOOD">
+      <Text>[ICON_FOOD] Cibo: +{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_GOLD">
+      <Text>[ICON_GOLD] Oro: +{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_GOLD_CHANGE">
+      <Text>[ICON_GOLD] Oro: +{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS">
+      <Text>[ICON_HAPPINESS_1] Felicità: +{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_MAINTENANCE">
+      <Text>[ICON_GOLD] Manutenzione: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRODUCTION">
+      <Text>[ICON_PRODUCTION] Produzione: +{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRODUCTION_CHANGE">
+      <Text>[ICON_PRODUCTION] Produzione: +{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_SCIENCE">
+      <Text>[ICON_RESEARCH] Scienza: +{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_SCIENCE_CHANGE">
+      <Text>[ICON_RESEARCH] Scienza: +{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_COST">
+      <Text>[ICON_PRODUCTION] Costo: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_HELP_99PLUS_TURNS">
+      <Text>99+ Turni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_HELP_INFINITE_TURNS">
+      <Text>??? Turni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_HELP_INFO">
+      <Text>La [ICON_PRODUCTION] Produzione determina quanto rapidamente una città può costruire unità, edifici etc. La Produzione proviene dai terreni circostanti la città, da alcuni edifici e da altre fonti ancora.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_HELP_NOTHING">
+      <Text>In questo momento non c'è nulla in costruzione.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_HELP_NUM_TURNS">
+      <Text>{1_Num} {1_Num: plural 1?turno;other?turni;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_HELP_TEXT">
+      <Text>{@1_BuildItem[2]} sarà disponibile in {2_NumTurnsString}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_MOVEMENT">
+      <Text>[ICON_MOVES] Movimento: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_PROGRESS">
+      <Text>Avanzamento: {1_Num}/{2_Num} [ICON_PRODUCTION]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_RANGE">
+      <Text>[ICON_BULLET] Raggio: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_RANGED_STRENGTH">
+      <Text>[ICON_RANGE_STRENGTH] Forza a distanza: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_RESOURCES_REQUIRED">
+      <Text>[ICON_BULLET] Requisito:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_STRENGTH">
+      <Text>[ICON_STRENGTH] Forza: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_QUICKSAVING">
+      <Text>Salvataggio rapido...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANSOM_POPUP_ABANDON">
+      <Text>Non vale l'Oro che costa. Lasciali stare.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANSOM_POPUP_INFO">
+      <Text>I barbari hanno catturato una delle tue unità civili! Chiedono {1_Num} Oro in cambio della vita dei tuoi sudditi. Qual è la risposta?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANSOM_POPUP_PAY">
+      <Text>Paga il riscatto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RATIONALISM_TITLE">
+      <Text>Sapiente {1_PlayerName:textkey} {@2_CivName[2]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RAZED_CITY">
+      <Text>Città rasa al suolo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_BUDDHISM">
+      <Text>Buddismo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_CHRISTIANITY">
+      <Text>Cristianesimo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_HINDUISM">
+      <Text>Induismo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_ISLAM">
+      <Text>Islam</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_POLYTHEISM">
+      <Text>Politeismo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_SHINTOISM">
+      <Text>Shintoismo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_SPIRITUALISM">
+      <Text>Spiritualismo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_ZOROASTRIANISM">
+      <Text>Zoroastrismo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPORT_BUTTON">
+      <Text>Segnala</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESEARCHED">
+      <Text>RICERCATA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_BONUS_DETAILS">
+      <Text>[ICON_PLUS] Risorse bonus</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_BONUS_DETAILS_COLLAPSE">
+      <Text>[ICON_MINUS] Risorse bonus</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_EXPORTS">
+      <Text>[COLOR_NEGATIVE_TEXT]{1_Num} {1_Num: plural 1?Esportazione; other?Esportazioni;}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_IMPORTS">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num} {1_Num: plural 1?Importazione; other?Importazioni;}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_LUXURY_DETAILS">
+      <Text>[ICON_PLUS] Risorse di lusso</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_LUXURY_DETAILS_COLLAPSE">
+      <Text>[ICON_MINUS] Risorse di lusso</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_STRATEGIC_DETAILS">
+      <Text>[ICON_PLUS] Risorse strategiche</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_STRATEGIC_DETAILS_COLLAPSE">
+      <Text>[ICON_MINUS] Risorse strategiche</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_USED">
+      <Text>[COLOR_WARNING_TEXT]{1_Num} Utilizzate[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SAVE_DATE_FORMAT_UTC">
+      <Text>{2_day} {1_month}, {3_year} {4_hour}:{5_minute} {6_amPm} UTC</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCIENCE_HELP_INFO">
+      <Text>[ICON_RESEARCH] La scienza serve a sviluppare tecnologicamente la tua civiltà, sbloccando nuove unità, edifici e altro ancora.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SECONDARY_C_TEXT">
+      <Text>Rivela le azioni aggiuntive che la tua unità può eseguire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SECONDARY_O_TEXT">
+      <Text>Nasconde le azioni aggiuntive che la tua unità può eseguire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SELECT_CIVILIZATION">
+      <Text>SCEGLI LA TUA CIVILTÀ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SKIP_TURN">
+      <Text>SALTA IL TURNO DELL'UNITÀ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SKIP_TURN_TT">
+      <Text>Ordina alla tua unità di non fare nulla in questo turno.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SMALL_AWARD_CITY">
+      <Text>Premio per le città!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SMALL_AWARD_CITY_NOTIFICATION">
+      <Text>Il tuo impero contiene {1_Num} Città! Questo risultato ti fa guadagnare {2_Num} {1: plural 1?punto civiltà;other?punti civiltà;}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SMALL_AWARD_CITY_TEAM_NOTIFICATION">
+      <Text>La tua Squadra possiede {1_Num} Città! Questo risultato ti fa guadagnare {2_Num} {1: plural 1?punto civiltà;other?punti civiltà;}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SMALL_AWARD_POPULATION">
+      <Text>Premio per la popolazione!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SMALL_AWARD_POPULATION_NOTIFICATION">
+      <Text>Possiedi una città con una popolazione di {1_Num}! Questo risultato ti fa guadagnare {2_Num} {1: plural 1?punto civiltà;other?punti civiltà;}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SMALL_AWARD_POPULATION_TEAM_NOTIFICATION">
+      <Text>La tua squadra possiede una città con una popolazione di {1_Num}! Questo risultato ti fa guadagnare {2_Num} {1: plural 1?punto civiltà;other?punti civiltà;}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SORT_NAME">
+      <Text>Ordina per nome</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SORT_TRADE">
+      <Text>Ordina per risorse totali</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_ADD_TO_BUILDING">
+      <Text>Assegna {1_SpecialistName} all'edificio {2_BuildingName} ({3_Num}/{4_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_MANAGEMENT">
+      <Text>Gestione degli specialisti nella città</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_NOT_AVAILABLE">
+      <Text>Non ci sono specialisti disponibili![NEWLINE][NEWLINE][NEWLINE][NEWLINE]Costruisci altri Edifici!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_REMOVE_FROM_BUILDING">
+      <Text>Rimuovi {1_SpecialistName} da {2_BuildingName} ({3_Num}/{4_Num}) </Text>
+    </Row>
+    <Row Tag="TXT_KEY_START_ERA">
+      <Text>Epoca di inizio: {1_era}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_START_TUTORIAL_BUTTON">
+      <Text>Inizia il tutorial selezionato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STATIONED_AIRCRAFT">
+      <Text>{1_number} unità {1: plural 1?aerea;other?aeree;} di stanza</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STR_TURNS">
+      <Text>{1_Num} {1_Num: plural 1?turno;other?turni;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SWITCH_POLICY_BRANCHES">
+      <Text>Vuoi adottare {1_NewBranchName:textkey}? Così facendo abbandonerai {2_OldBranches} e tutti i suoi benefici. Inoltre farà sì che il tuo impero entri in una fase di [COLOR_WARNING_TEXT]Anarchia[ENDCOLOR] per 1 turno, durante il quale saranno azzerate del tutto [ICON_PRODUCTION] Produzione, [ICON_RESEARCH] Scienza e [ICON_GOLD] Oro.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TALK_TO_PLAYER">
+      <Text>Clicca qui per parlare con il possessore di questa città!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_AWARD_BUTTON">
+      <Text>Continua</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_AWARD_TITLE">
+      <Text>Hai sviluppato una nuova tecnologia!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_HELP_COST">
+      <Text>[ICON_BULLET]Costo: {1_Num} [ICON_RESEARCH] Scienza</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_HELP_COST_WITH_PROGRESS">
+      <Text>[ICON_BULLET]Avanzamento: {1_Num} di {2_Num} [ICON_RESEARCH] Scienza</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_HELP_LEADS_TO">
+      <Text>[ICON_BULLET]Conduce a: {1_TechsString}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_POPUP_CLOSE_RESEARCH">
+      <Text>CHIUDI RICERCA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_POPUP_HEADER">
+      <Text>Scegli una nuova tecnologia come obiettivo di ricerca e sviluppo della tua civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_INFO">
+      <Text>Informazioni commercio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_ITEM_LUXURY_RESOURCES">
+      <Text>RISORSE DI LUSSO</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_ITEM_OTHER_PLAYERS">
+      <Text>ALTRI GIOCATORI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_ITEM_STRATEGIC_RESOURCES">
+      <Text>RISORSE STRATEGICHE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADITION_TITLE">
+      <Text>{@1: gender feminine?Lady; other?Lord;} {1_PlayerName:textkey} {@2_CivName[2]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TURN_TIMER_ACTIVE_TT">
+      <Text>Tempo rimanente nel tuo turno.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TURN_TIMER_WAITING_TT">
+      <Text>Tempo che manca prima del tuo turno.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL_INSTRUCT">
+      <Text>Tutorial: impara giocando!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL_TITLE_BAR">
+      <Text>Tutorial</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CAPTURED">
+      <Text>Un'unità civile è stata catturata!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CAPTURED_BARBS">
+      <Text>Un'unità civile è stata catturata dai barbari!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CAPTURED_BARBS_DETAILED">
+      <Text>L'unità {@1_UnitName} è stata catturata dai barbari! Quei marrani la condurranno verso il loro accampamento più vicino. Se vuoi recuperarla dovrai dar loro la caccia!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CAPTURED_DETAILED">
+      <Text>{@1_UnitName[2]} {@1:gender masculine?è stato catturato; feminine?è stata catturata;} {@2_CivName[5]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_EXPERIENCE_INFO">
+      <Text>Livello: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][NEWLINE]Esperienza: [COLOR_POSITIVE_TEXT]{2_Num}/{3_Num}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LOST">
+      <Text>Un'unità è stata uccisa!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_NEEDS_ORDERS">
+      <Text>UN'UNITÀ ATTENDE ORDINI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_NEEDS_ORDERS_TT">
+      <Text>Seleziona una delle unità in attesa di istruzioni prima che il turno finisca.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_PROMOTION">
+      <Text>PROMUOVI UNITÀ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_PROMOTION_TT">
+      <Text>Seleziona un'unità che sta aspettando la promozione. Tutte le unità devono essere promosse prima che tu possa terminare il turno.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_REACHED">
+      <Text>[COLOR_WARNING_TEXT]Approvvigionamento al limite![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUPPLY_REACHED_TOOLTIP">
+      <Text>Il tuo impero può supportare solo {1_Num} unità. Hai superato di {2_Num} tale limite, e questo diminuisce la [ICON_PRODUCTION] Produzione nelle tue città del {3_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNMET_PLAYER">
+      <Text>Un giocatore sconosciuto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_CATEGORY_CULTURE">
+      <Text>Cultura</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_CATEGORY_GOLD">
+      <Text>Oro</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_CATEGORY_PRODUCTION">
+      <Text>Produzione</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_CATEGORY_TECHNOLOGIES">
+      <Text>Tecnologia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAITING_FOR_PLAYERS">
+      <Text>ATTESA ALTRI GIOCATORI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAITING_FOR_PLAYERS_TT">
+      <Text>Il gioco sta aspettando che altri giocatori finiscano il turno.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WILL_ALSO_DISABLE_MODS">
+      <Text>In questo modo saranno disattivati anche i seguenti mod:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WILL_ALSO_ENABLE_MODS">
+      <Text>In questo modo saranno attivati anche i seguenti mod:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WORKERACTION_TEXT">
+      <Text>Azioni di costruzione</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YES_BUTTON">
+      <Text>Sì</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_AFTER_EATEN">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num} {2_IconString} per i cittadini[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_AFTER_EATEN_NEGATIVE">
+      <Text>[COLOR_NEGATIVE_TEXT]{1_Num} {2_IconString} per i cittadini[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_BASE">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num} {2_IconString} Base[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_EATEN_BY_POP">
+      <Text>-{1_Num} {2_IconString} mangiato dai cittadini (2 per [ICON_CITIZEN])</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_FROM_BUILDINGS">
+      <Text>{1_Num} {2_IconString} dagli edifici</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_FROM_MISC">
+      <Text>{1_Num} {2_IconString} da altre fonti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_FROM_POP">
+      <Text>{1_Num} {2_IconString} dalla [ICON_CITIZEN] popolazione</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_FROM_POP_EXTRA">
+      <Text>{1_Num} {2_IconString} extra dalla [ICON_CITIZEN] popolazione</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_FROM_RELIGION">
+      <Text>{1_Num} {2_IconString} dalla religione</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_FROM_SPECIALISTS">
+      <Text>{1_Num} {2_IconString} dagli specialisti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_FROM_TERRAIN">
+      <Text>{1_Num} {2_IconString} dal territorio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_TOTAL">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num} {2_IconString} {1: plural 1?Totale;other?Totali;}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_TOTAL_NEGATIVE">
+      <Text>[COLOR_WARNING_TEXT]{1_Num} {2_IconString} {1: plural 1?Totale;other?Totali;}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YOU">
+      <Text>Tu</Text>
+    </Row>
+  </Language_IT_IT>
+</GameData>

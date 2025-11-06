@@ -82,9 +82,6 @@ echo DEST = [%DEST%]
 echo BACKUP = [%BACKUP%]
 robocopy "%UPDATE%" "%DEST%" /E /NFL /NDL /NJH /NJS
 
-echo setto versione nuova
-call "DEST\setpatch.bat"
-
 echo Installazione completata.
 echo.
 echo Avviare civ V (S/N)?

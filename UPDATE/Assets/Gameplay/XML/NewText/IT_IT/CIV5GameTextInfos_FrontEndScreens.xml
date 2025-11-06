@@ -200,7 +200,7 @@
       <Text>Partita in corso</Text>
     </Row>
     <Row Tag="TXT_KEY_GAME_LOADING">
-      <Text>Caricamento...</Text>
+      <Text>Praparando le nuke per jarmen...</Text>
     </Row>
     <Row Tag="TXT_KEY_GAME_OPTION_DYNAMIC_TURNS">
       <Text>Ibridi</Text>
@@ -1448,13 +1448,13 @@
       <Text>Partecipa</Text>
     </Row>
     <Row Tag="TXT_KEY_MULTIPLAYER_JOINING_GAMESTATE">
-      <Text>Recupero informazioni sull'host...</Text>
+      <Text>Recupero informazioni intime...</Text>
     </Row>
     <Row Tag="TXT_KEY_MULTIPLAYER_JOINING_HOST">
-      <Text>Connessione all'host...</Text>
+      <Text>Picchiando jarmen...</Text>
     </Row>
     <Row Tag="TXT_KEY_MULTIPLAYER_JOINING_PLAYERS">
-      <Text>Connessione ai giocatori...</Text>
+      <Text>Preparo le atomiche per Marcus...</Text>
     </Row>
     <Row Tag="TXT_KEY_MULTIPLAYER_JOINING_ROOM">
       <Text>Cercando le chiavi della sala...</Text>
@@ -1664,7 +1664,7 @@
       <Text>Ruota</Text>
     </Row>
     <Row Tag="TXT_KEY_PLAY_NOW">
-      <Text>GIOCA ORA</Text>
+      <Text>RIGIOCA</Text>
     </Row>
     <Row Tag="TXT_KEY_PLAY_NOW_SETTINGS">
       <Text>Gioca con le impostazioni attuali: </Text>

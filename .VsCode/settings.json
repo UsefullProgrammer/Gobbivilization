@@ -1,0 +1,23 @@
+{
+  "Lua.runtime.version": "Lua 5.1",
+  "Lua.workspace.library": [
+    "${workspaceFolder}/UPDATE/Assets"
+  ],
+  "Lua.diagnostics.globals": [
+    "Game", "Players", "Locale", "UI", "Events", "PreGame", "Map", "Teams", "Controls"
+  ],
+//   "Lua.diagnostics.locals": [
+//     "Controls"
+//   ],
+  
+  "Lua.format.enable": true,
+  "Lua.completion.callSnippet": "Replace"
+}
+//  "lua.controlsIntelliSense": [
+//     "enabled": true,
+//     "source": "localXml",
+//     "matchFile": true,
+//     "xmlAttribute": "ID",
+//     "controlPrefix": "control.",
+//     "folderScope": "sameDirectory"
+//   ]

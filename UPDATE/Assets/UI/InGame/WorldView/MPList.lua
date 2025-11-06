@@ -13,11 +13,9 @@ local g_TeamEntries = {};
 local g_TeamData = {};
 
 local TOP_COMPENSATION = 120;
-local CHAT_COMPENSATION = 170;
 local ActionInfoPanel = 36;
 local _, screenY = UIManager:GetScreenSizeVal();
-Controls.MPListScroll:SetSizeY( screenY - MINIMAP_GUESS - TOP_COMPENSATION - CHAT_COMPENSATION );
-
+Controls.MPListScroll:SetSizeY( screenY - TOP_COMPENSATION );
 local SEPARATOR_MARGIN = 10;
 
 local DiploRequestIncoming = Locale.ConvertTextKey( "TXT_KEY_DIPLO_REQUEST_INCOMING" );
@@ -296,9 +294,6 @@ function MPListEntryClick()
 		Controls.MPListStack:ReprocessAnchoring();
 		Controls.MPListScroll:SetSizeX(Controls.MPListStack:GetSizeX());
 		Controls.MPListScroll:CalculateInternalSize();
-		if( Controls.MPListScroll:GetRatio() < 1 ) then
-			Controls.MPListScroll:SetOffsetX( 15 );
-		end
 		Controls.MPListScroll:ReprocessAnchoring();   	
 	end
 end
@@ -416,9 +411,6 @@ function BuildControls()
     Controls.MPListStack:CalculateSize();
     Controls.MPListScroll:SetSizeX(Controls.MPListStack:GetSizeX());
     Controls.MPListScroll:CalculateInternalSize();
-    if( Controls.MPListScroll:GetRatio() < 1 ) then
-        Controls.MPListScroll:SetOffsetX( 15 );
-    end
     Controls.MPListScroll:ReprocessAnchoring();   
 
 end
@@ -518,14 +510,14 @@ Events.SerialEventGameDataDirty.Add( OnSerialEventGameDataDirty );
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
-function OnChatToggle( bChatOpen )
-    if( bChatOpen ) then
-        Controls.MPListScroll:SetOffsetY( TOP_COMPENSATION + CHAT_COMPENSATION );
-    else
-        Controls.MPListScroll:SetOffsetY( TOP_COMPENSATION );
-    end
-end
-LuaEvents.ChatShow.Add( OnChatToggle );
+-- function OnChatToggle( bChatOpen )
+--     if( bChatOpen ) then
+--         Controls.MPListScroll:SetOffsetY( TOP_COMPENSATION + CHAT_COMPENSATION );
+--     else
+--         Controls.MPListScroll:SetOffsetY( TOP_COMPENSATION );
+--     end
+-- end
+-- LuaEvents.ChatShow.Add( OnChatToggle );
 
 
 -------------------------------------------------------------------------------

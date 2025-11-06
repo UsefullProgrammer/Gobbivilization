@@ -12,7 +12,7 @@ local bHideLoadGame = true;
 local bHidePreGame = true;
 local fTime = 0;
 local i1, i2 = string.find( UI.GetVersionInfo(), " " );
-versionNumber = "Gobbi V 0.1 (Beta) Build 403695";
+versionNumber = "Gobbi V 0.2 (Beta) Build 403696";
 Controls.VersionNumber:SetText(versionNumber);
 
 

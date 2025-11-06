@@ -1,10 +1,11 @@
 Se hai windows:
+Avvia SOLOBACKUP.bat creera una lista di file di backup per quando vuoi fare disinstallazione.
 Puoi mettere il conetnuto della cartella UPDATE nella cartella del gioco oppure farlo fare a lei in automatico con installazione.bat lei cercherà la cartella del gioco.
 Avvia Installazione.bat (in teoria non serve l'autorizzazione d'amministratore ma se vuoi dagliela), Cerchera il gioco in 2 percorsi, se non lo trova devi modificarla e mettere il percorso a mano.
 Dopo fa un backup in backup per sicurezza.
 Poi copia L'aggiornamento dalla cartella UPDATE.
 Poi finisce.
-Attenzione, questo aggiornamento non ti farà giocare con altra gente!!! se vuoi giocare con altra gente devi fare disinstallazione.bat!
+Attenzione, questo aggiornamento non ti farà giocare con altra gente!!! se vuoi giocare con altra gente devi fare disinstallazione.bat (funziona solo se hai fatto installazione.bat o solobackup.bat poichè usa i file in backup e tramite update toglie i file nuovi)
 
 Se hai mac:
 Copiateli a mano probabilmente installazione.sh non funziona, se vuoi fai un backup di Shared inAssets\DLC\Shared e Gameplay in Assets\Gameplay e di civilization.exe
@@ -15,6 +16,6 @@ Poi finisce.
 Attenzione, questo aggiornamento non ti farà giocare con altra gente!!! se vuoi giocare con altra gente devi disistallare e reinstallare il gioco o metteere a mano il backup.
 
 Per farlo a mano prendi il contenuto in UPDATE e metti nella cartella del gioco.
-L'exe è stato modificato solo l'assembly fileversion e filename in maniera tale che il server sarà visibile ma solo voi potete entrare perchè avrete una versione superiore agli altri.
+L'exe sarà modificato tramite setpatch.bat che usa un exe terzo per cambiare la risorsa versione in maniera tale che il server sarà visibile ma solo voi potete entrare perchè avrete una versione superiore agli altri.
 
 Per sapere le modifiche del gameplay, leggere Log.txt

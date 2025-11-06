@@ -2,7 +2,7 @@
 <Context ColorSet="Beige_Black_Alpha" FontStyle="Shadow" Font="TwCenMT16" >
 
 
-    <ScrollPanel Anchor="L,T" Size="232,200" Offset="0,160" Vertical="1" ID="MPListScroll" Hidden="0" >
+    <ScrollPanel Anchor="L,T" Size="232,200" Offset="80,200" Vertical="1" ID="MPListScroll" Hidden="0" >
         
         <Stack StackGrowth="Bottom" Anchor="R,T" ID="MPListStack" />
         
