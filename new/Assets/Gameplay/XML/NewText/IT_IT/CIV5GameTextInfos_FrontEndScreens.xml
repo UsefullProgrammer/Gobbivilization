@@ -1526,7 +1526,7 @@
       <Text>Nome del server</Text>
     </Row>
     <Row Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM">
-      <Text>Stanza d'allestimento</Text>
+      <Text>Stanza fica</Text>
     </Row>
     <Row Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM_GAME_OPTIONS_TT">
       <Text>Modifica le opzioni di gioco (solo per l'host).</Text>

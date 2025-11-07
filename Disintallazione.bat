@@ -59,15 +59,15 @@ for /R "%UPDATE%" %%F in (*) do (
     )
     endlocal
 )
-
++
 echo.
 echo Disinstallazione file unici completata. Premere per continuare la disisntellazione
 echo === Reinstallo versione vecchia dei file esistenti ===
 
 robocopy "%BACKUP%" "%DEST%" /E /XC /XN /XO /NFL /NDL /NJH /NJS
 echo ripristino versione vanilla
-rcedit-x64.exe "CivilizationV.exe" --set-version-string FileVersion "1, 0, 3, 279, (403694) (11/19/2014)"
-rcedit-x64.exe "CivilizationV.exe" --set-version-string ProductVersion "1, 0, 3, 279, (403694) (11/19/2014)"
+%UPDATE%/rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string FileVersion "1, 0, 3, 279, (403694) (11/19/2014)"
+%UPDATE%/rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string ProductVersion "1, 0, 3, 279, (403694) (11/19/2014)"
 echo Installazione rispristinata.
 echo.
 

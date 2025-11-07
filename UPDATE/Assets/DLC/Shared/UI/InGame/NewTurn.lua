@@ -46,10 +46,11 @@ function OnTurnStart ()
 	
 	local year = Game.GetGameTurnYear();
 	local strDate;
+	local year = year - 1994;
 	if(year < 0) then
-		strDate = Locale.ConvertTextKey("TXT_KEY_SEALEVEL_LOW", math.abs(year));
+		strDate = Locale.ConvertTextKey("TXT_LONG_KEY_TIME_AD", math.abs(year));
 	else
-		strDate = Locale.ConvertTextKey("TXT_KEY_TIME_AD", math.abs(year));
+		strDate = Locale.ConvertTextKey("TXT_LONG_TIME_BC", math.abs(year));
 	end
 
 	local player = Players[Game.GetActivePlayer()];
@@ -61,10 +62,9 @@ function OnTurnStart ()
 	Controls.NewTurnInfo:SetText(strInfo);
 
 	UIManager:SetUICursor( 0 );
-	if Game.GetGameTurn() >= turnwhoswinning then
-		--PreGame.IsMultiplayerGame da testare
+	if Game.GetGameTurn() % turnwhoswinning == 0 then
 		if(PreGame.IsMultiplayerGame()) then
-			turnwhoswinning = turnwhoswinning + shifturns;
+			turnwhoswinning = shifturns;
 			Events.SerialEventGameMessagePopup( { Type = ButtonPopupTypes.BUTTONPOPUP_WHOS_WINNING } );
 		end
 	end

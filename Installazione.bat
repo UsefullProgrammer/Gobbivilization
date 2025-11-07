@@ -4,6 +4,7 @@ setlocal
 :: Percorso di destinazione
 set "PATH_E=E:\SteamLibrary\steamapps\common\Sid Meier's Civilization V"
 set "PATH_C=C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V"
+set "PATH_D=D:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V"
 :: Percorso della root (dove si trova lo script)
 set "ROOT=%~dp0"
 
@@ -24,6 +25,9 @@ if exist "%PATH_E%" (
 ) else if exist "%PATH_C%" (
     set "DEST=%PATH_C%"
     echo Trovata cartella in C:
+) else if exist "%PATH_D%" (
+    set "DEST=%PATH_D%"
+    echo Trovata cartella in D:
 ) else (
     echo.
     echo La cartella Civilization V non è stata trovata in E: o C:
@@ -83,10 +87,13 @@ echo BACKUP = [%BACKUP%]
 robocopy "%UPDATE%" "%DEST%" /E /NFL /NDL /NJH /NJS
 
 echo setto versione nuova
-call "DEST\setpatch.bat"
+%UPDATE%/rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string FileVersion "1, 0, 3, 280, (403697) (06/11/2025)"
+echo correggo eventuali versioni sbagliate da precedenti settaggi
+%UPDATE%/rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string ProductVersion "1, 0, 3, 279, (403694) (11/19/2014)"
 
 echo Installazione completata.
 echo.
+:: codice di controllo non funziona powershell -Command "(Get-Item '%DEST%/CivilizationV.exe').FileVersion"
 echo Avviare civ V (S/N)?
 set /p "RISPOSTA=> "
 

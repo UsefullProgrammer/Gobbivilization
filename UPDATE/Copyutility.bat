@@ -5,7 +5,7 @@ setlocal
 for %%Q in ("%~dp0\.") DO set "TARGET=%%~fQ"
 
 :: Chiedi il percorso da cui copiare
-set "SOURCE=E:\SteamLibrary\steamapps\common\Sid Meier's Civilization V\Assets\
+set "SOURCE=E:\SteamLibrary\steamapps\common\Sid Meier's Civilization V\
 set /p "RELATIVE=Inserisci il percorso relativo da copiare (es. UI\FrontEnd\OtherMenu.lua) "
 if /I "%RELATIVE%"=="EXIT" goto END
 :: Copia tutto da SOURCE a TARGET
@@ -13,7 +13,7 @@ if /I "%RELATIVE%"=="EXIT" goto END
 ::robocopy "%SOURCE%" "%TARGET%" "%RELATIVE%" /S /E /NFL /NDL /NJH /NJS /NP
 :: Estrai la cartella relativa
 for %%F in ("%SOURCE%%RELATIVE%") do set "RELATIVESource=%%~dpF"
-for %%F in ("%TARGET%\Assets\%RELATIVE%") do set "RELATIVEFOLDERTarget=%%~dpF"
+for %%F in ("%TARGET%\%RELATIVE%") do set "RELATIVEFOLDERTarget=%%~dpF"
 for %%F in ("%RELATIVE%") do set "RELATIVEexe=%%~nxF"
 echo SR : %RELATIVESource%
 echo TR : %RELATIVEFOLDERTarget%

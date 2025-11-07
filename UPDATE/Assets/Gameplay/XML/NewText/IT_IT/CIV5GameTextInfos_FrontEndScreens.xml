@@ -200,7 +200,7 @@
       <Text>Partita in corso</Text>
     </Row>
     <Row Tag="TXT_KEY_GAME_LOADING">
-      <Text>Praparando le nuke per jarmen...</Text>
+      <Text>Preparo le nuke per jarmen...</Text>
     </Row>
     <Row Tag="TXT_KEY_GAME_OPTION_DYNAMIC_TURNS">
       <Text>Ibridi</Text>
@@ -1526,7 +1526,7 @@
       <Text>Nome del server</Text>
     </Row>
     <Row Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM">
-      <Text>Stanza d'allestimento</Text>
+      <Text>Sala fica</Text>
     </Row>
     <Row Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM_GAME_OPTIONS_TT">
       <Text>Modifica le opzioni di gioco (solo per l'host).</Text>
