@@ -25,8 +25,8 @@ end
 -------------------------------------------------
 -- OnTurnStart
 -------------------------------------------------
-local turnwhoswinning = 25;
-local shifturns = 20;
+-- local turnwhoswinning = 25;
+-- local shifturns = 20;
 function OnTurnStart ()
 
 	-- if this is not the human player, ignore the turn ending
@@ -62,11 +62,10 @@ function OnTurnStart ()
 	Controls.NewTurnInfo:SetText(strInfo);
 
 	UIManager:SetUICursor( 0 );
-	if Game.GetGameTurn() % turnwhoswinning == 0 then
-		if(PreGame.IsMultiplayerGame()) then
-			turnwhoswinning = shifturns;
-			Events.SerialEventGameMessagePopup( { Type = ButtonPopupTypes.BUTTONPOPUP_WHOS_WINNING } );
-		end
-	end
+	-- if Game.GetGameTurn() % turnwhoswinning == 0 then
+	-- 	if(PreGame.IsMultiplayerGame()) then
+	-- 		Events.SerialEventGameMessagePopup( { Type = ButtonPopupTypes.BUTTONPOPUP_WHOS_WINNING } );
+	-- 	end
+	-- end
 end
 Events.ActivePlayerTurnStart.Add( OnTurnStart );

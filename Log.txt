@@ -20,3 +20,6 @@ Aumentato il costo dell'osservatorio di 10 e manuntenzionoe 2, prima era 0.
 Tolto bonus 50% generazione più veloce alla cina, ora la cina ha solo questo bonus per i generali : Il bonus al combattimento dei Grandi Generali aumenta del 15% .
 Migliorato alcune descrizioni.
 Migliorato eventi di uscita dal gioco, ora se per caso si blocca si chiude invece di restare aperto.
+
+V 0.4
+Fix resync

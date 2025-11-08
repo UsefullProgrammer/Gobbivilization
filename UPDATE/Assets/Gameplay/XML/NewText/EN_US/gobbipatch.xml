@@ -5,10 +5,10 @@
       <Text>NATIONAL WONDERS</Text>
  </Row>
  <Row Tag="TXT_LONG_KEY_TIME_AD">
-			<Text>{1_Date: number #} Prima della nascita di Gobbi</Text>
+			<Text>{1_Date: number #} Years before Gobbi's birth</Text>
  </Row>
  <Row Tag="TXT_LONG_TIME_BC">
-		<Text>{1_Date: number #} Dopo la nascita di Gobbi</Text>
+		<Text>{1_Date: number #} Years after Gobbi's birth</Text>
 	</Row>
  	</Language_en_US>
 </GameData>
