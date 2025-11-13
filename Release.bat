@@ -19,8 +19,8 @@ copy "%SOURCE%Disintallazione.bat" "%DESTINATION%" /Y
 copy "%SOURCE%SOLOBACKUP.bat" "%DESTINATION%" /Y
 copy "%SOURCE%Leggimi.txt" "%DESTINATION%" /Y
 copy "%SOURCE%log.txt" "%DESTINATION%" /Y
-copy "%SOURCE%setpatchServer.bat" "%DESTINATION%" /Y
-
+copy "%SOURCE%_setpatchServer.bat" "%DESTINATION%" /Y
+copy "%SOURCE%VerificaVersione.bat" "%DESTINATION%" /Y
 
 echo Operazione completata con successo.
 pause

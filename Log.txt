@@ -23,3 +23,8 @@ Migliorato eventi di uscita dal gioco, ora se per caso si blocca si chiude invec
 
 V 0.4
 Fix resync
+
+V 0.5
+PROMOTION_INTERCEPTION_IV cambiato da 100% intercettamento a 99%
+Le bombe atomiche e missili nucleari hanno immunità al nuke per dare la possibilità di mutua distruzione assicurata.
+Introdotto icbm con range 110.

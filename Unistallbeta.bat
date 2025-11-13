@@ -27,7 +27,7 @@ ECHO %DEST%
 set "ROOT=%~dp0"
 :: Percorso di backup nella root
 set "BACKUP=%ROOT%backup"
-set "UPDATE=%ROOT%UPDATE"
+set "UPDATE=%ROOT%Beta"
 ECHO %ROOT%
 ECHO %BACKUP%
 ECHO %UPDATE%
@@ -64,10 +64,5 @@ echo Disinstallazione file unici completata. Premere per continuare la disisntel
 echo === Reinstallo versione vecchia dei file esistenti ===
 
 robocopy "%BACKUP%" "%DEST%" /E /XC /XN /XO /NFL /NDL /NJH /NJS
-echo ripristino versione vanilla
-%UPDATE%/rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string FileVersion "1, 0, 3, 279, (403694) (11/19/2014)"
-%UPDATE%/rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string ProductVersion "1, 0, 3, 279, (403694) (11/19/2014)"
-echo Installazione rispristinata.
-echo.
 
-pause
+call Installazione.bat

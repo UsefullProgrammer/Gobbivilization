@@ -47,7 +47,8 @@ echo Cartella selezionata: %DEST%
 
 :: Percorso di backup nella root
 set "BACKUP=%ROOT%backup"
-set "UPDATE=%ROOT%UPDATE"
+set "UPDATE=%ROOT%Beta"
+set "OldUPDATE=%ROOT%UPDATE"
 :: Crea la cartella di backup se non esiste
 ::V2
 
@@ -58,6 +59,23 @@ for /R "%UPDATE%" %%F in (*) do (
 set "TOTAL=%COUNT%"
 
 set "CURRENT=0"
+
+IF NOT EXIST "%ROOT%UnistBeta" (
+    echo La cartella di destinazione non esiste. Avvio copia...
+    ROBOCOPY "%OldUPDATE%" "%ROOT%UnistBeta" /E /COPYALL /R:0 /W:0
+
+    SET "RC=%ERRORLEVEL%"
+    IF %RC% LEQ 1 (
+        echo Copia riuscita. Proseguo con il resto dello script...
+        REM Qui puoi aggiungere altri comandi
+    ) ELSE (
+        echo Errore durante la copia. Codice errore: %RC%
+        REM Puoi uscire o gestire l'errore
+        exit /b %RC%
+    )
+) ELSE (
+    echo La cartella di destinazione esiste già. Nessuna copia effettuata.
+)
 
 for /R "%UPDATE%" %%F in (*) do (
     setlocal enabledelayedexpansion
