@@ -9,6 +9,7 @@ local g_UnitInstanceManager = InstanceManager:new( "ProdButton", "Button", Contr
 local g_BuildingInstanceManager = InstanceManager:new( "ProdButton", "Button", Controls.BuildingButtonStack );
 local g_WonderInstanceManager = InstanceManager:new( "ProdButton", "Button", Controls.WonderButtonStack );
 local g_WonderNatInstanceManager = InstanceManager:new( "ProdButton", "Button", Controls.WonderNatButtonStack );
+local g_ProcessInstanceManager = InstanceManager:new( "ProdButton", "Button", Controls.OtherButtonStack );
 
 local m_PopupInfo = nil;
 
@@ -39,8 +40,8 @@ local g_PURCHASE_PROJECT_FAITH = 5;
 local g_CONSTRUCT_UNIT = 6;
 local g_CONSTRUCT_BUILDING = 7;
 local g_CONSTRUCT_PROJECT = 8;
-local g_MAINTAIN_GOLD = 9;
-local g_MAINTAIN_TECH = 10;
+local g_MAINTAIN_PROCESS = 9;
+local g_TheVeniceException = false;
 
 local m_gOrderType = -1;
 local m_gFinishedItemType = -1;
@@ -87,7 +88,10 @@ function ProductionSelected( ePurchaseEnum, iData)
 	local eYield;
 		
 	-- Viewing mode only!
-	if (UI.IsCityScreenViewingMode()) then
+	-- slewis - Venice side-effect. Able to purchase in city-states
+	local player = Players[Game.GetActivePlayer()];
+	g_bTheVeniceException = (player:MayNotAnnex()) and (not g_IsProductionMode);
+	if (UI.IsCityScreenViewingMode() and (not g_bTheVeniceException)) then
 		return;
 	end
 	
@@ -116,9 +120,7 @@ function ProductionSelected( ePurchaseEnum, iData)
 	   eOrder = OrderTypes.ORDER_CONSTRUCT;
 	elseif (ePurchaseEnum == g_CONSTRUCT_PROJECT) then
 	   eOrder = OrderTypes.ORDER_CREATE;
-	elseif (ePurchaseEnum == g_MAINTAIN_GOLD) then
-	   eOrder = OrderTypes.ORDER_MAINTAIN;
-	elseif (ePurchaseEnum == g_MAINTAIN_TECH) then
+	elseif (ePurchaseEnum == g_MAINTAIN_PROCESS) then
 	   eOrder = OrderTypes.ORDER_MAINTAIN;
 	end
 	
@@ -212,6 +214,7 @@ function UpdateWindow( city )
     g_BuildingInstanceManager:ResetInstances();
     g_WonderInstanceManager:ResetInstances();
     g_WonderNatInstanceManager:ResetInstances();
+	g_ProcessInstanceManager:ResetInstances();
     if city == nil then
 		city = UI.GetHeadSelectedCity();
     end
@@ -350,8 +353,52 @@ function UpdateWindow( city )
 	
 	listOfStrings = {};
 	
+	local listWonders = {};
+	local listUnits = {};
+	local listBuildings = {};
+	local listNatWonders = {};
+	
+	local eraIDs = {};
+	local erasByTech = {};
+	
+	for row in GameInfo.Eras() do
+		eraIDs[row.Type] = row.ID;
+	end
+	
+	for row in GameInfo.Technologies() do
+		erasByTech[row.Type] =  (eraIDs[row.Era] + 10);
+	end
+	
+	function GetUnitSortPriority(unitInfo)
+		local eraPriority = 0;
+		if(unitInfo.PrereqTech ~= nil) then
+			eraPriority = erasByTech[unitInfo.PrereqTech];
+		end
+	
+		if(unitInfo.CivilianAttackPriority ~= nil) then
+			if(unitInfo.Domain == "DOMAIN_LAND") then
+				return eraPriority;
+			else
+				return eraPriority + 1000;
+			end
+		else
+			if(unitInfo.Domain == "DOMAIN_LAND") then
+				return eraPriority + 2000;
+			else
+				return eraPriority + 3000;
+			end
+		end	
+	end
+		
+	function GetBuildingSortPriority(buildingInfo)
+		if(buildingInfo.PrereqTech ~= nil) then
+			return erasByTech[buildingInfo.PrereqTech];
+		else
+			return 0;
+		end
+	end
+	
     -- Units
-    local numUnitButtons = 0;	
  	for unit in GameInfo.Units() do
  		local unitID = unit.ID;
  		if g_IsProductionMode then
@@ -359,7 +406,12 @@ function UpdateWindow( city )
 			if city:CanTrain( unitID, 0, 1 ) then
 				local isDisabled = false;
      			-- test w/o visible (ie can train right now)
-    			if not city:CanTrain( unitID ) then
+     			local iIsCurrentlyBuilding = 0;
+     			if (city:GetProductionUnit() == eUnit) then
+     				iIsCurrentlyBuilding = 1;
+     			end
+     			
+    			if not city:CanTrain(unitID, iIsCurrentlyBuilding) then
     				isDisabled = true;
 				end
 				
@@ -369,8 +421,16 @@ function UpdateWindow( city )
 					strTurnsLeft = g_strInfiniteTurns;
 				end
 				
-				AddProductionButton( unitID, unit.Description, OrderTypes.ORDER_TRAIN, strTurnsLeft, 1, isDisabled, YieldTypes.NO_YIELD );
-				numUnitButtons = numUnitButtons + 1;
+				table.insert(listUnits, {
+					ID = unitID,
+					Description = unit.Description,
+					DisplayDescription = Locale.Lookup(unit.Description),
+					OrderType = OrderTypes.ORDER_TRAIN,
+					Cost = strTurnsLeft,
+					Disabled = isDisabled,
+					YieldType = YieldTypes.NO_YIELD,
+					SortPriority = GetUnitSortPriority(unit)
+				});
 			end
  		else
 			if city:IsCanPurchase(false, false, unitID, -1, -1, YieldTypes.YIELD_GOLD) then
@@ -382,8 +442,17 @@ function UpdateWindow( city )
 				end
 	 			
  				local cost = city:GetUnitPurchaseCost( unitID );
-				AddProductionButton( unitID, unit.Description, OrderTypes.ORDER_TRAIN, cost, 1, isDisabled, YieldTypes.YIELD_GOLD );
-				numUnitButtons = numUnitButtons + 1;
+ 				
+ 				table.insert(listUnits, {
+ 					ID = unitID,
+ 					Description = unit.Description,
+ 					DisplayDescription = Locale.Lookup(unit.Description),
+ 					OrderType = OrderTypes.ORDER_TRAIN,
+ 					Cost = cost,
+ 					Disabled = isDisabled,
+ 					YieldType = YieldTypes.YIELD_GOLD,
+ 					SortPriority = GetUnitSortPriority(unit)
+ 				});
 			end
 			if city:IsCanPurchase(false, false, unitID, -1, -1, YieldTypes.YIELD_FAITH) then
  				local isDisabled = false;
@@ -394,30 +463,21 @@ function UpdateWindow( city )
 				end
 	 			
  				local cost = city:GetUnitFaithPurchaseCost( unitID, true );
-				AddProductionButton( unitID, unit.Description, OrderTypes.ORDER_TRAIN, cost, 1, isDisabled, YieldTypes.YIELD_FAITH );
-				numUnitButtons = numUnitButtons + 1;
+				table.insert(listUnits, {
+					ID = unitID,
+					Description = unit.Description,
+					DisplayDescription = Locale.Lookup(unit.Description),
+					OrderType = OrderTypes.ORDER_TRAIN,
+					Cost = cost,
+					Disabled = isDisabled,
+					YieldType = YieldTypes.YIELD_FAITH,
+					SortPriority = GetUnitSortPriority(unit)
+				});
 			end
  		end
 	end
-	if unitHeadingOpen then
-		local localizedLabel = "[ICON_MINUS] "..Locale.ConvertTextKey( "TXT_KEY_POP_UNITS" );
-		Controls.UnitButtonLabel:SetText(localizedLabel);
-		Controls.UnitButtonStack:SetHide( false );
-	else
-		local localizedLabel = "[ICON_PLUS] "..Locale.ConvertTextKey( "TXT_KEY_POP_UNITS" );
-		Controls.UnitButtonLabel:SetText(localizedLabel);
-		Controls.UnitButtonStack:SetHide( true );
-	end
-	if numUnitButtons > 0 then
-		Controls.UnitButton:SetHide( false );
-	else
-		Controls.UnitButton:SetHide( true );
-		Controls.UnitButton:SetHide( true );
-	end
-	Controls.UnitButton:RegisterCallback( Mouse.eLClick, OnUnitHeaderSelected );
 
-	local numBuildingButtons = 0;
-	local numWonderButtons = 0;
+
     -- Projects	
  	for project in GameInfo.Projects() do
  		local projectID = project.ID;
@@ -438,15 +498,30 @@ function UpdateWindow( city )
 					strTurnsLeft = g_strInfiniteTurns;
 				end
 				
-				AddProductionButton( projectID, project.Description, OrderTypes.ORDER_CREATE, strTurnsLeft, 3, isDisabled, YieldTypes.NO_YIELD  );
-				numWonderButtons = numWonderButtons + 1;
+				table.insert(listWonders, {
+					ID = projectID,
+					Description = project.Description,
+					DisplayDescription = Locale.Lookup(project.Description),
+					OrderType = OrderTypes.ORDER_CREATE,
+					Cost = strTurnsLeft,
+					Disabled = isDisabled,
+					YieldType = YieldTypes.NO_YIELD,
+				});
 			end
 		else
 			if city:IsCanPurchase(false, false, -1, -1, projectID, YieldTypes.YIELD_GOLD) then
 				local isDisabled = true;		    
  				local cost = city:GetProjectPurchaseCost( projectID );
-				AddProductionButton( projectID, project.Description, OrderTypes.ORDER_CREATE, cost, 3, isDisabled, YieldTypes.YIELD_GOLD  );
-				numWonderButtons = numWonderButtons + 1;
+ 				
+ 				table.insert(listWonders, {
+ 					ID = projectID,
+ 					Description = project.Description,
+ 					DisplayDescription = Locale.Lookup(project.Description),
+ 					OrderType = OrderTypes.ORDER_CREATE,
+ 					Cost = cost,
+ 					Disabled = isDisabled,
+ 					YieldType = YieldTypes.YIELD_GOLD,
+ 				});
 			end
 		end
 	end
@@ -477,12 +552,23 @@ function UpdateWindow( city )
 				else
 					strTurnsLeft = g_strInfiniteTurns;
 				end
+				local building = {
+					ID = buildingID,
+					Description = building.Description,
+					DisplayDescription = Locale.Lookup(building.Description),
+					OrderType = OrderTypes.ORDER_CONSTRUCT,
+					Cost = strTurnsLeft,
+					Disabled = isDisabled,
+					YieldType = YieldTypes.NO_YIELD,
+					SortPriority = GetBuildingSortPriority(building)
+				};
 				
-				AddProductionButton( buildingID, building.Description, OrderTypes.ORDER_CONSTRUCT, strTurnsLeft, col, isDisabled, YieldTypes.NO_YIELD );
 				if col == 2 then
-					numBuildingButtons = numBuildingButtons + 1;
+					table.insert(listBuildings, building);
+				elseif col == 3 then
+					table.insert(listWonders, building);
 				else
-					numWonderButtons = numWonderButtons + 1;
+					table.insert(listNatWonders, building);
 				end
 			end
 		else
@@ -502,13 +588,26 @@ function UpdateWindow( city )
  				end
 	 			
  				local cost = city:GetBuildingPurchaseCost( buildingID );
-				AddProductionButton( buildingID, building.Description, OrderTypes.ORDER_CONSTRUCT, cost, col, isDisabled, YieldTypes.YIELD_GOLD );
+				local building = {
+					ID = buildingID,
+					Description = building.Description,
+					DisplayDescription = Locale.Lookup(building.Description),
+					OrderType = OrderTypes.ORDER_CONSTRUCT,
+					Cost = cost,
+					Disabled = isDisabled,
+					YieldType = YieldTypes.YIELD_GOLD,
+					SortPriority = GetBuildingSortPriority(building)
+				};
+				
 				if col == 2 then
-					numBuildingButtons = numBuildingButtons + 1;
+					table.insert(listBuildings, building);
+				elseif col == 3 then
+					table.insert(listWonders, building);
 				else
-					numWonderButtons = numWonderButtons + 1;
+					table.insert(listNatWonders, building);
 				end
-			elseif city:IsCanPurchase(false, false, -1, buildingID, -1, YieldTypes.YIELD_FAITH) then
+			end
+			if city:IsCanPurchase(false, false, -1, buildingID, -1, YieldTypes.YIELD_FAITH) then
 				local col = 2;
 				local thisBuildingClass = GameInfo.BuildingClasses[building.BuildingClass];
 				if thisBuildingClass.MaxGlobalInstances > 0  then
@@ -524,15 +623,90 @@ function UpdateWindow( city )
  				end
 	 			
  				local cost = city:GetBuildingFaithPurchaseCost( buildingID );
-				AddProductionButton( buildingID, building.Description, OrderTypes.ORDER_CONSTRUCT, cost, col, isDisabled, YieldTypes.YIELD_FAITH );
+				
+				local building = {
+					ID = buildingID,
+					Description = building.Description,
+					DisplayDescription = Locale.Lookup(building.Description),
+					OrderType = OrderTypes.ORDER_CONSTRUCT,
+					Cost = cost,
+					Disabled = isDisabled,
+					YieldType = YieldTypes.YIELD_FAITH,
+					SortPriority = GetBuildingSortPriority(building)
+				};
+				
 				if col == 2 then
-					numBuildingButtons = numBuildingButtons + 1;
+					table.insert(listBuildings, building);
+				elseif col == 3 then
+					table.insert(listWonders, building);
 				else
-					numWonderButtons = numWonderButtons + 1;
+					table.insert(listNatWonders, building);
 				end
 			end
 		end
 	end
+	
+	local GenericSort = function(a,b)
+		local aSort = a.SortPriority or 0;
+		local bSort = b.SortPriority or 0;
+	
+		if(aSort == bSort) then
+			local comp = Locale.Compare(a.DisplayDescription, b.DisplayDescription);
+			if(comp == 0) then
+				local aYT = a.YieldType == YieldTypes.YIELD_FAITH and 1 or 0;
+				local bYT = b.YieldType == YieldTypes.YIELD_FAITH and 1 or 0;
+				
+				return aYT < bYT;
+			else
+				return comp == -1;
+			end
+		else
+			return aSort < bSort;
+		end	
+	end
+	
+	numUnitButtons = #listUnits;
+	numBuildingButtons = #listBuildings;
+	numWonderButtons = #listWonders;
+	numWonderNatButtons = #listNatWonders;
+
+	table.sort(listUnits, GenericSort);
+	table.sort(listBuildings, GenericSort);
+	table.sort(listWonders, GenericSort);
+	table.sort(listNatWonders, GenericSort);
+	
+	for _, unit in ipairs(listUnits) do
+		AddProductionButton(unit.ID, unit.Description, unit.OrderType, unit.Cost, 1, unit.Disabled, unit.YieldType);
+	end
+	for _, building in ipairs(listBuildings) do
+		AddProductionButton(building.ID, building.Description, building.OrderType, building.Cost, 2, building.Disabled, building.YieldType);
+	end
+	
+	for _ , wonder in ipairs(listWonders) do
+		AddProductionButton(wonder.ID, wonder.Description, wonder.OrderType, wonder.Cost, 3, wonder.Disabled, wonder.YieldType);
+	end
+	for _ , NatWonders in ipairs(listNatWonders) do
+		AddProductionButton(NatWonders.ID, NatWonders.Description, NatWonders.OrderType, NatWonders.Cost, 4, NatWonders.Disabled, NatWonders.YieldType);
+	end
+	
+	
+	if unitHeadingOpen then
+		local localizedLabel = "[ICON_MINUS] "..Locale.ConvertTextKey( "TXT_KEY_POP_UNITS" );
+		Controls.UnitButtonLabel:SetText(localizedLabel);
+		Controls.UnitButtonStack:SetHide( false );
+	else
+		local localizedLabel = "[ICON_PLUS] "..Locale.ConvertTextKey( "TXT_KEY_POP_UNITS" );
+		Controls.UnitButtonLabel:SetText(localizedLabel);
+		Controls.UnitButtonStack:SetHide( true );
+	end
+	if numUnitButtons > 0 then
+		Controls.UnitButton:SetHide( false );
+	else
+		Controls.UnitButton:SetHide( true );
+		Controls.UnitButton:SetHide( true );
+	end
+	Controls.UnitButton:RegisterCallback( Mouse.eLClick, OnUnitHeaderSelected );
+	
 	if buildingHeadingOpen then
 		local localizedLabel = "[ICON_MINUS] "..Locale.ConvertTextKey( "TXT_KEY_POP_BUILDINGS" );
 		Controls.BuildingsButtonLabel:SetText(localizedLabel);
@@ -579,7 +753,7 @@ function UpdateWindow( city )
 		Controls.WonderNatButtonStack:SetHide( true );
 	end
 
-	if numWonderButtons > 0 then
+	if numWonderNatButtons > 0 then
 		Controls.WondersNatButton:SetHide( false );
 	else
 		Controls.WondersNatButton:SetHide( true );
@@ -587,43 +761,33 @@ function UpdateWindow( city )
 	end
 	Controls.WondersNatButton:RegisterCallback( Mouse.eLClick, OnWonderNatHeaderSelected );
 	-- Processes
-	-- Processes
 	local numOtherButtons = 0;
-    Controls.ProduceGoldButton:SetHide( true );
-    Controls.ProduceResearchButton:SetHide( true );
-    if g_IsProductionMode then
  		for process in GameInfo.Processes() do
  			local processID = process.ID;				
-			if city:CanMaintain( processID, 1 ) then
- 				if process.Type == "PROCESS_WEALTH" then
-					Controls.ProduceGoldButton:SetHide( false );
-					Controls.ProduceGoldButton:SetVoid1( g_MAINTAIN_GOLD );
-					Controls.ProduceGoldButton:SetVoid2( processID );
-					Controls.ProduceGoldButton:RegisterCallback( Mouse.eLClick, ProductionSelected );
-					numOtherButtons = numOtherButtons + 1;
-				elseif process.Type == "PROCESS_RESEARCH" then
-					Controls.ProduceResearchButton:SetHide( false );
-					Controls.ProduceResearchButton:SetVoid1( g_MAINTAIN_TECH ); 
-					Controls.ProduceResearchButton:SetVoid2( processID );
-					Controls.ProduceResearchButton:RegisterCallback( Mouse.eLClick, ProductionSelected );
+		if g_IsProductionMode then
+			if city:CanMaintain( processID ) then
+				local isDisabled = false;
+				local col = 5;
+				strTurnsLeft = g_strInfiniteTurns;
+				AddProductionButton( processID, process.Description, OrderTypes.ORDER_MAINTAIN, strTurnsLeft, col, isDisabled, YieldTypes.NO_YIELD );
 					numOtherButtons = numOtherButtons + 1;
 				end
-			end
+		else
+			-- Processes cannot be purchased
 		end
 	end   	
 	if otherHeadingOpen then
 		local localizedLabel = "[ICON_MINUS] "..Locale.ConvertTextKey( "TXT_KEY_CITYVIEW_OTHER" );
 		Controls.OtherButtonLabel:SetText(localizedLabel);
+		Controls.OtherButtonStack:SetHide( false );
 	else
 		local localizedLabel = "[ICON_PLUS] "..Locale.ConvertTextKey( "TXT_KEY_CITYVIEW_OTHER" );
 		Controls.OtherButtonLabel:SetText(localizedLabel);
-		Controls.ProduceGoldButton:SetHide( true );
-		Controls.ProduceResearchButton:SetHide( true );
+		Controls.OtherButtonStack:SetHide( true );
 	end
 	if numOtherButtons > 0 then
 		Controls.OtherButton:SetHide( false );
 	else
-		Controls.OtherButton:SetHide( true );
 		Controls.OtherButton:SetHide( true );
 	end
 	Controls.OtherButton:RegisterCallback( Mouse.eLClick, OnOtherHeaderSelected );
@@ -818,6 +982,8 @@ function UpdateWindow( city )
 		Controls.b5box:SetHide( true );
 		Controls.b6box:SetHide( true );
 				
+		local bGeneratingProduction = city:GetCurrentProductionDifferenceTimes100(false, false) > 0;
+
 		local qLength = city:GetOrderQueueLength();
 		for i = 1, qLength do
 			local queuedOrderType;
@@ -837,28 +1003,51 @@ function UpdateWindow( city )
 			if (queuedOrderType == OrderTypes.ORDER_TRAIN) then
 				local thisUnitInfo = GameInfo.Units[queuedData1];
 				Controls[controlName]:SetText( Locale.ConvertTextKey( thisUnitInfo.Description ) );
+				if (bGeneratingProduction) then
 				Controls[controlTurns]:SetText( Locale.ConvertTextKey("TXT_KEY_PRODUCTION_HELP_NUM_TURNS", city:GetUnitProductionTurnsLeft(queuedData1, i-1) ) );
+				else
+					Controls[controlTurns]:SetText( g_strInfiniteTurns );
+				end 
 				if (thisUnitInfo.Help ~= nil) then
 					strToolTip = thisUnitInfo.Help;
 				end
 			elseif (queuedOrderType == OrderTypes.ORDER_CONSTRUCT) then
 				local thisBuildingInfo = GameInfo.Buildings[queuedData1];
 				Controls[controlName]:SetText( Locale.ConvertTextKey( thisBuildingInfo.Description ) );
+				
+				if (bGeneratingProduction) then
+					print ("true");
+				else
+					print ("false");
+				end
+				
+				if (bGeneratingProduction) then
 				Controls[controlTurns]:SetText( Locale.ConvertTextKey("TXT_KEY_PRODUCTION_HELP_NUM_TURNS", city:GetBuildingProductionTurnsLeft(queuedData1, i-1)) );
+				else
+					Controls[controlTurns]:SetText( g_strInfiniteTurns );
+				end
 				if (thisBuildingInfo.Help ~= nil) then
 					strToolTip = thisBuildingInfo.Help;
 				end
 			elseif (queuedOrderType == OrderTypes.ORDER_CREATE) then
 				local thisProjectInfo = GameInfo.Projects[queuedData1];
 				Controls[controlName]:SetText( Locale.ConvertTextKey( thisProjectInfo.Description ) );
+				if (bGeneratingProduction) then
 				Controls[controlTurns]:SetText( Locale.ConvertTextKey("TXT_KEY_PRODUCTION_HELP_NUM_TURNS", city:GetProjectProductionTurnsLeft(queuedData1, i-1)) );
+				else
+					Controls[controlTurns]:SetText( g_strInfiniteTurns );
+				end
 				if (thisProjectInfo.Help ~= nil) then
 					strToolTip = thisProjectInfo.Help;
 				end
 			elseif (queuedOrderType == OrderTypes.ORDER_MAINTAIN) then
 				local thisProcessInfo = GameInfo.Processes[queuedData1];
 				Controls[controlName]:SetText( Locale.ConvertTextKey( thisProcessInfo.Description ) );
+				if (bGeneratingProduction) then
 				Controls[controlTurns]:SetHide( true );
+				else
+					Controls[controlTurns]:SetText( g_strInfiniteTurns );
+				end
 				if (thisProcessInfo.Help ~= nil) then
 					strToolTip = thisProcessInfo.Help;
 				end
@@ -883,6 +1072,9 @@ function UpdateWindow( city )
 	Controls.WonderNatButtonStack:CalculateSize();
 	Controls.WonderNatButtonStack:ReprocessAnchoring();
 	
+	Controls.OtherButtonStack:CalculateSize();
+	Controls.OtherButtonStack:ReprocessAnchoring();
+	
 	Controls.StackOStacks:CalculateSize();
 	Controls.StackOStacks:ReprocessAnchoring();
 
@@ -905,16 +1097,6 @@ function OnPopup( popupInfo )
 	m_PopupInfo = popupInfo;
 
     local player = Players[Game.GetActivePlayer()];
-    local city = player:GetCityByID( popupInfo.Data1 );
-    
-    if city and city:IsPuppet() then
-		return;
-    end
-	
-	m_gOrderType = popupInfo.Data2;
-	m_gFinishedItemType = popupInfo.Data3;
-	
-    g_append = popupInfo.Option1;
     
     -- Purchase mode?
     if (popupInfo.Option2 == true) then
@@ -922,6 +1104,25 @@ function OnPopup( popupInfo )
 	else
 		g_IsProductionMode = true;
 	end
+ 
+    local city = player:GetCityByID( popupInfo.Data1 );
+    
+    if (city == nil) then
+		return;
+	end
+    
+    if city and city:IsPuppet() then
+		if (player:MayNotAnnex() and not g_IsProductionMode) then
+			-- You're super-special Venice and are able to update the window. Congrats.
+		else
+			return;
+		end
+    end
+	
+	m_gOrderType = popupInfo.Data2;
+	m_gFinishedItemType = popupInfo.Data3;
+	
+    g_append = popupInfo.Option1;
  
 	UpdateWindow( city );
  			
@@ -1054,6 +1255,7 @@ function AddProductionButton( id, description, orderType, turnsLeft, column, isD
 	local iUnit = -1;
 	local iBuilding = -1;
 	local iProject = -1;
+	local iProcess = -1;
 	
 	if column == 1 then -- we are a unit
 		iUnit = id;
@@ -1110,6 +1312,7 @@ function AddProductionButton( id, description, orderType, turnsLeft, column, isD
 		local strToolTip = "";
 		
 		-- Process
+		--TODO Gobbi da ottimizzare invertire e togliere if vuoto
 		if orderType == OrderTypes.ORDER_MAINTAIN then
 		else
 			local bBuilding;
@@ -1165,6 +1368,32 @@ function AddProductionButton( id, description, orderType, turnsLeft, column, isD
 		
 		controlTable.Button:SetToolTipString(strToolTip);
 		
+	elseif column == 5 then -- processes
+		
+		iProcess = id;
+		controlTable = g_ProcessInstanceManager:GetInstance();
+		local thisProcessInfo = GameInfo.Processes[id];
+		
+		-- Portrait
+		local textureOffset, textureSheet = IconLookup( thisProcessInfo.PortraitIndex, 45, thisProcessInfo.IconAtlas );				
+		if textureOffset == nil then
+			textureSheet = defaultErrorTextureSheet;
+			textureOffset = nullOffset;
+		end				
+		controlTable.ProductionButtonImage:SetTexture(textureSheet);
+		controlTable.ProductionButtonImage:SetTextureOffset(textureOffset);
+		
+		-- Tooltip
+		local bIncludeRequirementsInfo = false;
+		local strToolTip = Locale.ConvertTextKey(GetHelpTextForProcess(id, bIncludeRequirementsInfo));
+		
+		-- Disabled help text
+		if (isDisabled) then
+			
+		end
+		
+		controlTable.Button:SetToolTipString(strToolTip);
+		
 	else
 		return
 	end
@@ -1192,6 +1421,8 @@ function AddProductionButton( id, description, orderType, turnsLeft, column, isD
 			ePurchaseEnum = g_CONSTRUCT_BUILDING;
 		elseif (orderType == OrderTypes.ORDER_CREATE) then
 			ePurchaseEnum = g_CONSTRUCT_PROJECT;
+		elseif (orderType == OrderTypes.ORDER_MAINTAIN) then
+			ePurchaseEnum = g_MAINTAIN_PROCESS;
 		end
 	else
 		if (orderType == OrderTypes.ORDER_TRAIN) then
@@ -1217,14 +1448,13 @@ function AddProductionButton( id, description, orderType, turnsLeft, column, isD
 	
     controlTable.Button:SetVoid1( ePurchaseEnum );
     controlTable.Button:SetVoid2( id );
-    controlTable.Button:RegisterCallback( Mouse.eLClick, ProductionSelected );
     controlTable.Button:RegisterCallback( Mouse.eRClick, GetProdHelp );
-    controlTable.Button:SetDisabled( isDisabled );
-    if( isDisabled )
-    then
-        controlTable.Button:SetAlpha( 0.4 );
+    controlTable.Button:ClearCallback(Mouse.eLClick);
+    if(isDisabled) then
+		controlTable.DisabledBox:SetHide(false);	
     else
-        controlTable.Button:SetAlpha( 1.0 );
+		controlTable.Button:RegisterCallback( Mouse.eLClick, ProductionSelected );
+    	controlTable.DisabledBox:SetHide(true);
     end
     
     if (iUnit >= 0) then
