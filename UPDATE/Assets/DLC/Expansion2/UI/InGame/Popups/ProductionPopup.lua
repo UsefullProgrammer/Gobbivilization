@@ -1016,12 +1016,6 @@ function UpdateWindow( city )
 				Controls[controlName]:SetText( Locale.ConvertTextKey( thisBuildingInfo.Description ) );
 				
 				if (bGeneratingProduction) then
-					print ("true");
-				else
-					print ("false");
-				end
-				
-				if (bGeneratingProduction) then
 				Controls[controlTurns]:SetText( Locale.ConvertTextKey("TXT_KEY_PRODUCTION_HELP_NUM_TURNS", city:GetBuildingProductionTurnsLeft(queuedData1, i-1)) );
 				else
 					Controls[controlTurns]:SetText( g_strInfiniteTurns );
@@ -1312,9 +1306,7 @@ function AddProductionButton( id, description, orderType, turnsLeft, column, isD
 		local strToolTip = "";
 		
 		-- Process
-		--TODO Gobbi da ottimizzare invertire e togliere if vuoto
-		if orderType == OrderTypes.ORDER_MAINTAIN then
-		else
+		if orderType ~= OrderTypes.ORDER_MAINTAIN then
 			local bBuilding;
 			if orderType == OrderTypes.ORDER_CREATE then
 				bBuilding = false;
