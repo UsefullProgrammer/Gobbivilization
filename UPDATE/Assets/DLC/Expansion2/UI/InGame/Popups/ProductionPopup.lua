@@ -303,6 +303,7 @@ function UpdateWindow( city )
 	end
     
 	Controls.GrowthBar:SetPercent( city:GetFood() / city:GrowthThreshold() );
+	Controls.Happiness:SetText( "[ICON_HAPPINESS_1]" .. city:GetLocalHappiness() .. "/" .. city:GetPopulation());
     Controls.Food:SetText( "[ICON_FOOD]" .. city:FoodDifference() );
     Controls.Production:SetText( "[ICON_PRODUCTION]" .. productionPerTurn );
     Controls.Science:SetText( "[ICON_RESEARCH]" ..  scienceYield);
@@ -321,6 +322,8 @@ function UpdateWindow( city )
 	end
 
 	-- Yield (and Culture) Tooltips
+	Controls.Happiness:SetToolTipString(Locale.ConvertTextKey("TXT_KEY_EO_LOCAL_CITY"));
+
 	local strFoodToolTip = GetFoodTooltip(city);
 	Controls.PopBox:SetToolTipString(strFoodToolTip);
 	Controls.Food:SetToolTipString(strFoodToolTip);

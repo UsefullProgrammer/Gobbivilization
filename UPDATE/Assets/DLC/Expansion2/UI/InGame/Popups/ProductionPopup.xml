@@ -155,9 +155,9 @@
     </Grid>
     <!-- TOP PANEL-->
     <Box Size="510,205" Anchor="L,T" Offset="-42,-10" Color="0,0,0,0" ConsumeMouse="1" />
-    <Grid Size="510,230" Anchor="L,T" Offset="-42,-10" Padding="0,0" Style="Grid9DetailSix140">
+    <Grid Size="580,230" Anchor="L,T" Offset="-42,-10" Padding="0,0" Style="Grid9DetailSix140">
         <!-- City Name - Next Previous Buttons -->
-        <Grid Anchor="L,T" Size="452,36" Color="White.150" Offset="42,44" Style="GridSquare8" ConsumeMouse="1">
+        <Grid Anchor="L,T" Size="522,36" Color="White.150" Offset="42,44" Style="GridSquare8" ConsumeMouse="1">
             <!-- City Name -->
             <Label Offset="0,-3" Anchor="C,C" String="NAME" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="CityName">
                 <Box Color="255,255,255,0" Anchor="L,C" Offset="-16.0">
@@ -180,8 +180,9 @@
             <Label ID="CityGrowthLabel" Anchor="R,T" AnchorSide="O.I" LeadingOffset="-4" WrapWidth="360" Offset="0,48" String="" Color0="Food.255" Color1="0.0.0.128" Font="TwCenMT20" FontStyle="Shadow"/>
         </Image>
         <!-- City Stats -->
-        <Box Anchor="L,T" Size="452,29" Offset="42,160" Color="255.255.255.0" ConsumeMouse="1">
-            <Stack Anchor="L,T" Size="400,32" Offset="0,0" Padding="0" StackGrowth="Right">
+        <Box Anchor="L,T" Size="522,29" Offset="42,160" Color="255.255.255.0" ConsumeMouse="1">
+            <Stack Anchor="L,T" Size="470,32" Offset="0,0" Padding="0" StackGrowth="Right">
+            
                 <Grid Anchor="L,T" Size="70,24" Color="White.0" Offset="0,0" Style="GridSquare8">
                     <Label Anchor="C,C" AnchorSide="O.I" Offset="0,-2" String="+3.75" Color0="Food.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT22" FontStyle="Shadow" ID="Food"/>
                 </Grid>
@@ -204,6 +205,9 @@
 				<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5.26"/>
                 <Grid Anchor="L,T" Size="70,24" Color="White.0" Offset="0,0" Style="GridSquare8">
                     <Label Anchor="C,C" Offset="0,-2" String="+2" Color0="255.255.255.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT22" FontStyle="Shadow" ID="Faith"/>
+                </Grid>
+                <Grid Anchor="L,T" Size="70,24" Color="White.0" Offset="0,0" Style="GridSquare8">
+                    <Label Anchor="C,C" AnchorSide="O.I" Offset="0,-2" String="+3.75" Color0="Food.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT22" FontStyle="Shadow" ID="Happiness"/>
                 </Grid>
             </Stack>
             <Image Anchor="L,T" Offset="0,-5" Texture="HorizontalTrim.dds" Size="452.5"/>
