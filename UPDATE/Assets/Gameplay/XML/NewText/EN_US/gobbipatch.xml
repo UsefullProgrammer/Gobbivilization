@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_en_US>
-  <Row Tag="TXT_KEY_POP_WONDERS_NAT">
-      <Text>NATIONAL WONDERS</Text>
- </Row>
- <Row Tag="TXT_LONG_KEY_TIME_AD">
-			<Text>{1_Date: number #} Years before Gobbi's birth</Text>
- </Row>
- <Row Tag="TXT_LONG_TIME_BC">
-		<Text>{1_Date: number #} Years after Gobbi's birth</Text>
+	<Row Tag="TXT_KEY_POP_WONDERS_NAT">
+		<Text>NATIONAL WONDERS</Text>
+	</Row>
+	<Row Tag="TXT_LONG_KEY_TIME_AD">
+				<Text>{1_Date: number #} Years before Gobbi's birth</Text>
+	</Row>
+	<Row Tag="TXT_LONG_TIME_BC">
+			<Text>{1_Date: number #} Years after Gobbi's birth</Text>
+		</Row>
+	<Row Tag="TXT_KEY_CITY_SCREEN_HAPPINESS_PER_TURN">
+      <Text>{1_Num} [ICON_HAPPINESS_4] Happiness</Text>
+    </Row>
+	<Row Tag="TXT_KEY_CITYVIEW_HAPPINESS_TEXT">
+		<Text>+{1_perTurn:number "#.##"}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CITYVIEW_HAPPINESS_TEXT_NEGATIVE">
+		<Text>[COLOR_WARNING_TEXT]{1_perTurn:number "#.##"}[ENDCOLOR]</Text>
 	</Row>
  	</Language_en_US>
 </GameData>
