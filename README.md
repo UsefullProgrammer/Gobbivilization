@@ -21,7 +21,7 @@ Utile se vuoi disinstallare la patch in seguito.
 
 ### Installazione automatica
 - Avvia `installazione.bat`  
-- Il file cercherà automaticamente il gioco in **due percorsi predefiniti**  
+- Il file cercherà automaticamente il gioco in **percorsi predefiniti**  
 - Se non lo trova, **modifica lo script** e inserisci il percorso manualmente  
 - Non dovrebbe richiedere privilegi di amministratore, ma puoi concederli se vuoi
 
@@ -30,6 +30,7 @@ Utile se vuoi disinstallare la patch in seguito.
 > - Avvia `disinstallazione.bat`  (è in beta e potrebbe non funzionare)
 > - Funziona solo se hai eseguito `installazione.bat` o `SOLOBACKUP.bat`  
 > - Usa i file di backup per ripristinare la versione originale
+> - In alternativa, vai nella cartella dove c'è il gioco, poi disinstalla il gioco poi cancella la cartella asset e poi reinstallalo
 
 ---
 
