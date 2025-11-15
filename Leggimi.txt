@@ -22,3 +22,6 @@ Per farlo a mano prendi il contenuto in UPDATE e metti nella cartella del gioco.
 L'exe sarà modificato tramite setpatch.bat che usa un exe terzo per cambiare la risorsa versione in maniera tale che il server sarà visibile ma solo voi potete entrare perchè avrete una versione superiore agli altri.
 
 Per sapere le modifiche del gameplay, leggere Log.txt
+
+Risolvere problemi:
+Se non ti entra sul server devi prendere rcedit-x64.exe e setpatch.bat in UPDATE e metterli dove c'è la cartellina poi avviare setpatch.bat

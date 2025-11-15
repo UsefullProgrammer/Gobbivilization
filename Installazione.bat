@@ -91,10 +91,10 @@ echo BACKUP = [%BACKUP%]
 robocopy "%UPDATE%" "%DEST%" /E /NFL /NDL /NJH /NJS
 
 echo setto versione nuova
-%UPDATE%/rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string FileVersion "1, 0, 3, 280, (403700) (15/11/2025)"
-%UPDATE%/rcedit-x64.exe "%DEST%/CivilizationV_DX11.exe" --set-version-string FileVersion "1, 0, 3, 280, (403700) (15/11/2025)"
+%ROOT%/rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string FileVersion "1, 0, 3, 279, (403700) (15/11/2025)"
+%ROOT%/rcedit-x64.exe "%DEST%/CivilizationV_DX11.exe" --set-version-string FileVersion "1, 0, 3, 279, (403700) (15/11/2025)"
 ::echo correggo eventuali versioni sbagliate da precedenti settaggi
-:: %UPDATE%/rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string ProductVersion "1, 0, 3, 279, (403694) (11/19/2014)"
+%ROOT%/rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string ProductVersion "1, 0, 3, 279, (403694) (11/19/2014)"
 
 
 echo Installazione completata.
