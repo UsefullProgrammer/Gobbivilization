@@ -7,3 +7,4 @@ Helper
 release/
 release.zip
 UPDATE main/
+*.orig
