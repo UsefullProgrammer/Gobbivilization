@@ -1,13 +1,18 @@
 Se hai windows:
 Easy mode: Estrai il contenuto nella cartella del gioco.
 Hardmode: estrailo dove vuoi.
-Se non vuoi usare installazione.bat per sicurezza dovresti avviare avvia SOLOBACKUP.bat creera una lista di file di backup per quando vuoi fare disinstallazione.
-Puoi mettere il conetnuto della cartella UPDATE nella cartella del gioco oppure farlo fare a lei in automatico con installazione.bat lei cercherà la cartella del gioco.
-Avvia Installazione.bat (in teoria non serve l'autorizzazione d'amministratore ma se vuoi dagliela), Cerchera il gioco in 2 percorsi, se non lo trova devi modificarla e mettere il percorso a mano oppure copia tutto il contenuto di release dove è il gioco.
-Cosa fa installazione.bat?
+Scegli:
+Easy:
+Avvia installazione.bat (non serve l'autorizzazione d'amministratore ) e hai finito.
+Mid:
+-Se non vuoi usare installazione.bat per sicurezza dovresti avviare avviare SOLOBACKUP.bat creera una lista di file di backup per quando vuoi fare disinstallazione.
+-Puoi mettere il contenuto della cartella UPDATE nella cartella del gioco oppure farlo fare a lei in automatico con installazione.bat lei cercherà la cartella del gioco.
+-Copia asset in asset.
+-Copia setbatch.bat e rcedit-x64.exe dov'è il gioco e fai partire setpatch.bat ti mette la versione corretta senza modificare l'exe.
+Hard:
 -fa un backup in backup per sicurezza.
--Copia L'aggiornamento dalla cartella UPDATE.
--Setta la verisone corretta tramite rcedit.exe
+-Copia L'aggiornamento asset nella cartella UPDATE.
+-Setta la verisone corretta nell'exe tramite rcedit.exe o altri strumenti
 Attenzione, questo aggiornamento non ti farà giocare con altra gente!!! se vuoi giocare con altra gente devi fare disinstallazione.bat (funziona solo se hai fatto installazione.bat o solobackup.bat poichè usa i file in backup e tramite update toglie i file nuovi)
 
 Se hai mac:

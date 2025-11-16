@@ -8,9 +8,16 @@
 		<Row Tag="TXT_KEY_MP_VERSION_MISMATCH_FOR_PLAYER">
 			<Text>Version mismatch with host.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_MP_VERSION_MISMATCH_FOR_PLAYER_SR">
+      		<Text>SR: La tua versione non va bene.</Text>
+    	</Row>
 		<Row Tag="TXT_KEY_MP_VERSION_MISMATCH_FOR_HOST">
 			<Text>Version mismatch with player: {1_PlayerName}.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_MP_VERSION_MISMATCH_FOR_HOST_SR">
+			<Text>SR: Version mismatch with player: {1_PlayerName}.</Text>
+		</Row>
+		
 
 		<Row Tag="TXT_KEY_RANDOM_MAP_SCRIPT_HELP">
 			<Text>The game will randomly pick one of the map types for you to play (not Earth). You will not be told what was picked.</Text>
