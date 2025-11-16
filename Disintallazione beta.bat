@@ -27,6 +27,7 @@ ECHO %DEST%
 set "ROOT=%~dp0"
 :: Percorso di backup nella root
 set "BACKUP=%ROOT%UPDATE main"
+set "Vanilla=%ROOT%backup"
 set "UPDATE=%ROOT%UPDATE"
 ECHO %ROOT%
 ECHO %BACKUP%
@@ -65,9 +66,10 @@ for /R "%UPDATE%" %%F in (*) do (
 )
 echo.
 echo Disinstallazione file unici completata. Premere per continuare la disisntellazione
-echo === Reinstallo versione vecchia dei file esistenti ===
-
-robocopy "%BACKUP%" "%DEST%" /E /XC /XN /XO /NFL /NDL /NJH /NJS
+echo === Reinstallo versione vanillavecchia dei file esistenti %Vanilla%===
+robocopy "%Vanilla%" "%DEST%" /E /XC /XN /XO /NFL /NDL /NJH /NJS
+echo === Reinstallo versione mod dei file esistenti %BACKUP% ===
+robocopy "%BACKUP%" "%DEST%" /E
 echo ripristino versione main
 rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string FileVersion "1, 0, 3, 279, (403700) (15/11/2025)"
 echo Installazione rispristinata.
