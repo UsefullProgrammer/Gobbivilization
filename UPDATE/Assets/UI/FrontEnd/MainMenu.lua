@@ -12,13 +12,30 @@ local bHideLoadGame = true;
 local bHidePreGame = true;
 local fTime = 0;
 local i1, i2 = string.find( UI.GetVersionInfo(), " " );
-versionNumber = "Gobbi V 0.5 (Beta) Build 403700";
-Controls.VersionNumber:SetText(versionNumber);
-
+versionNumber = "Gobbi V 0.6 (Beta) ";
+local versioni = string.sub(UI.GetVersionInfo(), i2+1);
+local versiongame = "(403700)";
+versioncheck = (versioni == versiongame);
+if(versioncheck) then
+	Controls.VersionNumber:SetText(versionNumber .. UI.GetVersionInfo() );
+else
+	Controls.VersionNumber:SetText(versionNumber .. UI.GetVersionInfo() .. "Versione SBAGLIATA " .. "hai bisogno della " .. versiongame);
+end
+-- .. "Versioncheck" .. versioncheck .. "quindi è " .. check)
 
 function ShowHideHandler( bIsHide, bIsInit )
     if( not bIsHide ) then
-        Controls.Civ5Logo:SetTexture( "Assets/UI/Art/Civilization_V_LogoGobbi.dds" );
+		-- Numero totale di loghi disponibili
+	local numLoghi = 5;   -- cambia questo valore in base a quanti file hai
+
+	-- Genera un numero casuale tra 1 e numLoghi
+	local randomIndex = math.random(1, numLoghi);
+
+	-- Costruisce il percorso del file DDS
+	local logoPath = string.format("Assets/UI/Art/Civilization_V_LogoGobbi_%d.dds", randomIndex);
+
+	-- Imposta la texture
+	Controls.Civ5Logo:SetTexture(logoPath);
         
         -- This is a catch all to ensure that mods are not activated at this point in the UI.
         -- Also, since certain maps and settings will only be available in either the modding or multiplayer

@@ -14,7 +14,16 @@ local fTime = 0;
 
 function ShowHideHandler( bIsHide, bIsInit )
     if( not bIsHide ) then
-        Controls.Civ5Logo:SetTexture( "Assets/UI/Art/Civilization_V_LogoGobbi.dds" );
+        local numLoghi = 5;   -- cambia questo valore in base a quanti file hai
+
+        -- Genera un numero casuale tra 1 e numLoghi
+        local randomIndex = math.random(1, numLoghi);
+
+        -- Costruisce il percorso del file DDS
+        local logoPath = string.format("Assets/UI/Art/Civilization_V_LogoGobbi_%d.dds", randomIndex);
+
+        -- Imposta la texture
+        Controls.Civ5Logo:SetTexture(logoPath);
         
         Controls.MainMenuScreenUI:SetHide( false );
     else

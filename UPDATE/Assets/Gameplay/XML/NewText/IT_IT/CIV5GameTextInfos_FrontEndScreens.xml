@@ -1360,8 +1360,14 @@
     <Row Tag="TXT_KEY_MP_VERSION_MISMATCH_FOR_HOST">
       <Text>Problemi con la versione del giocatore: {1_PlayerName}.</Text>
     </Row>
+    <Row Tag="TXT_KEY_MP_VERSION_MISMATCH_FOR_HOST_SR">
+			<Text>SR: Version mismatch with player: {1_PlayerName}.</Text>
+		</Row>
     <Row Tag="TXT_KEY_MP_VERSION_MISMATCH_FOR_PLAYER">
-      <Text>Problemi con la versione dell'host.</Text>
+      <Text>La tua versione non va bene.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_VERSION_MISMATCH_FOR_PLAYER_SR">
+      <Text>SR: La tua versione non va bene.</Text>
     </Row>
     <Row Tag="TXT_KEY_MULTIPLAYER">
       <Text>GIOCA CON GOBBI</Text>

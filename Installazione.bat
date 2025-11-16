@@ -79,10 +79,7 @@ for /R "%UPDATE%" %%F in (*) do (
     )
     endlocal
 )
-echo pulizia backup errati
-del /Q /F "%BACKUP%\Assets\DLC\Expansion2\UI\InGame\UnitList.xml" 
-rmdir /S /Q "%BACKUP%\Assets\DLC\Shared\UI\New"
-rmdir /S /Q "%BACKUP%\UPDATE\Assets\DLC\Shared\Gameplay\XML\NEw
+
 echo.
 echo Backup completato.
 echo === Copia i nuovi file per l'aggiornamneto gobbico (escludendo la cartella backup) ===
@@ -97,7 +94,6 @@ echo Chiudo Civilization V...
 taskkill /IM CivilizationV.exe /F >nul 2>&1 || echo CivilizationV.exe non trovato o gia' chiuso
 taskkill /IM CivilizationV_DX11.exe /F >nul 2>&1 || echo CivilizationV_DX11.exe non trovato o gia' chiuso
 echo Operazione completata.
-
 echo Controllo che jarmen non bari
 timeout /t 1 /nobreak >nul
 echo Controllo che Enrico e Christian smetta di buggarmi il gioco
@@ -105,8 +101,8 @@ timeout /t 1 /nobreak >nul
 echo Controllo che L'arabia non compri troppi cammelli
 timeout /t 1 /nobreak >nul
 echo setto versione nuova
-rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string FileVersion "1, 0, 3, 279, (403699) (15/11/2025)"
-rcedit-x64.exe "%DEST%/CivilizationV_DX11.exe" --set-version-string FileVersion "1, 0, 3, 279, (403699) (15/11/2025)"
+rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string FileVersion "1, 0, 3, 279, (403700) (15/11/2025)"
+rcedit-x64.exe "%DEST%/CivilizationV_DX11.exe" --set-version-string FileVersion "1, 0, 3, 279, (403700) (15/11/2025)"
 ::echo correggo eventuali versioni sbagliate da precedenti settaggi
 rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string ProductVersion "1, 0, 3, 279, (403694) (11/19/2014)"
 
