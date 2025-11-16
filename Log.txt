@@ -31,3 +31,6 @@ Aggiunto felicità locale in interfacia costruzione.
 Ottimizzazione interfaccia città (dovrebbe far risparmiare qualche milisecondo è quasi irrilevante)
 
 
+V 0.6
+Il sistema ti blocca se non hai la versione giusta sul pitboss
+Aggiunti nuovi testi

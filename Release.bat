@@ -22,6 +22,6 @@ copy "%SOURCE%log.txt" "%DESTINATION%" /Y
 copy "%SOURCE%_setpatchServer.bat" "%DESTINATION%" /Y
 copy "%SOURCE%VerificaVersione.bat" "%DESTINATION%" /Y
 move /Y "%DESTINATION%\UPDATE\rcedit-x64.exe" "%DESTINATION%\rcedit-x64.exe"
-move /Y "%DESTINATION%\UPDATE\setpatchServer.bat" "%DESTINATION%\setpatchServer.bat"
+move /Y "%DESTINATION%\UPDATE\setpatch.bat" "%DESTINATION%\setpatch.bat"
 echo Operazione completata con successo.
 pause
