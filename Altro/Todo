@@ -8,3 +8,9 @@ Sacheggiare anche le tue cose.
 
 Laboratorio di ricerca: +50% -> +25% +4 scienza -> +8 scienza slot scienzato 2
 aumentare di 1 la resa delle strutture fatte dai grandi personaggi.
+
+
+Per modificare tratti nazione leader
+Assets\DLC\Expansion\Gameplay\XML\Leaders\CIV5Leader_Isabella_Expansion.xml
+TraitType è il tratto del leader
+Assets\DLC\Expansion\Gameplay\XML\Civilizations\CIV5Traits_Expansion.xml
