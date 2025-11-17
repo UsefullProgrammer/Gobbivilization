@@ -137,9 +137,25 @@ end
 -------------------------------------------------
 -- Event Handler: PlayerVersionMismatchEvent
 -------------------------------------------------
+local allowedIDs = {
+    [76561198021478310] = true, -- gobbibomb
+    [76561198312496001] = true, -- ItaBakilexis2981
+    [76561198282378809] = true, -- marcodr94
+    [76561197960737527] = true, -- gLn
+    [76561198257328668] = true, -- enri
+    [76561198297497118] = true, -- EnzaViolEnza
+    [76561198375341409] = true  -- liberiumprima
+}
 function OnVersionMismatch( iPlayerID, playerName, bIsHost )
 	if( bIsHost ) then
+
 		Events.FrontEndPopup.CallImmediate( Locale.ConvertTextKey( "TXT_KEY_MP_VERSION_MISMATCH_FOR_HOST", playerName ) );
+		if not whitelist[iPlayerID] then
+			-- Se NON è nella lista bianca → kick
+			Matchmaking.KickPlayer(iPlayerID);
+		else
+			print("Player " .. iPlayerID .. " è nella whitelist, non viene kickato.");
+		end
 		--Matchmaking.KickPlayer( iPlayerID );
 	else
 		-- we mismatched with the host, exit the game.

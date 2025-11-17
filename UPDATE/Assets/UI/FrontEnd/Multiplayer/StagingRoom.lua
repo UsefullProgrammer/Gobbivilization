@@ -1075,9 +1075,9 @@ Events.MultiplayerGamePlayerUpdated.Add( OnDisconnectOrPossiblyUpdate );
 function OnDisconnect( playerID )
     if( ContextPtr:IsHidden() == false ) then
 			if(Network.IsPlayerKicked(playerID)) then
-				OnChat( playerID, -1, Locale.ConvertTextKey( "TXT_KEY_KICKED" ) );
+				OnChat( playerID, -1, Locale.ConvertTextKey( "TXT_KEY_KICKED" ) .. playerID );
 			else
-    		OnChat( playerID, -1, Locale.ConvertTextKey( "TXT_KEY_DISCONNECTED" ) );
+    		OnChat( playerID, -1, Locale.ConvertTextKey( "TXT_KEY_DISCONNECTED" ) .. playerID );
 			end
     	ShowHideInviteButton();
 	end

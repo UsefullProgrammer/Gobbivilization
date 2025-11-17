@@ -26,7 +26,7 @@ end
 function ShowHideHandler( bIsHide, bIsInit )
     if( not bIsHide ) then
 		-- Numero totale di loghi disponibili
-	local numLoghi = 5;   -- cambia questo valore in base a quanti file hai
+	local numLoghi = 8;   -- cambia questo valore in base a quanti file hai
 
 	-- Genera un numero casuale tra 1 e numLoghi
 	local randomIndex = math.random(1, numLoghi);
