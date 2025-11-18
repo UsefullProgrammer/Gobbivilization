@@ -1,0 +1,13 @@
+--collegare eventi fra lua
+--Puoi fare un evento in un lua
+function OnExitGame()
+    --UIManager:QueuePopup( ContextPtr, PopupPriority.eUtmost );
+	--UIManager:PushModal( ContextPtr );
+	UI.ExitGame();
+end
+Events.UserRequestClose.Add( OnExitGame );
+--crea un evento che chiama l'evento sopra
+function OnExitGame()
+	Events.UserRequestClose();
+end
+Controls.ExitButton:RegisterCallback( Mouse.eLClick, OnExitGame );

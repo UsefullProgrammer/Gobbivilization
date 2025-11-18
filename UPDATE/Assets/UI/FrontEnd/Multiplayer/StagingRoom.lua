@@ -1048,7 +1048,7 @@ function OnConnect( playerID )
 
     	UpdateDisplay();
       BuildPlayerNames();
-    	OnChat( playerID, -1, Locale.ConvertTextKey( "TXT_KEY_CONNECTED" ) );
+    	OnChat( playerID, -1, Locale.ConvertTextKey( "TXT_KEY_CONNECTED" .. playerID ) );
 
     end
 end
