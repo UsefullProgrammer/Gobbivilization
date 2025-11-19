@@ -4586,7 +4586,7 @@
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MONUMENT</BuildingType>
+			<BuildingType>BUILDING_COURTHOUSE_OTTOMAN</BuildingType>
 			<FlavorType>YIELD_CULTURE</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>

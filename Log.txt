@@ -37,5 +37,6 @@ Aggiunti nuovi testi
 
 
 V Balance
+Le modifiche delle civiltà ove possibile sono indicate in verde.
 Per bilanciare in positivo gli ottomani ora hanno Il Tribunale costa la metà e produce 1 cultura.
 Per bilanciare in negativo i polacchi 

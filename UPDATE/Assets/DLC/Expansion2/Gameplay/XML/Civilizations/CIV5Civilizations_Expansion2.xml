@@ -177,11 +177,6 @@
 	<Civilization_BuildingClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
-			<BuildingType>BUILDING_ROYAL_LIBRARY</BuildingType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
 			<BuildingType>BUILDING_COURTHOUSE_OTTOMAN</BuildingType>
 		</Row>
