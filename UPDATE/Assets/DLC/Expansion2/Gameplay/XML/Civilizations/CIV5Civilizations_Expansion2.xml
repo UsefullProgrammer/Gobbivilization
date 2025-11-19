@@ -175,6 +175,12 @@
 		</Row>
 	</Civilizations>
 	<Civilization_BuildingClassOverrides>
+	
+		<Row>
+			<CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<BuildingType>BUILDING_COURTHOUSE_OTTOMAN</BuildingType>
+		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_ASSYRIA</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
