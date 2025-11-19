@@ -34,3 +34,8 @@ Ottimizzazione interfaccia città (dovrebbe far risparmiare qualche milisecondo 
 V 0.6
 Il sistema ti blocca se non hai la versione giusta sul pitboss
 Aggiunti nuovi testi
+
+
+V Balance
+Per bilanciare in positivo gli ottomani ora hanno Il Tribunale costa la metà e produce 1 cultura.
+Per bilanciare in negativo i polacchi 

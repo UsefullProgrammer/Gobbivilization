@@ -2225,6 +2225,24 @@
 		</Row>
 		<!-- Remove UN Wonder-->
 		<Delete Type="BUILDING_UNITED_NATIONS"/>
+		<Row>
+			<Type>BUILDING_COURTHOUSE_OTTOMAN</Type>
+			<BuildingClass>BUILDINGCLASS_COURTHOUSE</BuildingClass>
+			<Cost>50</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_COURTHOUSE_OTTOMAN_HELP</Help>
+			<Description>TXT_KEY_BUILDING_COURTHOUSE_OTTOMAN</Description>
+			<Civilopedia>TXT_KEY_BUILDING_COURTHOUSE_OTTOMAN_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_COURTHOUSE_OTTOMAN_STRATEGY</Strategy>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<HurryCostModifier>50</HurryCostModifier>
+			<NoOccupiedUnhappiness>true</NoOccupiedUnhappiness>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>63</PortraitIndex>
+		</Row>
 	</Buildings>
 	<Building_ClassesNeededInCity>
 		<Row>

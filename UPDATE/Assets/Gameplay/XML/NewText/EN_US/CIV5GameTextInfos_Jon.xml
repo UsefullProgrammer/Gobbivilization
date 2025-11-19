@@ -3022,6 +3022,9 @@
 		<Row Tag="TXT_KEY_BUILDING_COURTHOUSE_HELP">
 			<Text>Eliminates extra [ICON_HAPPINESS_4] Unhappiness from an [ICON_OCCUPIED] Occupied City.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COURTHOUSE_OTTOMAN_HELP">
+			<Text>Eliminates extra [ICON_HAPPINESS_4] Unhappiness from an [ICON_OCCUPIED] Occupied City.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP">
 			<Text>+1 [ICON_PRODUCTION] Production from each worked Forest tile.</Text>
 		</Row>
@@ -3270,10 +3273,10 @@
 			<Text>Upon defeating a Barbarian unit inside an encampment, there is a 50% chance you earn 25 [ICON_GOLD] Gold and they join your side. Pay 25% less for land unit maintenance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT">
-			<Text>Barbary Corsairs</Text>
+			<Text>Corsair Thousand Cultures</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
-			<Text>50% chance of converting an adjacent Barbarian naval unit to your side and earning 25 [ICON_GOLD] Gold. Pay only one-third the usual cost for naval unit maintenance.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Courthouse costs half as much and produces 1 Culture..[ENDCOLOR] 50% chance of converting an adjacent Barbarian naval unit to your side and earning 25 [ICON_GOLD] Gold. Pay only one-third the usual cost for naval unit maintenance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST_SHORT">
 			<Text>The Great Warpath</Text>

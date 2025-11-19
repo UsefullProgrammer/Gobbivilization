@@ -193,6 +193,9 @@
     <Row Tag="TXT_KEY_BUILDING_CIRCUS_MAXIMUS_HELP">
       <Text>È necessario aver costruito un Colosseo in tutte le città. Il costo aumenta al crescere del numero di città nell'impero.</Text>
     </Row>
+    <Row Tag="TXT_KEY_BUILDING_COURTHOUSE_OTTOMAN_HELP">
+      <Text>Elimina [ICON_HAPPINESS_4] l'Infelicità supplementare che proviene da una [ICON_OCCUPIED] città occupata.</Text>
+    </Row>
     <Row Tag="TXT_KEY_BUILDING_COURTHOUSE_HELP">
       <Text>Elimina [ICON_HAPPINESS_4] l'Infelicità supplementare che proviene da una [ICON_OCCUPIED] città occupata.</Text>
     </Row>
@@ -3196,10 +3199,10 @@
       <Text>Furor Teutonicus</Text>
     </Row>
     <Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
-      <Text>Possibilità del 50% di convertire un'unità navale barbarica adiacente alla tua causa e di guadagnare 25 [ICON_GOLD] Oro. Il costo di mantenimento delle unità navali è ridotto a un terzo del normale.</Text>
+      <Text>[COLOR_POSITIVE_TEXT]Il Tribunale costa la metà e produce 1 cultura.[ENDCOLOR] Possibilità del 50% di convertire un'unità navale barbarica adiacente alla tua causa e di guadagnare 25 [ICON_GOLD] Oro. Il costo di mantenimento delle unità navali è ridotto a un terzo del normale.</Text>
     </Row>
     <Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT">
-      <Text>Corsari barbarici</Text>
+      <Text>Mille Culture corsare</Text>
     </Row>
     <Row Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS">
       <Text>L'impero guadagna [ICON_CULTURE] Cultura ogni volta che uccide un'unità nemica. </Text>

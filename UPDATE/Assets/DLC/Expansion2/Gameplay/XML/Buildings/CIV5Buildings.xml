@@ -2298,8 +2298,10 @@
 			<IconAtlas>NEW_BLDG_ATLAS2_DLC</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
 		</Row>
+		
 		<!-- Remove UN Wonder-->
 		<Delete Type="BUILDING_UNITED_NATIONS"/>
+		
 	</Buildings>
 	<Building_ClassesNeededInCity>
 		<Row>
@@ -3139,11 +3141,12 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-    <Row>
-      <BuildingType>BUILDING_UNIVERSITY</BuildingType>
-      <FlavorType>FLAVOR_CULTURE</FlavorType>
-      <Flavor>10</Flavor>
-    </Row>
+		
+		<Row>
+		<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+		<FlavorType>FLAVOR_CULTURE</FlavorType>
+		<Flavor>10</Flavor>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_OBSERVATORY</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -3879,7 +3882,12 @@
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-	</Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_COURTHOUSE_OTTOMAN</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>150</Flavor>
+		</Row>
+		</Building_Flavors>
 	<Building_HurryModifiers>
 		<Row>
 			<BuildingType>BUILDING_BIG_BEN</BuildingType>
@@ -4576,6 +4584,11 @@
 			<BuildingType>BUILDING_SPACESHIP_FACTORY</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONUMENT</BuildingType>
+			<FlavorType>YIELD_CULTURE</FlavorType>
+			<Flavor>1</Flavor>
 		</Row>
 	</Building_YieldChanges>
 	<Building_ThemingBonuses>

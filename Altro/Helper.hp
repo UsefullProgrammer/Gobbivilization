@@ -11,3 +11,6 @@ function OnExitGame()
 	Events.UserRequestClose();
 end
 Controls.ExitButton:RegisterCallback( Mouse.eLClick, OnExitGame );
+
+
+Per colorare testi [COLOR_POSITIVE_TEXT] [ENDCOLOR] [COLOR_NEGATIVE_TEXT]
