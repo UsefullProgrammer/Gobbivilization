@@ -34,3 +34,7 @@ Ottimizzazione interfaccia città (dovrebbe far risparmiare qualche milisecondo 
 V 0.6
 Il sistema ti blocca se non hai la versione giusta sul pitboss
 Aggiunti nuovi testi
+
+V 0.6.1
+FIx chiccaggio per versione diversa.
+Integrato whitelist.

@@ -137,7 +137,7 @@ end
 -------------------------------------------------
 -- Event Handler: PlayerVersionMismatchEvent
 -------------------------------------------------
-local allowedIDs = {
+local oallowedIDs = {
     [76561198021478310] = true, -- gobbibomb
 	[76561198326176258] = true, -- ItaBaki
     [76561198312496001] = true, -- lexis2981
@@ -146,17 +146,28 @@ local allowedIDs = {
     [76561198257328668] = true, -- enri
     [76561198297497118] = true, -- EnzaViolEnza
     [76561198018631720] = true  -- Espanico5
-}
+};
+local whitelist = {
+    ["gobbibomb"] = true, -- gobbibomb
+	["ItaBaki"] = true, -- ItaBaki
+    ["lexis2981"] = true, -- lexis2981
+    ["marcodr94"] = true, -- marcodr94
+    ["gLn"] = true, -- gLn
+    ["enri"] = true, -- enri
+    ["EnzaViolEnza"] = true, -- EnzaViolEnza
+    ["Espanico5"] = true  -- Espanico5
+};
 function OnVersionMismatch( iPlayerID, playerName, bIsHost )
 	if( bIsHost ) then
-
+		BuildPlayerNames();
 		Events.FrontEndPopup.CallImmediate( Locale.ConvertTextKey( "TXT_KEY_MP_VERSION_MISMATCH_FOR_HOST", playerName ) );
-		if not whitelist[iPlayerID] then
-			-- Se NON è nella lista bianca → kick
-			Matchmaking.KickPlayer(iPlayerID);
-		else
-			print("Player " .. iPlayerID .. " è nella whitelist, non viene kickato.");
-		end
+		--OnChatJr( playerID, -1, Locale.ConvertTextKey( "TXT_KEY_DISCONNECTED" ) .. playerName );
+		 if not whitelist[playerName] then
+		 	-- Se NON è nella lista bianca → kick
+		 	Matchmaking.KickPlayer(iPlayerID);
+		 --else
+			--OnChatJr( iPlayerID, -1, "Player " .. playerName .. " è nella whitelist, non viene kickato." );
+		 end
 		--Matchmaking.KickPlayer( iPlayerID );
 	else
 		-- we mismatched with the host, exit the game.
@@ -168,7 +179,46 @@ function OnVersionMismatch( iPlayerID, playerName, bIsHost )
 	end
 end
 Events.PlayerVersionMismatchEvent.Add( OnVersionMismatch );
+local m_PlayerNames = {};
+local g_ChatInstances = {};
+function BuildPlayerNames()
+    local playerList = Matchmaking.GetPlayerList();
+    
+    if( playerList ~= nil ) then
+        m_PlayerNames = {};
+        
+        for i = 1, #playerList do
+            m_PlayerNames[ playerList[i].playerID ] = playerList[i].playerName;
+        end
+    end
+end
+-- function OnChatJr( fromPlayer, toPlayer, text, eTargetType )
+-- 	if(m_PlayerNames[ fromPlayer ] ~= nil ) then
+-- 		local controlTable = {};
+-- 		ContextPtr:BuildInstanceForControl( "ChatEntry", controlTable, Controls.ChatStack );
+	    
+-- 		table.insert( g_ChatInstances, controlTable );
+-- 		if( #g_ChatInstances > 100 ) then
+	    
+-- 			Controls.ChatStack:ReleaseChild( g_ChatInstances[ 1 ].Box );
+-- 			table.remove( g_ChatInstances, 1 );
+-- 		end
+	    
+-- 		controlTable.String:SetText( m_PlayerNames[ fromPlayer ] .. ": " .. text );
+-- 		controlTable.Box:SetSizeY( controlTable.String:GetSizeY() + 15 );
+-- 		controlTable.Box:ReprocessAnchoring();
 
+-- 		if( bFlipper ) then
+-- 			controlTable.Box:SetColorChannel( 3, 0.4 );
+-- 		end
+-- 		--bFlipper = not bFlipper;	
+
+-- 		Controls.ChatStack:CalculateSize();
+-- 		Controls.ChatScroll:CalculateInternalSize();
+-- 		Controls.ChatScroll:SetScrollValue( 1 );
+-- 	end
+-- end
+-- Events.GameMessageChat.Add( OnChatJr );
 -------------------------------------------------
 -- Show / Hide Handler
 -------------------------------------------------

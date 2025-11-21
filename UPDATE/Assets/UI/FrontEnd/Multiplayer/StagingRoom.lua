@@ -1039,7 +1039,16 @@ function HandleExitRequest()
 	UIManager:DequeuePopup( ContextPtr );
 end
 
-
+local whitelist = {
+    ["gobbibomb"] = true, -- gobbibomb
+	["ItaBaki"] = true, -- ItaBaki
+    ["lexis2981"] = true, -- lexis2981
+    ["marcodr94"] = true, -- marcodr94
+    ["gLn"] = true, -- gLn
+    ["enri"] = true, -- enri
+    ["EnzaViolEnza"] = true, -- EnzaViolEnza
+    ["Espanico5"] = true  -- Espanico5
+};
 ----------------------------------------------------------------
 -- Connection Established
 ----------------------------------------------------------------
@@ -1047,8 +1056,18 @@ function OnConnect( playerID )
     if( ContextPtr:IsHidden() == false ) then
 
     	UpdateDisplay();
-      BuildPlayerNames();
-    	OnChat( playerID, -1, Locale.ConvertTextKey( "TXT_KEY_CONNECTED" .. playerID ) );
+      	BuildPlayerNames();
+	    local playerList = Matchmaking.GetPlayerList();
+		-- if( m_PlayerNames[ playerID ] ~= nil and  m_PlayerNames[ playerID ] == "EnzaViolEnza") then
+		-- 	OnChat( playerID, -1,"Quel barone di jarmen sta entrando!");
+		-- end
+		if ( m_PlayerNames[ playerID ] ~= nil ) then 
+			if not whitelist[ m_PlayerNames[ playerID ]] then
+				OnChat( playerID, -1, " NON IN WHITELIST " .. Locale.ConvertTextKey( "TXT_KEY_CONNECTED" ) );
+			else 
+				OnChat( playerID, -1, " in whitelist " .. Locale.ConvertTextKey( "TXT_KEY_CONNECTED" ) );
+			end
+		end
 
     end
 end
@@ -1075,9 +1094,9 @@ Events.MultiplayerGamePlayerUpdated.Add( OnDisconnectOrPossiblyUpdate );
 function OnDisconnect( playerID )
     if( ContextPtr:IsHidden() == false ) then
 			if(Network.IsPlayerKicked(playerID)) then
-				OnChat( playerID, -1, Locale.ConvertTextKey( "TXT_KEY_KICKED" ) .. playerID );
+				OnChat( playerID, -1, Locale.ConvertTextKey( "TXT_KEY_KICKED" ) .. m_PlayerNames[ playerList[i].playerID ] );
 			else
-    		OnChat( playerID, -1, Locale.ConvertTextKey( "TXT_KEY_DISCONNECTED" ) .. playerID );
+    			OnChat( playerID, -1, Locale.ConvertTextKey( "TXT_KEY_DISCONNECTED" ) );
 			end
     	ShowHideInviteButton();
 	end
