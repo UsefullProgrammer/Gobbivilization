@@ -176,6 +176,12 @@
 	</Civilizations>
 	<Civilization_BuildingClassOverrides>
 		<Row>
+			<CivilizationType>CIVILIZATION_BYZANTIUM</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<BuildingType>BUILDING_PALACE_BYZ</BuildingType>
+		</Row>
+	
+		<Row>
 			<CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
 			<BuildingType>BUILDING_COURTHOUSE_OTTOMAN</BuildingType>

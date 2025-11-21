@@ -96,10 +96,6 @@ taskkill /IM CivilizationV_DX11.exe /F >nul 2>&1 || echo CivilizationV_DX11.exe 
 echo Operazione completata.
 echo Controllo che jarmen non bari
 timeout /t 1 /nobreak >nul
-echo Controllo che Enrico e Christian smetta di buggarmi il gioco
-timeout /t 1 /nobreak >nul
-echo Controllo che L'arabia non compri troppi cammelli
-timeout /t 1 /nobreak >nul
 echo setto versione nuova
 rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string FileVersion "1, 0, 3, 279, (403700) (15/11/2025)"
 rcedit-x64.exe "%DEST%/CivilizationV_DX11.exe" --set-version-string FileVersion "1, 0, 3, 279, (403700) (15/11/2025)"
@@ -110,14 +106,5 @@ rcedit-x64.exe "%DEST%/CivilizationV.exe" --set-version-string ProductVersion "1
 echo Installazione completata.
 echo.
 :: codice di controllo non funziona powershell -Command "(Get-Item '%DEST%/CivilizationV.exe').FileVersion"
-echo Avviare civ V (S/N)?
-set /p "RISPOSTA=> "
-
-if /I "%RISPOSTA%"=="S" (
-    echo [+] Avvio Civilization V...
+echo [+] Avvio Civilization V...
     start "" "%DEST%\CivilizationV.exe"
-) else (
-    echo [-] Avvio annullato.
-)
-
-pause

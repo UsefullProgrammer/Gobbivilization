@@ -54,7 +54,7 @@
 			<ResearchPercent>100</ResearchPercent>
 			<NumCitiesUnhappinessPercent>100</NumCitiesUnhappinessPercent>
 			<NumCitiesPolicyCostMod>10</NumCitiesPolicyCostMod>
-			<NumCitiesTechCostMod>5</NumCitiesTechCostMod>
+			<NumCitiesTechCostMod>10</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>80</AdvancedStartPointsMod>
 			<EstimatedNumCities>13</EstimatedNumCities>
 			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
@@ -81,7 +81,7 @@
 			<ResearchPercent>100</ResearchPercent>
 			<NumCitiesUnhappinessPercent>100</NumCitiesUnhappinessPercent>
 			<NumCitiesPolicyCostMod>10</NumCitiesPolicyCostMod>
-			<NumCitiesTechCostMod>5</NumCitiesTechCostMod>
+			<NumCitiesTechCostMod>10</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>85</AdvancedStartPointsMod>
 			<EstimatedNumCities>26</EstimatedNumCities>
 			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
@@ -108,7 +108,7 @@
 			<ResearchPercent>100</ResearchPercent>
 			<NumCitiesUnhappinessPercent>100</NumCitiesUnhappinessPercent>
 			<NumCitiesPolicyCostMod>10</NumCitiesPolicyCostMod>
-			<NumCitiesTechCostMod>5</NumCitiesTechCostMod>
+			<NumCitiesTechCostMod>10</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>90</AdvancedStartPointsMod>
 			<EstimatedNumCities>39</EstimatedNumCities>
 			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
@@ -135,7 +135,7 @@
 			<ResearchPercent>110</ResearchPercent>
 			<NumCitiesUnhappinessPercent>100</NumCitiesUnhappinessPercent>
 			<NumCitiesPolicyCostMod>10</NumCitiesPolicyCostMod>
-			<NumCitiesTechCostMod>5</NumCitiesTechCostMod>
+			<NumCitiesTechCostMod>10</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>100</AdvancedStartPointsMod>
 			<EstimatedNumCities>52</EstimatedNumCities>
 			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
@@ -162,7 +162,7 @@
 			<ResearchPercent>120</ResearchPercent>
 			<NumCitiesUnhappinessPercent>80</NumCitiesUnhappinessPercent>
 			<NumCitiesPolicyCostMod>7.5</NumCitiesPolicyCostMod>
-			<NumCitiesTechCostMod>3.75</NumCitiesTechCostMod>
+			<NumCitiesTechCostMod>8</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>110</AdvancedStartPointsMod>
 			<EstimatedNumCities>80</EstimatedNumCities>
 			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
@@ -189,7 +189,7 @@
 			<ResearchPercent>130</ResearchPercent>
 			<NumCitiesUnhappinessPercent>60</NumCitiesUnhappinessPercent>
 			<NumCitiesPolicyCostMod>5</NumCitiesPolicyCostMod>
-			<NumCitiesTechCostMod>2.5</NumCitiesTechCostMod>
+			<NumCitiesTechCostMod>7</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>120</AdvancedStartPointsMod>
 			<EstimatedNumCities>132</EstimatedNumCities>
 			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>

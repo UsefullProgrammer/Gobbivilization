@@ -1584,7 +1584,7 @@ function PopulateCivPulldown( pullDown, playerID )
 								Leaders.Type = Civilization_Leaders.LeaderheadType
 						]]) do
 						
-		local title = Locale.Lookup("TXT_KEY_RANDOM_LEADER_CIV", Locale.Lookup(row.LeaderDescription), Locale.Lookup(row.CivShortDescription)); 
+		local title = Locale.Lookup("TXT_KEY_RANDOM_LEADER_CIV", Locale.Lookup(row.CivShortDescription), Locale.Lookup(row.LeaderDescription) ); 
 
 		table.insert(civEntries, {ID = row.CivID, Title = title, Description = Locale.Lookup(row.CivDescription)});						
 	end

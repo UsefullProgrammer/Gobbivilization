@@ -236,6 +236,13 @@
     <Row Tag="TXT_KEY_BUILDING_COURTHOUSE_OTTOMAN">
       <Text>Ottoman Courthouse</Text>
     </Row>
+    <Row Tag="TXT_KEY_BUILDING_PALACE_BYZ">
+      <Text>Byzantium Palace</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PALACE_BYSANZIO">
+      <Text>Palace</Text>
+    </Row>
+    
     <Row Tag="TXT_KEY_BUILDING_UNITED_NATIONS">
       <Text>United Nations</Text>
       <Gender>neuter:the</Gender>

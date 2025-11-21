@@ -2243,6 +2243,27 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>63</PortraitIndex>
 		</Row>
+		<Row>
+			<Type>BUILDING_PALACE_BYZ</Type>
+			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
+			<Cost>0</Cost>
+			<Help>TXT_KEY_BUILDING_PALACE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PALACE_BYZ</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PALACE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PALACE_STRATEGY</Strategy>
+			<ArtDefineTag>PALACE</ArtDefineTag>
+			<Capital>true</Capital>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>250</Defense>
+			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
+			<DisplayPosition>32</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+		</Row>
 	</Buildings>
 	<Building_ClassesNeededInCity>
 		<Row>
@@ -2532,6 +2553,22 @@
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_BYZ</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_BYZ</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_BYZ</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		
 		<Row>
 			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
 			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
@@ -3822,6 +3859,11 @@
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_COURTHOUSE_OTTOMAN</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>150</Flavor>
+		</Row>
 	</Building_Flavors>
 	<Building_HurryModifiers>
 		<Row>
@@ -4136,6 +4178,22 @@
 			<Yield>3</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_PALACE_BYZ</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_BYZ</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_BYZ</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		
+		<Row>
 			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
@@ -4317,6 +4375,11 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PALACE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_BYZ</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -4510,6 +4573,8 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>4</Yield>
 		</Row>
+		
+		
 		<Row>
 			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
@@ -4519,6 +4584,16 @@
 			<BuildingType>BUILDING_SPACESHIP_FACTORY</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COURTHOUSE_OTTOMAN</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_BYZ</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
 		</Row>
 	</Building_YieldChanges>
 	<Building_ThemingBonuses>

@@ -39,4 +39,8 @@ Aggiunti nuovi testi
 V Balance
 Le modifiche delle civiltà ove possibile sono indicate in verde.
 Per bilanciare in positivo gli ottomani ora hanno Il Tribunale costa la metà e produce 1 cultura.
-Per bilanciare in negativo i polacchi 
+Per bilanciare in negativo i polacchi ora non hanno più 1 politica gratuita per era ma uno sconto del 20%
+Per bilanciare in positivo bisanzio ha +1 fede dal palazzo
+Il malus della scienza per ogni città è aumentato ora è più bilanciato, è 10% invece di 5%
+
+Ordinamento nazioni per nome nazione
