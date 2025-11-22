@@ -35,6 +35,11 @@
       <BuildingClassType>BUILDINGCLASS_STATUE_ZEUS</BuildingClassType>
       <BuildingType/>
     </Row>
+	<Row>
+		<CivilizationType>CIVILIZATION_BYZANTIUM</CivilizationType>
+		<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+		<BuildingType>BUILDING_SHRINE_BYZ</BuildingType>
+	</Row>
     
     <Row>
 			<CivilizationType>CIVILIZATION_ETHIOPIA</CivilizationType>

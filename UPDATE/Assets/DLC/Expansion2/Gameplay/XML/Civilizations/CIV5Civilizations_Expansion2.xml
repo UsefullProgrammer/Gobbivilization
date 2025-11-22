@@ -175,6 +175,7 @@
 		</Row>
 	</Civilizations>
 	<Civilization_BuildingClassOverrides>
+	 	
 		<Row>
 			<CivilizationType>CIVILIZATION_BYZANTIUM</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
