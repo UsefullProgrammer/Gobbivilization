@@ -26,7 +26,7 @@
       <Text>Premio Nobel</Text>
     </Row>
     <Row Tag="TXT_KEY_TRAIT_EXTRA_BELIEF">
-      <Text>[COLOR_POSITIVE_TEXT] Il palazzo produce +1 [ICON_PEACE] Fede e il santuario costa il 50% [ENDCOLOR] Quando istituisci una religione, scegli una Credenza in più del normale.</Text>
+      <Text>[COLOR_MAGENTA] Il palazzo produce +1 [ICON_PEACE] Fede e il santuario costa il 50% [ENDCOLOR] Quando istituisci una religione, scegli una Credenza in più del normale.</Text>
     </Row>
     <Row Tag="TXT_KEY_TRAIT_EXTRA_BELIEF_SHORT">
       <Text>Patriarcato di Costantinopoli</Text>

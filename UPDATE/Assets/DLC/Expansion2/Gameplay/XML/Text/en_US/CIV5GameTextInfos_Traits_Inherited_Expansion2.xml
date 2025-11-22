@@ -15,7 +15,7 @@
 			<Text>Druidic Lore</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_EXTRA_BELIEF">
-			<Text>[COLOR_POSITIVE_TEXT] Palace product +1 [ICON_PEACE] Faith and the Shrine costs half as much [ENDCOLOR] Choose one more Belief than normal when you found a Religion.</Text>
+			<Text>[COLOR_MAGENTA] Palace product +1 [ICON_PEACE] Faith and the Shrine costs half as much [ENDCOLOR] Choose one more Belief than normal when you found a Religion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_EXTRA_BELIEF_SHORT">
 			<Text>Patriarchate of Constantinople</Text>

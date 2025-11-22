@@ -752,7 +752,7 @@
       <Text>[COLOR_POSITIVE_TEXT]Oligarchia[ENDCOLOR][NEWLINE]Le unità di guarnigione nelle città non hanno costi di mantenimento; inoltre una città dotata di guarnigione guadagna un bonus del 50% alla [ICON_RANGE_STRENGTH] Forza di combattimento a distanza.</Text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP">
-      <Text>[COLOR_POSITIVE_TEXT]Religione organizzata[ENDCOLOR][NEWLINE]+1 [ICON_PEACE] Fede da Santuari e Templi.</Text>
+      <Text>[COLOR_POSITIVE_TEXT]Religione organizzata[ENDCOLOR][NEWLINE]+1 [ICON_PEACE] Fede da Santuari e [COLOR_MAGENTA]+2 [ICON_PEACE] Fede Templi.[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_PLANNED_ECONOMY_HELP">
       <Text>[COLOR_POSITIVE_TEXT]Economia pianificata[ENDCOLOR][NEWLINE]Le Fabbriche aumentano del 25% la [ICON_RESEARCH] Scienza prodotta in una città. La costruzione delle Fabbriche richiede la metà del tempo.</Text>
@@ -821,7 +821,7 @@
       <Text>[ICON_FOOD] Cibo, [ICON_CULTURE] Cultura e [ICON_PEACE] Fede ricevuti dalle città-stato amiche aumentano del 50%.</Text>
     </Row>
     <Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
-      <Text>[COLOR_POSITIVE_TEXT]Il Tribunale costa la metà e produce 1 cultura.[ENDCOLOR] Tutte le unità navali da mischia hanno la promozione Cattura delle navi, che permette loro di catturare le navi nemiche sconfitte. Il mantenimento delle unità navali costa solo un terzo del normale.</Text>
+      <Text>[COLOR_MAGENTA]Il Tribunale costa la metà e produce 1 cultura.[ENDCOLOR] Tutte le unità navali da mischia hanno la promozione Cattura delle navi, che permette loro di catturare le navi nemiche sconfitte. Il mantenimento delle unità navali costa solo un terzo del normale.</Text>
     </Row>
     <Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
       <Text>+2 al [ICON_MOVES] movimento di tutte le unità navali. Ricevi 1 Spia extra.</Text>
