@@ -161,8 +161,8 @@
 			<FeatureGrainChange>1</FeatureGrainChange>
 			<ResearchPercent>120</ResearchPercent>
 			<NumCitiesUnhappinessPercent>80</NumCitiesUnhappinessPercent>
-			<NumCitiesPolicyCostMod>7.5</NumCitiesPolicyCostMod>
-			<NumCitiesTechCostMod>8</NumCitiesTechCostMod>
+			<NumCitiesPolicyCostMod>10</NumCitiesPolicyCostMod>
+			<NumCitiesTechCostMod>10</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>110</AdvancedStartPointsMod>
 			<EstimatedNumCities>80</EstimatedNumCities>
 			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
@@ -188,8 +188,8 @@
 			<FeatureGrainChange>1</FeatureGrainChange>
 			<ResearchPercent>130</ResearchPercent>
 			<NumCitiesUnhappinessPercent>60</NumCitiesUnhappinessPercent>
-			<NumCitiesPolicyCostMod>5</NumCitiesPolicyCostMod>
-			<NumCitiesTechCostMod>7</NumCitiesTechCostMod>
+			<NumCitiesPolicyCostMod>10</NumCitiesPolicyCostMod>
+			<NumCitiesTechCostMod>10</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>120</AdvancedStartPointsMod>
 			<EstimatedNumCities>132</EstimatedNumCities>
 			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
