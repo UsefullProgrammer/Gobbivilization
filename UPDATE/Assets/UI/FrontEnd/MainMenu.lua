@@ -14,12 +14,12 @@ local fTime = 0;
 local i1, i2 = string.find( UI.GetVersionInfo(), " " );
 versionNumber = "Gobbi V Balance (Beta) Build 403800";
 local versioni = string.sub(UI.GetVersionInfo(), i2+1);
-local versiongame = "(403700)";
+local versiongame = "(403800)";
 versioncheck = (versioni == versiongame);
 if(versioncheck) then
 	Controls.VersionNumber:SetText(versionNumber .. UI.GetVersionInfo() );
 else
-	Controls.VersionNumber:SetText(versionNumber .. UI.GetVersionInfo() .. "Versione SBAGLIATA " .. "hai bisogno della " .. versiongame);
+	Controls.VersionNumber:SetText(versionNumber );--UI.GetVersionInfo() .. "Versione SBAGLIATA " .. "hai bisogno della " .. versiongame
 end
 -- .. "Versioncheck" .. versioncheck .. "quindi è " .. check)
 

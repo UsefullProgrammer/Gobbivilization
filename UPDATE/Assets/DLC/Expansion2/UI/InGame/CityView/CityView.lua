@@ -771,15 +771,22 @@ function OnCityViewUpdate()
 		
 		-- Update capital icon
 		local isCapital = pCity:IsCapital();
+		--local israilroadconnected = pCity:IsIndustrialRouteToCapital();
 		Controls.CityCapitalIcon:SetHide(not isCapital);
 		
 		-- Connected to capital?
+		
 		if (isActiveTeamCity) then
 			if (not isCapital and pPlayer:IsCapitalConnectedToCity(pCity) and not pCity:IsBlockaded()) then
 				Controls.ConnectedIcon:SetHide(false);
+				--Controls.IndustrialConnectedIcon:SetHide(false);--TODO mettere codice per far vedere un icona treno
+				--if(israilroadconnected) then
+				 	--Controls.IndustrialConnectedIcon:SetHide(false);--TODO mettere codice per far vedere un icona treno
+				--end
 				Controls.ConnectedIcon:LocalizeAndSetToolTip("TXT_KEY_CITY_CONNECTED");
 			else
 				Controls.ConnectedIcon:SetHide(true);
+				Controls.IndustrialConnectedIcon:SetHide(true);
 			end
 		end
 			

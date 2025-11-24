@@ -11,7 +11,7 @@ local pitbossToggle = false;  -- Are we selecting the network mode for Pitboss o
 local displayNetworkModes = false;	-- Are we displaying the network mode buttons?
 local i1, i2 = string.find( UI.GetVersionInfo(), " " );
 local versioni = string.sub(UI.GetVersionInfo(), i2+1);
-local versiongame = "(403700)";
+local versiongame = "(403800)";
 local versioncheck = (versioni == versiongame);
 if( not versioncheck) then
 	Controls.PitbossButton:SetText("Versione SBAGLIATA");
