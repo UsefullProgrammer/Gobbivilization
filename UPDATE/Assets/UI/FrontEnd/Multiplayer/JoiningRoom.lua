@@ -159,22 +159,20 @@ local whitelist = {
 };
 function OnVersionMismatch( iPlayerID, playerName, bIsHost )
 	if( bIsHost ) then
-		BuildPlayerNames();
 		Events.FrontEndPopup.CallImmediate( Locale.ConvertTextKey( "TXT_KEY_MP_VERSION_MISMATCH_FOR_HOST", playerName ) );
-		--OnChatJr( playerID, -1, Locale.ConvertTextKey( "TXT_KEY_DISCONNECTED" ) .. playerName );
-		 if not whitelist[playerName] then
-		 	-- Se NON è nella lista bianca → kick
+		-- Se NON è nella lista bianca kick
+		 if(not whitelist[playerName]) then
+		 	
 		 	Matchmaking.KickPlayer(iPlayerID);
-		 --else
-			--OnChatJr( iPlayerID, -1, "Player " .. playerName .. " è nella whitelist, non viene kickato." );
 		 end
-		--Matchmaking.KickPlayer( iPlayerID );
 	else
 		-- we mismatched with the host, exit the game.
 		Events.FrontEndPopup.CallImmediate( Locale.ConvertTextKey( "TXT_KEY_MP_VERSION_MISMATCH_FOR_PLAYER" ) );
-		--g_joinFailed = true;	
-		--Matchmaking.LeaveMultiplayerGame();
-		--HandleExitRequest();
+		if not whitelist[playerName] then
+			g_joinFailed = true;	
+			Matchmaking.LeaveMultiplayerGame();
+			HandleExitRequest();
+		end
 		UIManager:DequeuePopup( ContextPtr );
 	end
 end
