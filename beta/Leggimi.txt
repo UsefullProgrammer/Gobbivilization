@@ -1,0 +1,3 @@
+Prendi tutto e mettilo dove è il gioco, dopo copia la cartella asset in beta e incollala.
+Devi avere backup e update nella cartella del gioco!!!
+Quando vuoi distintallare avvia semplicemente disistallazione beta.

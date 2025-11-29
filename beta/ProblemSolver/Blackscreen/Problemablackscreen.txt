@@ -1,0 +1,2 @@
+Se quando avvi il gioco rimane nero il problema è nelle impostazioni grafiche.
+Copia le impostazioni da questa cartella su dove sono in %userprofile%\Documents\My Games\Sid Meier's Civilization 5

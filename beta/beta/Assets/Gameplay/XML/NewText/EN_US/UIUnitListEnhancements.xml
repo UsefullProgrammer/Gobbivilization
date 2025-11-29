@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_XP" >
+			<Text>XP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HP" >
+			<Text>HP</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_STATUS_UPGRADE_TT" >
+			<Text>Upgrade to {1_Unit} for [ICON_GOLD]{2_Cost}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_STATUS_SLEEPING" >
+			<Text>Sleeping</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_GARRISONED" >
+			<Text>Garrisoned</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_IMPROVING" >
+			<Text>Improving (auto)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_EXPLORING" >
+			<Text>Exploring</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_HEALING" >
+			<Text>Healing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_ALERT" >
+			<Text>On Alert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_TRADING">
+			<Text>Trading (auto)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_TRADING_TT">
+			<Text>Between {1_FromCity} and {2_ToCity}{3_Recall}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_RECALLING_TT">
+			<Text>[COLOR_WARNING_TEXT] (Recalling, don't do this in Multipalyer games!)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_RECALLED_TT">
+			<Text>[COLOR_WARNING_TEXT] (Recalled)[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_STATUS_BUILD_SKIP_WORDS" >
+			<Text>Construct Chop Down Remove Clear Scrub a an</Text>
+		</Row>
+	</Language_en_US>
+    
+    <Language_de_DE>
+		<Row Tag="TXT_KEY_XP" >
+			<Text>XP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HP" >
+			<Text>HP</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_STATUS_UPGRADE_TT" >
+			<Text>Aufwerten zu {1_Unit} für [ICON_GOLD]{2_Cost}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_STATUS_SLEEPING" >
+			<Text>Sleeping</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_GARRISONED" >
+			<Text>Garrisoned</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_IMPROVING" >
+			<Text>Improving (auto)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_EXPLORING" >
+			<Text>Erkundet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_HEALING" >
+			<Text>Heilt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_ALERT" >
+			<Text>On Alert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_TRADING">
+			<Text>Handelt (auto)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_TRADING_TT">
+			<Text>Zwischen {1_FromCity} und {2_ToCity}{3_Recall}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_RECALLING_TT">
+			<Text>[COLOR_WARNING_TEXT] (Recalling, don't do this in Multipalyer games!)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS_RECALLED_TT">
+			<Text>[COLOR_WARNING_TEXT] (Recalled)[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_STATUS_BUILD_SKIP_WORDS" >
+			<Text>Construct Chop Down Remove Clear Scrub a an</Text>
+		</Row>
+	</Language_de_DE>
+</GameData>
