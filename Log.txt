@@ -39,7 +39,7 @@ Aggiunti nuovi testi
 V Balance
 Le modifiche dal vanilla sono indicate in magenta nel gioco.
 Per bilanciare in positivo gli ottomani ora hanno Il Tribunale costa la metà e produce 1 cultura.
-Per bilanciare in negativo i polacchi ora non hanno più 1 politica gratuita per era ma uno sconto del 20%
+Per bilanciare in negativo i polacchi ora non hanno più 1 politica gratuita per era ma uno sconto del 15%
 Per bilanciare in positivo bisanzio ha +1 fede dal palazzo e gli costa metà il santuario
 Per bilanciare in positivo ora venezia può fare coloni
 Per bilanciare in positivo ora la grecia spawna i generali il 50% più velocemente

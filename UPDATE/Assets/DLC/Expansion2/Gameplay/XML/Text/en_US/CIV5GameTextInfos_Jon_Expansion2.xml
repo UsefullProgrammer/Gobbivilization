@@ -38,7 +38,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Theocracy[ENDCOLOR][NEWLINE]Temples increase a city's [ICON_GOLD] Gold output by 25%. Holy Sites provide +3 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Mandate of Heaven[ENDCOLOR][NEWLINE]20% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith.[NEWLINE][COLOR_CYAN] +1 [ICON_HAPPINESS_1] Happiness from Shrines and Temples[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Mandate of Heaven[ENDCOLOR][NEWLINE]20% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith.[NEWLINE][COLOR_MAGENTA] +1 [ICON_HAPPINESS_1] Happiness from Shrines and Temples[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_FREE_RELIGION_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Religious Tolerance[ENDCOLOR][NEWLINE]Cities with a majority religion also get the Pantheon belief bonus of the second most popular religion.</Text>

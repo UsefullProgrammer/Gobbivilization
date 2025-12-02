@@ -27,7 +27,7 @@
 			<Type>TRAIT_SOLIDARITY</Type>
 			<Description>TXT_KEY_TRAIT_SOLIDARITY</Description>
 			<ShortDescription>TXT_KEY_TRAIT_SOLIDARITY_SHORT</ShortDescription>
-			<PolicyCostModifier>-20</PolicyCostModifier>
+			<PolicyCostModifier>-15</PolicyCostModifier>
 		</Row>
 		<Row>
 			<Type>TRAIT_CARNIVAL</Type>

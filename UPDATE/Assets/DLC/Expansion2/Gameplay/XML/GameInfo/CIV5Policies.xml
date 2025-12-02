@@ -1825,21 +1825,7 @@
 		</Row>
 	</Policy_BuildingClassYieldModifiers>
 	<Policy_BuildingClassYieldChanges>
-<!-- gobbimod -->
-		<Row>
-			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
-			<BuildingClassType>BUILDING_HOSPITAL</BuildingClassType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>2</YieldChange>
-		</Row>
-		
-	<!-- gobbimod end-->
+
 		<Row>
 			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
@@ -1930,6 +1916,20 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
+		<!-- gobbi mod -->
+		<Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDING_HOSPITAL</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<!-- gobbi mod end -->
 	</Policy_BuildingClassYieldChanges>
 	<Policy_BuildingClassCultureChanges>
 		<Row>
@@ -2018,7 +2018,7 @@
 		</Row>
 	</Policy_BuildingClassTourismModifiers>
 	<Policy_BuildingClassHappiness>
-	<!-- gobbi mod -->
+	<!-- gobbi mod workit -->
 		<Row>
 			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>

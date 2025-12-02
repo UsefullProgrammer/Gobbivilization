@@ -525,7 +525,7 @@
       <Text>[COLOR_POSITIVE_TEXT]Guerra lampo[ENDCOLOR][NEWLINE]I Grandi Generali ricevono +3 [ICON_MOVES] movim.; le Unità corazzate +15% in attacco, +1 [ICON_MOVES] movim. e ignorano la ZDC nemica.</Text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP">
-      <Text>[COLOR_POSITIVE_TEXT]Mandato divino[ENDCOLOR][NEWLINE]Sconto del 20% su tutti gli acquisti di edifici e unità religiose in cambio di [ICON_PEACE] Fede.[NEWLINE][COLOR_CYAN] +1 [ICON_HAPPINESS_1] felicità dai santuari e templi[ENDCOLOR]</Text>
+      <Text>[COLOR_POSITIVE_TEXT]Mandato divino[ENDCOLOR][NEWLINE]Sconto del 20% su tutti gli acquisti di edifici e unità religiose in cambio di [ICON_PEACE] Fede.[NEWLINE][COLOR_MAGENTA] +1 [ICON_HAPPINESS_1] felicità dai santuari e templi[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE">
       <Text>Infrastruttura marittima</Text>

@@ -59,7 +59,7 @@
       <Text>Tesori di Ninive</Text>
     </Row>
     <Row Tag="TXT_KEY_TRAIT_SOLIDARITY">
-      <Text>Il costo in Cultura per adottare nuove Politiche è ridotto del 20%.</Text>
+      <Text>[COLOR_MAGENTA]Il costo in Cultura per adottare nuove Politiche è ridotto del 15%.[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_TRAIT_SOLIDARITY_SHORT">
       <Text>Solidarietà</Text>

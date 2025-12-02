@@ -27,7 +27,7 @@
 			<Text>Solidarity</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_SOLIDARITY">
-			<Text>[COLOR_CYAN]Culture cost of adopting new Policies reduced by 20%.[ENDCOLOR]</Text>
+			<Text>[COLOR_MAGENTA]Culture cost of adopting new Policies reduced by 15%.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_CARNIVAL_SHORT">
 			<Text>Carnival</Text>
