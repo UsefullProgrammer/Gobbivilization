@@ -1959,10 +1959,22 @@ Events.AfterModsDeactivate.Add( OnDLCChanged );
 
 -------------------------------------------------
 -------------------------------------------------
+local whitelist = {
+    ["gobbibomb"] = true, -- gobbibomb
+	["ItaBaki"] = true, -- ItaBaki
+    ["lexis2981"] = true, -- lexis2981
+    ["marcodr94"] = true, -- marcodr94
+    ["gLn"] = true, -- gLn
+    ["enri"] = true, -- enri
+    ["EnzaViolEnza"] = true, -- EnzaViolEnza
+    ["Espanico5"] = true  -- Espanico5
+};
 function OnVersionMismatch( iPlayerID, playerName, bIsHost )
     if( bIsHost ) then
         Events.FrontEndPopup.CallImmediate( Locale.ConvertTextKey( "TXT_KEY_MP_VERSION_MISMATCH_FOR_HOST_SR", playerName ) );
-    	--Matchmaking.KickPlayer( iPlayerID );
+    	if(not whitelist[playerName]) then
+			Matchmaking.KickPlayer( iPlayerID );
+		end
     else
         Events.FrontEndPopup.CallImmediate( Locale.ConvertTextKey( "TXT_KEY_MP_VERSION_MISMATCH_FOR_PLAYER_SR" ) );
         HandleExitRequest();

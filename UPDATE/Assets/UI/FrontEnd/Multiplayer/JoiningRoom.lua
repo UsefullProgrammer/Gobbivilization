@@ -137,16 +137,6 @@ end
 -------------------------------------------------
 -- Event Handler: PlayerVersionMismatchEvent
 -------------------------------------------------
-local oallowedIDs = {
-    [76561198021478310] = true, -- gobbibomb
-	[76561198326176258] = true, -- ItaBaki
-    [76561198312496001] = true, -- lexis2981
-    [76561198282378809] = true, -- marcodr94
-    [76561197960737527] = true, -- gLn
-    [76561198257328668] = true, -- enri
-    [76561198297497118] = true, -- EnzaViolEnza
-    [76561198018631720] = true  -- Espanico5
-};
 local whitelist = {
     ["gobbibomb"] = true, -- gobbibomb
 	["ItaBaki"] = true, -- ItaBaki
