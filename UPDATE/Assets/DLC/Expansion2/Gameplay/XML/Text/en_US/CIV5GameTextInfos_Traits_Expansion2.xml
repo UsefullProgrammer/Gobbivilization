@@ -9,7 +9,7 @@
 			<Text>Serenissima</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_SUPER_CITY_STATE">
-			<Text>[NEWLINE][COLOR_MAGENTA]Can gain settlers (ty gobbi)[ENDCOLOR] can't annex cities. Double the normal number of trade routes available. A Merchant of Venice appears after researching Optics. May purchase in puppeted cities.</Text>
+			<Text>[NEWLINE][COLOR_MAGENTA]Settler cost more[ENDCOLOR]. Double the normal number of trade routes available. A Merchant of Venice appears after researching Optics. May purchase in puppeted cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_BUFFALO_HORNS_SHORT">
 			<Text>Iklwa</Text>

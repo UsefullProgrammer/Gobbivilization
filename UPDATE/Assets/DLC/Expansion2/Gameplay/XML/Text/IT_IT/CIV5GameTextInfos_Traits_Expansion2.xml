@@ -71,7 +71,7 @@
       <Text>Isole delle spezie</Text>
     </Row>
     <Row Tag="TXT_KEY_TRAIT_SUPER_CITY_STATE">
-      <Text>[COLOR_MAGENTA]Può ottenere Coloni (grazie a gobbi)[ENDCOLOR] ma non può annettere città. Possiede un numero doppio di Rotte commerciali. Dopo la scoperta dell'Ottica compare un Mercante di Venezia. Può eseguire acquisti (unità, edifici, ecc.) negli stati fantoccio.</Text>
+      <Text>[COLOR_MAGENTA]I coloni costano di più[ENDCOLOR]. Possiede un numero doppio di Rotte commerciali. Dopo la scoperta dell'Ottica compare un Mercante di Venezia. Può eseguire acquisti (unità, edifici, ecc.) negli stati fantoccio.</Text>
     </Row>
     <Row Tag="TXT_KEY_TRAIT_SUPER_CITY_STATE_SHORT">
       <Text>Serenissima</Text>

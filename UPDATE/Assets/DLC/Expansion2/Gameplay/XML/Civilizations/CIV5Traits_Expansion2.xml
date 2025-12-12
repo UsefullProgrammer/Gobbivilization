@@ -3,13 +3,14 @@
 <GameData>
 	<Traits>
 		<Row>
-			<Type>TRAIT_SUPER_CITY_STATE</Type>
+			<Type>TRAIT_SUPER_CITY_STATE_2</Type>
 			<Description>TXT_KEY_TRAIT_SUPER_CITY_STATE</Description>
 			<ShortDescription>TXT_KEY_TRAIT_SUPER_CITY_STATE_SHORT</ShortDescription>
-			<NoAnnexing>true</NoAnnexing>
+			<NoAnnexing>false</NoAnnexing>
 			<FreeUnit>UNITCLASS_MERCHANT</FreeUnit>
 			<FreeUnitPrereqTech>TECH_OPTICS</FreeUnitPrereqTech>
 			<NumTradeRoutesModifier>100</NumTradeRoutesModifier>
+			<!-- <CityUnhappinessModifier>100</CityUnhappinessModifier> -->
 		</Row>
 		<Row>
 			<Type>TRAIT_BUFFALO_HORNS</Type>

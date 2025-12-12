@@ -220,6 +220,29 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 		</Row>
 		<Row>
+			<Class>UNITCLASS_SETTLER</Class>
+			<Type>UNIT_SETTLER_VEN</Type>
+			<Moves>2</Moves>
+			<Cost>40</Cost>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH_EARLY_GAME_ONLY</CivilianAttackPriority>
+			<HurryCostModifier>30</HurryCostModifier>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_SETTLE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SETTLER_VEN</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_SETTLER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SETTLER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SETTLER</Help>
+			<Requirements>TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT_HARDCODED</Requirements>
+			<Food>true</Food>
+			<Found>true</Found>
+			<CombatLimit>0</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT__SETTLER</UnitArtInfo>
+			<UnitArtInfoCulturalVariation>true</UnitArtInfoCulturalVariation>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_WORKER</Type>
 			<Cost>70</Cost>
@@ -2910,6 +2933,11 @@
 			<UnitAIType>UNITAI_SETTLE</UnitAIType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_SETTLER_VEN</UnitType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+		
+		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<UnitAIType>UNITAI_WORKER</UnitAIType>
 		</Row>
@@ -4032,6 +4060,12 @@
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>21</Flavor>
 		</Row>
+		<Row>
+			<UnitType>UNIT_SETTLER_VEN</UnitType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+		
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>

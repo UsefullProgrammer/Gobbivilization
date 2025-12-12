@@ -19,5 +19,8 @@
 	<Row Tag="TXT_KEY_CITYVIEW_HAPPINESS_TEXT_NEGATIVE">
 		<Text>[COLOR_WARNING_TEXT]{1_perTurn:number "#.##"}[ENDCOLOR]</Text>
 	</Row>
+	<Row Tag="TXT_KEY_UNIT_SETTLER_VEN">
+			<Text>Venetian Settler</Text>
+	</Row>
  	</Language_en_US>
 </GameData>

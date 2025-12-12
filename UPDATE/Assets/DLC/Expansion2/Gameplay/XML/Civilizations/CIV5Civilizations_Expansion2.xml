@@ -209,6 +209,13 @@
 		</Row>
 	</Civilization_BuildingClassOverrides>
 	<Civilization_UnitClassOverrides>
+		
+		
+		<!-- <Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row> -->
 		<Row>
 			<CivilizationType>CIVILIZATION_ASSYRIA</CivilizationType>
 			<UnitClassType>UNITCLASS_CATAPULT</UnitClassType>
@@ -269,10 +276,16 @@
 			<UnitClassType>UNITCLASS_GALLEASS</UnitClassType>
 			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
 		</Row>
+		
 		<Row>
 			<CivilizationType>CIVILIZATION_ZULU</CivilizationType>
 			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
 			<UnitType>UNIT_ZULU_IMPI</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitType>UNIT_SETTLER_VEN</UnitType>
 		</Row>
 	</Civilization_UnitClassOverrides>
 	<Civilization_FreeBuildingClasses>
