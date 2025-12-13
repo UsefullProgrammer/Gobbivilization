@@ -504,6 +504,19 @@ function ValidateText(text)
 
 	return true;
 end
+function SortByLastModified(a, b)
+	local oa = g_SavedGames[tostring(a)];
+	local ob = g_SavedGames[tostring(b)];
+	
+	if( oa == nil ) then
+        return false;
+    elseif( ob == nil ) then
+        return true;
+    end
+    
+	local result = UI.CompareFileTime(oa.LastModified.High, oa.LastModified.Low, ob.LastModified.High, ob.LastModified.Low);
+    return result == 1;
+end
 
 ----------------------------------------------------------------        
 ----------------------------------------------------------------
@@ -574,18 +587,20 @@ function SetupFileButtonList()
     		
     		-- chop the part that we are going to display out of the bigger string
 			local displayName = Path.GetFileNameWithoutExtension(v);
-						
+			local high, low = UI.GetSavedGameModificationTimeRaw(v);
 			g_SavedGames[i] = {
 				Instance = instance,
 				FileName = v,
 				DisplayName = displayName,
+				LastModified = {High = high, Low = low}
 			}
-	    	
 			TruncateString(instance.ButtonText, instance.Button:GetSizeX(), displayName); 
 			
 			instance.Button:SetVoid1( i );
 			instance.Button:RegisterCallback( Mouse.eLClick, function() SetSelected(g_SavedGames[i]); end);
+			
 		end
+		Controls.LoadFileButtonStack:SortChildren(SortByLastModified);
     end
     
 	Controls.Delete:SetHide(bUsingSteamCloud);
@@ -595,7 +610,6 @@ function SetupFileButtonList()
     Controls.LoadFileButtonStack:ReprocessAnchoring();
     Controls.ScrollPanel:CalculateInternalSize();
 end
-
 
 ----------------------------------------------------------------        
 ---------------------------------------------------------------- 
